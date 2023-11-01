@@ -1,0 +1,8 @@
+module Top
+(
+);
+	logic [1:0] select;
+	logic 
+	
+	Multiplexer_MxN #(.M(3), .N(5)) mux(select, {{5'h00},{5'h01},{5'h02}})
+	

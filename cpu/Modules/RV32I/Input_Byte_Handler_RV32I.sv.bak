@@ -1,0 +1,37 @@
+module Input_Byte_Handler_RV32I
+(
+	input logic [2:0] width_type,
+	input logic [31:0] read_data,
+	
+	output logic [31:0] o
+);
+	
+	logic [31:0] signed_byte;
+	assign signed_byte = {{(25){read_data[7]}}, read_data[6:0]};
+	
+	logic [31:0] signed_half_word;
+	assign signed_half_word = {{(17){read_data[15]}}, read_data[14:0]}
+
+	logic [31:0] unsigned_byte;
+	assign unsigned_byte = {{(24){1'b0}}, read_data[7:0]};
+
+	logic [31:0] unsigned_half_word;
+	assign unsigned_half_word = {{(16){1'b0}}, read_data[15:0]}
+
+	logic [31:0] o_aux;
+	always_comb
+	begin
+		case(width_type)
+			3'b000: o_aux = signed_byte;
+			3'b001: o_aux = signed_half_word;
+			3'b010: o_aux = read_data;
+			3'b011: o_aux = unsigned_byte;
+			3'b100: o_aux = unsigned_half_word;
+			
+			default: o_aux = 32'd0;
+		endcase
+	end
+	
+	assign o = o_aux;
+
+endmodule

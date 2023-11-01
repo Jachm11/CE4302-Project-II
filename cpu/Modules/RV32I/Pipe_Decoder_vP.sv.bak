@@ -1,0 +1,16 @@
+module Pipe_Decoder_vP #(parameter N = 8)
+(
+	input logic [31:0] instruction_F,
+	input logic [31:0] PC_F,
+	input logic [31:0] PC_4_F,
+	
+	input logic enabler,
+	input clock,
+	input async_reset,
+	input sync_reset,
+	
+	output logic [N-1:0] q
+);
+
+
+endmodule

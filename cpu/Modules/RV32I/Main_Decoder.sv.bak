@@ -1,0 +1,15 @@
+module Main_Decoder #(parameter N=4)
+(
+	input logic [6:0] opcode,
+	input logic [2:0] f3,
+	input logic [6:0] f7,
+	
+	output logic reg_write,
+	output logic [1:0] result_source,
+	output logic [2:0] width_type,
+	
+	
+	
+);	
+	assign O = A+B;
+endmodule

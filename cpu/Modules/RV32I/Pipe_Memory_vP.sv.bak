@@ -1,0 +1,46 @@
+module Pipe_Memory_vP
+(
+	input logic [7:0] control_signals_E,
+	input logic [31:0] ALU_result_E,
+	input logic [31:0] write_data_E,	
+	input logic [31:0] Rd_E,
+	input logic [31:0] PC_4_E,
+	
+	input logic enabler,
+	input clock,
+	input async_reset,
+	input sync_reset,
+
+	output logic [7:0] control_signals_M,
+	output logic [31:0] ALU_result_M,
+	output logic [31:0] write_data_M,	
+	output logic [31:0] Rd_M,
+	output logic [31:0] PC_4_M
+);
+
+	logic effective_reset;
+	logic dfftl_o;	
+	DFF_Tri_Latch_vP dfftl(sync_reset, clock, async_reset, dfftl_o);
+	assign effective_reset = async_reset && dfftl_o;
+	
+	always @(posedge clock or negedge effective_reset)
+	begin
+		if(!effective_reset)
+		begin
+			control_signals_M	= 0;
+			ALU_result_M		= 0;
+			write_data_M		= 0;
+			Rd_M					= 0;
+			PC_4_M				= 0;
+		end
+		else if(enabler)
+		begin
+			control_signals_M	= control_signals_E;
+			ALU_result_M		= ALU_result_E;
+			write_data_M		= write_data_E;
+			Rd_M					= Rd_E;
+			PC_4_M				= PC_4_E;
+		end
+	end
+
+endmodule

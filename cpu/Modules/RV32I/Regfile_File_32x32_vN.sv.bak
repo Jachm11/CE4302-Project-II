@@ -1,0 +1,22 @@
+module Regfile_File_32x32_vN
+(
+	input logic write_enable,
+	input logic [5:0] read_addr_1, read_addr_2, write_addr,
+	input logic [31:0] write_data,
+
+	input logic clock,
+
+	output logic [31:0] read_data_1, read_data_2
+);
+
+	logic [31:0][31:0] rf;
+	
+	always_ff @(posedge clock)
+	
+		if(write_enable)
+			rf[write_addr] = write_data;
+	
+	assign read_data_1 = rf[read_addr_1];
+	assign read_data_2 = rf[read_addr_2];
+
+endmodule
