@@ -6,8 +6,10 @@ from scipy.signal import welch
 from matplotlib.animation import FuncAnimation
 import pygame
 import threading
+import struct
 
-file = '/home/jachm/Documents/Repos/CE4302-Project-II/high level testing/lucky.wav'
+file = '/home/jachm/Documents/Repos/CE4302-Project-II/high level testing/dk.wav'
+filename = 'output.mem'
 
 # Load the audio file
 Fs, y = wavfile.read(file)
@@ -144,7 +146,17 @@ audio_thread = threading.Thread(target=play_audio)
 audio_thread.daemon = True
 
 # Start the audio thread
-audio_thread.start()
+#audio_thread.start()
 
 # Show the animated plot
 plt.show()
+
+def write_array_to_mem_file(data, filename):
+    with open(filename, 'wb') as mem_file:
+        for arr in data:
+            for value in arr:
+                # Convert the integer value to a single byte
+                byte_value = struct.pack('B', int(value))
+                mem_file.write(byte_value)
+
+write_array_to_mem_file(data, filename)
