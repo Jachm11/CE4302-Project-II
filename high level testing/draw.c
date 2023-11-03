@@ -9,12 +9,12 @@ int main(int argc, char const *argv[])
 {
     int x0 = 0;
     int y0 = 0;
-    int x1 = 24;
+    int x1 = 10;
     int y1 = 0;
 
-    // draw_line(x0, y0, x1, y1);
+    draw_line(x0, y0, x1, y1);
 
-    draw_straight(16, 24, 0, 0);
+    // draw_straight(16, 24, 0, 0);
 
     return 0;
 }
@@ -95,6 +95,7 @@ void draw_line(int x0, int y0, int x1, int y1)
 
     printf("v0 = (%d,%d)\n", x0, y0);
     printf("v1 = (%d,%d)\n", x1, y1);
+    printf("steep = (%d)\n", steep);
 
     for (int x = x0; x <= x1; x++)
     {
