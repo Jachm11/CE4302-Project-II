@@ -79,11 +79,12 @@ def compile(file_name):
 
     print("-- Generate isa dictionary --")
     risc_v_dictionary = generate_isa_dictionary()
+    register_dictionary = generate_register_dictionary()
 
     print("\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n")
 
     print("-- Get hex instructions --")
-    hex_instructions = riscv_to_hex(instructions_list, risc_v_dictionary, tags_dictionary)
+    hex_instructions = riscv_to_hex(instructions_list, risc_v_dictionary, register_dictionary, tags_dictionary)
     for instruction in hex_instructions:
         print(instruction)
 

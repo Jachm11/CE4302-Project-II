@@ -17,7 +17,7 @@ def indexed_substring_inverted(str, start, end):
     return str[::-1]
 
 
-def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
+def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_dictionary):
 
     hex_list = []
     for instruction in instructions_list:
@@ -52,13 +52,12 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
         print("instruction_bits: ", instruction_bits)
 
         if(instruction_type == "R"):
-            print("if R!")
+            print("Instruction type of R")
 
             rd = instruction_tokens[1]
             rs1 = instruction_tokens[2]
             rs2 = instruction_tokens[3]
-            
-            rd_bits = isa_dictionary[rd]
+            rd_bits = register_dictionary[rd]
             print("\trd:", rd, " bits:", rd_bits)
             instruction_bits = indexed_replace_inverted(instruction_bits, 7, 11, rd_bits)
             print("\t", instruction_bits)
@@ -68,12 +67,12 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
             instruction_bits = indexed_replace_inverted(instruction_bits, 12, 14, funct3)
             print("\t", instruction_bits)
 
-            rs1_bits = isa_dictionary[rs1]
+            rs1_bits = register_dictionary[rs1]
             print("\trs1:", rs1, " bits:", rs1_bits)
             instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, rs1_bits)
             print("\t", instruction_bits)
 
-            rs2_bits = isa_dictionary[rs2]
+            rs2_bits = register_dictionary[rs2]
             print("\trs2:", rs2, " bits:", rs2_bits)
             instruction_bits = indexed_replace_inverted(instruction_bits, 20, 24, rs2_bits)
             print("\t", instruction_bits)
@@ -116,7 +115,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
                         hex_prefix = instruction_tokens[4]
                         value = instruction_tokens[5]
 
-                    rd_bits = isa_dictionary[rd]
+                    rd_bits = register_dictionary[rd]
                     print("\trd:", rd, " bits:", rd_bits)
                     instruction_bits = indexed_replace_inverted(instruction_bits, 7, 11, rd_bits)
                     print("\t", instruction_bits)
@@ -126,7 +125,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
                     instruction_bits = indexed_replace_inverted(instruction_bits, 12, 14, funct3)
                     print("\t", instruction_bits)
 
-                    rs1_bits = isa_dictionary[rs1]
+                    rs1_bits = register_dictionary[rs1]
                     print("\trs1:", rs1, " bits:", rs1_bits)
                     instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, rs1_bits)
                     print("\t", instruction_bits)
@@ -148,7 +147,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
 
 
             else:
-                print("if L!")
+                print("Instruction type of L")
 
                 rd = instruction_tokens[1]
                 minus = instruction_tokens[2]
@@ -156,7 +155,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
                 value = instruction_tokens[4]
                 rs1 = instruction_tokens[5]
 
-                rd_bits = isa_dictionary[rd]
+                rd_bits = register_dictionary[rd]
                 print("\trd:", rd, " bits:", rd_bits)
                 instruction_bits = indexed_replace_inverted(instruction_bits, 7, 11, rd_bits)
                 print("\t", instruction_bits)
@@ -166,7 +165,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
                 instruction_bits = indexed_replace_inverted(instruction_bits, 12, 14, funct3)
                 print("\t", instruction_bits)
 
-                rs1_bits = isa_dictionary[rs1]
+                rs1_bits = register_dictionary[rs1]
                 print("\trs1:", rs1, " bits:", rs1_bits)
                 instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, rs1_bits)
                 print("\t", instruction_bits)
@@ -179,11 +178,8 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
                 instruction_bits = indexed_replace_inverted(instruction_bits, 20, 31, immediate)
                 print("\t", instruction_bits)
 
-
-
-
         elif(instruction_type == "S"):
-            print("if S!")
+            print("Instruction type of S")
 
             rs2 = instruction_tokens[1]
             minus = instruction_tokens[2]
@@ -209,12 +205,12 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
             instruction_bits = indexed_replace_inverted(instruction_bits, 12, 14, funct3)
             print("\t", instruction_bits)
 
-            rs1_bits = isa_dictionary[rs1]
+            rs1_bits = register_dictionary[rs1]
             print("\trs1:", rs1, " bits:", rs1_bits)
             instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, rs1_bits)
             print("\t", instruction_bits)
 
-            rs2_bits = isa_dictionary[rs2]
+            rs2_bits = register_dictionary[rs2]
             print("\trs2:", rs2, " bits:", rs2_bits)
             instruction_bits = indexed_replace_inverted(instruction_bits, 20, 24, rs2_bits)
             print("\t", instruction_bits)
@@ -263,12 +259,12 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
             instruction_bits = indexed_replace_inverted(instruction_bits, 12, 14, funct3)
             print("\t", instruction_bits)
 
-            rs1_bits = isa_dictionary[rs1]
+            rs1_bits = register_dictionary[rs1]
             print("\trs1:", rs1, " bits:", rs1_bits)
             instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, rs1_bits)
             print("\t", instruction_bits)
 
-            rs2_bits = isa_dictionary[rs2]
+            rs2_bits = register_dictionary[rs2]
             print("\trs2:", rs2, " bits:", rs2_bits)
             instruction_bits = indexed_replace_inverted(instruction_bits, 20, 24, rs2_bits)
             print("\t", instruction_bits)
@@ -289,7 +285,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
             hex_prefix = instruction_tokens[3]
             value = instruction_tokens[4]
 
-            rd_bits = isa_dictionary[rd]
+            rd_bits = register_dictionary[rd]
             print("\trd:", rd, " bits:", rd_bits)
             instruction_bits = indexed_replace_inverted(instruction_bits, 7, 11, rd_bits)
             print("\t", instruction_bits)
@@ -320,7 +316,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
             print("\ttag_pc:", tags_dictionary[tag])
             print("\timmediate_d:", immediate_d, " bits:", immediate)
 
-            rd_bits = isa_dictionary[rd]
+            rd_bits = register_dictionary[rd]
             print("\trd:", rd, " bits:", rd_bits)
             instruction_bits = indexed_replace_inverted(instruction_bits, 7, 11, rd_bits)
             print("\t", instruction_bits)
@@ -345,6 +341,80 @@ def riscv_to_hex(instructions_list, isa_dictionary, tags_dictionary):
             print("\timm_20:", imm_20)
             instruction_bits = indexed_replace_inverted(instruction_bits, 31, 31, imm_20)
             print("\t", instruction_bits)
+
+        elif(instruction_type == "STV"):
+
+            vd = instruction_tokens[1]
+            vs = instruction_tokens[2]
+            rs = instruction_tokens[3]
+            value = instruction_tokens[4]
+
+            
+            vd_bits = register_dictionary[vd]
+            instruction_bits = indexed_replace_inverted(instruction_bits, 7, 11, vd_bits)
+            
+            funct3 = dictionary_instruction_data[2]
+            instruction_bits = indexed_replace_inverted(instruction_bits, 12, 14, funct3)
+
+            rs_bits = register_dictionary[rs] 
+            instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, rs_bits)
+
+            vs_bits = register_dictionary[vs]
+            instruction_bits = indexed_replace_inverted(instruction_bits, 20, 24, vs_bits)
+            
+            immediate = number_to_nbit_binary(value, is_hexadecimal=False, n_bits=2)
+            instruction_bits = indexed_replace_inverted(instruction_bits, 25, 26, vd_bits)
+
+            instruction_bits = indexed_replace_inverted(instruction_bits, 27, 32, "00000")
+
+
+        elif(instruction_type == "VTS"):
+
+            print(instruction_tokens)
+
+            sd = instruction_tokens[1]
+            vs = instruction_tokens[2]
+            value = instruction_tokens[5]
+            
+        
+            sd_bits = register_dictionary[sd]
+            instruction_bits = indexed_replace_inverted(instruction_bits, 7, 11, sd_bits)
+
+            funct3 = dictionary_instruction_data[2]
+            instruction_bits = indexed_replace_inverted(instruction_bits, 12, 14, funct3)
+
+            instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, "00000")
+
+            vs_bits = register_dictionary[vs]
+            instruction_bits = indexed_replace_inverted(instruction_bits, 20, 24, sd_bits)
+
+            immediate = number_to_nbit_binary(value, is_hexadecimal=False, n_bits=2)
+            instruction_bits = indexed_replace_inverted(instruction_bits, 25, 26, immediate)
+
+            instruction_bits = indexed_replace_inverted(instruction_bits, 27, 31, "00000")
+
+
+
+        elif(instruction_type == "ABS"):
+
+            vd = instruction_tokens[1]
+            vs = instruction_tokens[2]
+
+            vd_bits = register_dictionary[vd]
+            instruction_bits = indexed_replace_inverted(instruction_bits, 7, 11, vd_bits)
+
+            funct3 = dictionary_instruction_data[2]
+            instruction_bits = indexed_replace_inverted(instruction_bits, 12, 14, funct3)
+
+
+            vs_bits = register_dictionary[vs]
+            instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, vd_bits)
+
+
+            instruction_bits = indexed_replace_inverted(instruction_bits, 20, 31, "".zfill(12))
+
+            
+            
 
         hex_instruction = binary_to_8digit_hexadecimal(instruction_bits)
         print("hex:", hex_instruction)
