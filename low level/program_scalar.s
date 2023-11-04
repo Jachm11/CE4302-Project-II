@@ -1,9 +1,3 @@
-li a0 0
-li a1 0
-li a2 10
-li a3 10
-li a4 5
-
 # Bresenham
 # x0 -> a0
 # y0 -> a1

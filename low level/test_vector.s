@@ -19,6 +19,11 @@
 
 ######################################################
 
+li a0 0
+li a1 0
+li a2 10
+li a3 10
+li a4 5
 
 # Bresenham
 # draw_line(int x0, int y0, int x1, int y1, int color)
@@ -140,15 +145,7 @@ draw_line:
 
     _draw_line_return:
     nop
-
-
-
-
-# (end > org) and (end - org) % 4 = 0 and (end - org)/4 > 2
-# void draw_straight(int org, int end, int hor, int cons)
-# org ->  a0
-# end ->  a1
-# hor ->  a2
-# cons -> a3
-draw_straight:
-
+    nop
+    nop
+    nop
+    nop
