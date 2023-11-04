@@ -58,6 +58,28 @@ def generate_isa_dictionary():
     dictionary["lui"] = ['U', "0110111"]
     dictionary["auipc"] = ['U', "0010111", "000"]
 
+
+    # vectorial instructions
+    dictionary["vadd"] = ['R', "1111000", "000", "0000000"]
+    dictionary["vsub"] = ['R', "1111000", "000", "0100000"]
+
+    dictionary['vs'] = ["S", "1111011", "000"]
+    dictionary['vl'] = ["L", "1111100", "000"]
+    
+    
+    dictionary["stv"] = ['STV', "1111001", "000"]
+    dictionary["vts"] = ["VTS", "1111010", "000"]
+
+    dictionary['abs'] = ["ABS", "1111101", "000"]
+ 
+    return dictionary
+
+
+def generate_register_dictionary():
+
+    dictionary = {}
+
+
     # registers
     dictionary["zero"] = "00000"
     dictionary["x0"] = dictionary["zero"]
@@ -134,5 +156,12 @@ def generate_isa_dictionary():
     dictionary["x30"] = dictionary["t5"]
     dictionary["t6"] = "11111"
     dictionary["x31"] = dictionary["t6"]
+
+
+
+
+    for i in range(0, 31):
+        register = "v" + str(i)
+        dictionary[register] = bin(i)[2:].zfill(5)
 
     return dictionary
