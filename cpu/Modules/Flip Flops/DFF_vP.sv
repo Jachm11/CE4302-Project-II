@@ -1,20 +1,23 @@
 module DFF_vP
 (
-	input logic d,
+	input logic data,
 	
 	input clock,
-	input reset,
+	input async_reset,
 	
 	output reg q,
 	output reg nq
 );
 
-	always @(posedge clock or negedge reset)
+	always @(posedge clock or negedge async_reset)
 	begin
-		if(!reset)
+		
+		if(!async_reset)
 			q <= 0;
+		
 		else
-			q <= d;
+			q <= data;
+			
 		nq <= !q;
 	end
 

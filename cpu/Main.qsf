@@ -39,10 +39,10 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CGXFC7C7F23C8
-set_global_assignment -name TOP_LEVEL_ENTITY Execute_stage
+set_global_assignment -name TOP_LEVEL_ENTITY RV32I_Harvard
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:04:41  APRIL 04, 2023"
-set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.0 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
@@ -57,7 +57,7 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH Test_Bench_RV32I_Harvard -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH Test_RV32I_Harvard -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME Test_Bench_Multiplexer_MxN -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Test_Bench_Multiplexer_MxN
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Test_Bench_Multiplexer_MxN -section_id Test_Bench_Multiplexer_MxN
@@ -85,9 +85,6 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Test_Bench_Decoder_with_e
 set_global_assignment -name EDA_TEST_BENCH_NAME Test_Bench_Multiplexer_with_enabler_MxN -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Test_Bench_Multiplexer_with_enabler_MxN
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Test_Bench_Multiplexer_with_enabler_MxN -section_id Test_Bench_Multiplexer_with_enabler_MxN
-set_global_assignment -name EDA_TEST_BENCH_NAME Test_Bench_RV32I_Harvard -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Test_Bench_RV32I_Harvard
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Test_Bench_RV32I_Harvard -section_id Test_Bench_RV32I_Harvard
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Memory/IP_Catalog_RAMs/Composed/RAM_32w_18a_8b/Sub_RAM_handlers/Byte_Rotator_Right.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Memory/IP_Catalog_RAMs/Composed/RAM_32w_18a_8b/Sub_RAM_handlers/Byte_Rotator_Left.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Memory/IP_Catalog_RAMs/Composed/RAM_32w_18a_8b/Sub_RAM_handlers/Address_Offset.sv
@@ -109,7 +106,6 @@ set_global_assignment -name SYSTEMVERILOG_FILE "Modules/Flip Flops/DFF_vP.sv"
 set_global_assignment -name SYSTEMVERILOG_FILE "Modules/Flip Flops/DFF_vN.sv"
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Registers/Register_N_vN.sv
 set_global_assignment -name SYSTEMVERILOG_FILE "Modules/Flip Flops/Test_DFF_Tri_Latch_vP.sv"
-set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Pipe_Decoder_vP.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Test_Pipe_Decoder_vP.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Regfile_File_32x32_vN.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Main_Decoder.sv
@@ -122,10 +118,8 @@ set_global_assignment -name SYSTEMVERILOG_FILE Modules/Decoders/Test_Decoder_wit
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Multiplexers/Multiplexer_with_enabler_MxN.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Comparators/Equal_N.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Comparators/Equal_with_enabler_N.sv
-set_global_assignment -name SYSTEMVERILOG_FILE Modules/Primitives/and_N.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Multiplexers/Test_Multiplexer_with_enabler_MxN.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Branch_Condition_Decoder_RV32I.sv
-set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Pipe_Execute_vP.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Handlers/Exception.sv
 set_global_assignment -name SYSTEMVERILOG_FILE "Modules/Integer Arithmetic/Adder_with_carries_N.sv"
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Comparator_RV32I.sv
@@ -136,11 +130,9 @@ set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/ALU_RV32I.sv
 set_global_assignment -name SYSTEMVERILOG_FILE "Modules/Integer Arithmetic/Adder_with_carry_in_N.sv"
 set_global_assignment -name SYSTEMVERILOG_FILE "Modules/Integer Arithmetic/SLT_N.sv"
 set_global_assignment -name SYSTEMVERILOG_FILE "Modules/Integer Arithmetic/SLT_U_N.sv"
-set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Pipe_Memory_vP.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Output_Byte_Handler_RV32I.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Decoders/Decoder_with_enabler_3x8.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Input_Byte_Handler_RV32I.sv
-set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Pipe_Writeback_vP.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Hazard_unit_RV32I.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/RV32I.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Test_RV32I_Harvard.sv
@@ -150,16 +142,6 @@ set_global_assignment -name QIP_FILE Modules/Memory/IP_Catalog_RAMs/Primitive/RA
 set_global_assignment -name QIP_FILE Modules/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.qip
 set_global_assignment -name QIP_FILE Modules/Memory/IP_Catalog_RAMs/Primitive/RAM_2p_8w_16a_8b_from_file/RAM_2p_8w_16a_8b_from_file.qip
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/Memory/IP_Catalog_RAMs/Composed/RAM_32w_18a_8b/RAM_2p_32w_18a_8b.sv
-set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Multiplexers/Test_Multiplexer_MxN.sv -section_id Test_Bench_Multiplexer_MxN
-set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Registers/Test_Register_N_vP.sv -section_id Test_Bench_Register_N_vP
-set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Registers/Test_Register_N_with_enabler_vP.sv -section_id Test_Bench_Register_N_with_enabler_vP
-set_global_assignment -name EDA_TEST_BENCH_FILE "Modules/Integer Arithmetic/Test_Adder_N.sv" -section_id Test_Bench_Adder_N
-set_global_assignment -name EDA_TEST_BENCH_FILE "Modules/Flip Flops/Test_DFF_Tri_Latch_vP.sv" -section_id Test_Bench_DFF_Tri_Latch_vP
-set_global_assignment -name EDA_TEST_BENCH_FILE Modules/RV32I/Test_Pipe_Decoder_vP.sv -section_id Test_Bench_Pipe_Decoder_vP
-set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Decoders/Test_Decoder_N.sv -section_id Test_Bench_Decoder_N
-set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Decoders/Test_Decoder_with_enabler_N.sv -section_id Test_Bench_Decoder_with_enabler_N
-set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Multiplexers/Test_Multiplexer_with_enabler_MxN.sv -section_id Test_Bench_Multiplexer_with_enabler_MxN
-set_global_assignment -name EDA_TEST_BENCH_FILE Modules/RV32I/Test_RV32I_Harvard.sv -section_id Test_Bench_RV32I_Harvard
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Fetch_stage.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Instruction_splitter_RV32I.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Decode_stage.sv
@@ -180,10 +162,39 @@ set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Router_RV32I.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/VALU_4xN.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Output_byte_handler_RV32I.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Input_byte_handler_RV32I.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Pipe_execute_vP.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Pipe_decode_vP.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Pipe_memory_vP.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/Pipe_writeback_vP.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/RV32I/MT_FSM.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/Memory/IP_Catalog_RAMs/Composed/RAM_1p_8g_20a_128b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/Memory/IP_Catalog_RAMs/Composed/Address_offset_16_byte.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/Memory/IP_Catalog_RAMs/Composed/Circular_shifter_left_byte_N.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/Memory/IP_Catalog_RAMs/Composed/Circular_shifter_left_N_byte_test.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME Circular_shifter_left_N_byte_test -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Circular_shifter_left_N_byte_test
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Circular_shifter_left_N_byte_test -section_id Circular_shifter_left_N_byte_test
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/Memory/IP_Catalog_RAMs/Composed/Circular_shifter_right_byte_N.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Modules/Memory/IP_Catalog_RAMs/Composed/Circular_shifter_right_N_byte_test.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME Circular_shifter_right_N_byte_test -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Circular_shifter_right_N_byte_test
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Circular_shifter_right_N_byte_test -section_id Circular_shifter_right_N_byte_test
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Multiplexers/Test_Multiplexer_MxN.sv -section_id Test_Bench_Multiplexer_MxN
+set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Registers/Test_Register_N_vP.sv -section_id Test_Bench_Register_N_vP
+set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Registers/Test_Register_N_with_enabler_vP.sv -section_id Test_Bench_Register_N_with_enabler_vP
+set_global_assignment -name EDA_TEST_BENCH_FILE "Modules/Integer Arithmetic/Test_Adder_N.sv" -section_id Test_Bench_Adder_N
+set_global_assignment -name EDA_TEST_BENCH_FILE "Modules/Flip Flops/Test_DFF_Tri_Latch_vP.sv" -section_id Test_Bench_DFF_Tri_Latch_vP
+set_global_assignment -name EDA_TEST_BENCH_FILE Modules/RV32I/Test_Pipe_Decoder_vP.sv -section_id Test_Bench_Pipe_Decoder_vP
+set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Decoders/Test_Decoder_N.sv -section_id Test_Bench_Decoder_N
+set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Decoders/Test_Decoder_with_enabler_N.sv -section_id Test_Bench_Decoder_with_enabler_N
+set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Multiplexers/Test_Multiplexer_with_enabler_MxN.sv -section_id Test_Bench_Multiplexer_with_enabler_MxN
+set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Memory/IP_Catalog_RAMs/Composed/Circular_shifter_left_N_byte_test.sv -section_id Circular_shifter_left_N_byte_test
+set_global_assignment -name EDA_TEST_BENCH_FILE Modules/Memory/IP_Catalog_RAMs/Composed/Circular_shifter_right_N_byte_test.sv -section_id Circular_shifter_right_N_byte_test
+set_global_assignment -name EDA_TEST_BENCH_NAME Test_RV32I_Harvard -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Test_RV32I_Harvard
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Test_RV32I_Harvard -section_id Test_RV32I_Harvard
+set_global_assignment -name EDA_TEST_BENCH_FILE Modules/RV32I/Test_RV32I_Harvard.sv -section_id Test_RV32I_Harvard
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name VERILOG_INPUT_VERSION SYSTEMVERILOG_2005
-set_global_assignment -name VERILOG_LMF_FILE Test_DFF_vP
-set_global_assignment -name VERILOG_SHOW_LMF_MAPPING_MESSAGES OFF

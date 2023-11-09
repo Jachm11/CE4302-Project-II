@@ -15,7 +15,7 @@ module Main_decoder
 	output logic jump,
 	output logic i_jump,
 	output logic branch,
-	output logic pc_to_ALU,
+	output logic PC_to_ALU,
 	output logic memory_transaction,
 	output logic [2:0] immediate_type,
 	
@@ -153,7 +153,7 @@ module Main_decoder
 
 	assign branch = B;
 
-	assign pc_to_ALU = |{B, J, U_PC};
+	assign PC_to_ALU = |{B, J, U_PC};
 
 	assign memory_transaction = |{S, IL, SV, LV};
 	

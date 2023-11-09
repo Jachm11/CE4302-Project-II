@@ -3,18 +3,11 @@ module Test_RV32I_Harvard
 ();
 	logic clock;
 	logic async_reset;
-
-	logic memory_transaction;
-	logic mem_write;
-	logic [31:0] alu_result;
-	logic [31:0] data_out;
-	logic [3:0] byte_enablers;
-	logic [31:0] pc;
 	
 	RV32I_Harvard rvh
 	(
-		clock, async_reset,
-		memory_transaction, mem_write, alu_result, data_out, byte_enablers, pc
+		.clock(clock),
+		.async_reset(async_reset)
 	);
 
 	initial

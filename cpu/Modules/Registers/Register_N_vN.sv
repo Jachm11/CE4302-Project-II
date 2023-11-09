@@ -1,19 +1,22 @@
 module Register_N_vN #(parameter N = 8)
 (
-	input [N-1:0] d,
+	input [N-1:0] data,
 	
 	input clock,
-	input reset,
+	input async_reset,
 	
 	output reg [N-1:0] q
 );
 
-	always @(negedge clock or negedge reset)
+	always @(negedge clock or negedge async_reset)
 	begin
-		if(!reset)
+	
+		if(!async_reset)
 			q <= 0;
+		
 		else
-			q <= d;
+			q <= data;
+			
 	end
 
 endmodule

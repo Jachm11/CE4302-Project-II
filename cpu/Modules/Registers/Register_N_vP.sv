@@ -1,6 +1,6 @@
 module Register_N_vP #(parameter N = 8)
 (
-	input [N-1:0] d,
+	input [N-1:0] data,
 	
 	input clock,
 	input async_reset,
@@ -12,7 +12,7 @@ module Register_N_vP #(parameter N = 8)
 		if(!async_reset)
 			q <= 0;
 		else
-			q <= d;
+			q <= data;
 	end
 
 endmodule

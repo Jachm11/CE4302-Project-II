@@ -1,46 +1,94 @@
-module Pipe_Memory_vP
+module Pipe_memory_vP
 (
-	input logic [7:0] control_signals_E,
-	input logic [31:0] ALU_result_E,
-	input logic [31:0] write_data_E,	
-	input logic [31:0] Rd_E,
-	input logic [31:0] PC_4_E,
-	
+	// Control signals
+	input logic [31:0] instruction_E,
+	input logic write_scalar_reg_E,
+	input logic [1:0] result_source_E,
+	input logic [2:0] width_type_E,
+	input logic mem_write_E,
+	input logic memory_transaction_E,
+	input logic write_vector_reg_E,
+	// Data signals
+	input logic [127:0] ALU_result_bus_E,
+	input logic [127:0] write_data_bus_E,
+	input logic [5:0] rd_E,
+	input logic [31:0] PC_plus_4_E,
+
 	input logic enabler,
-	input clock,
-	input async_reset,
-	input sync_reset,
+	input logic clock,
+	input logic async_reset,
+	input logic sync_reset,
 
-	output logic [7:0] control_signals_M,
-	output logic [31:0] ALU_result_M,
-	output logic [31:0] write_data_M,	
-	output logic [31:0] Rd_M,
-	output logic [31:0] PC_4_M
+	// Control signals
+	output logic [31:0] instruction_M,
+	output logic write_scalar_reg_M,
+	output logic [1:0] result_source_M,
+	output logic [2:0] width_type_M,
+	output logic mem_write_M,
+	output logic memory_transaction_M,
+	output logic write_vector_reg_M,
+	// Data signals
+	output logic [127:0] ALU_result_bus_M,
+	output logic [127:0] write_data_bus_M,
+	output logic [5:0] rd_M,
+	output logic [31:0] PC_plus_4_M
 );
-
-	logic effective_reset;
-	logic dfftl_o;	
-	DFF_Tri_Latch_vP dfftl(sync_reset, clock, async_reset, dfftl_o);
-	assign effective_reset = async_reset && dfftl_o;
-	
-	always @(posedge clock or negedge effective_reset)
+	always @(posedge clock or negedge async_reset)
 	begin
-		if(!effective_reset)
+	
+		if(!async_reset)
 		begin
-			control_signals_M	= 0;
-			ALU_result_M		= 0;
-			write_data_M		= 0;
-			Rd_M					= 0;
-			PC_4_M				= 0;
+			// Control signals
+			instruction_M <= 0;
+			write_scalar_reg_M <= 0;
+			result_source_M <= 0;
+			width_type_M <= 0;
+			mem_write_M <= 0;
+			memory_transaction_M <= 0;
+			write_vector_reg_M <= 0;
+			
+			// Data signals
+			ALU_result_bus_M <= 0;
+			write_data_bus_M <= 0;
+			rd_M <= 0;
+			PC_plus_4_M <= 0;
 		end
+		
+		else if(!sync_reset)
+		begin
+			// Control signals
+			instruction_M <= 0;
+			write_scalar_reg_M <= 0;
+			result_source_M <= 0;
+			width_type_M <= 0;
+			mem_write_M <= 0;
+			memory_transaction_M <= 0;
+			write_vector_reg_M <= 0;
+			
+			// Data signals
+			ALU_result_bus_M <= 0;
+			write_data_bus_M <= 0;
+			rd_M <= 0;
+			PC_plus_4_M <= 0;
+		end
+		
 		else if(enabler)
 		begin
-			control_signals_M	= control_signals_E;
-			ALU_result_M		= ALU_result_E;
-			write_data_M		= write_data_E;
-			Rd_M					= Rd_E;
-			PC_4_M				= PC_4_E;
+			// Control signals
+			instruction_M <= instruction_E;
+			write_scalar_reg_M <= write_scalar_reg_E;
+			result_source_M <= result_source_E;
+			width_type_M <= width_type_E;
+			mem_write_M <= mem_write_E;
+			memory_transaction_M <= memory_transaction_E;
+			write_vector_reg_M <= write_vector_reg_E;
+			
+			// Data signals
+			ALU_result_bus_M <= ALU_result_bus_E;
+			write_data_bus_M <= write_data_bus_E;
+			rd_M <= rd_E;
+			PC_plus_4_M <= PC_plus_4_E;
 		end
+		
 	end
-
 endmodule

@@ -7,9 +7,9 @@ module Multiplexer_MxN #(parameter M=2, N=1)
 	
 	output logic [N-1:0] channel_out
 );
-	
+
 	assign channel_out = channels[select];
-	
+
 	// Function to get the roundup of log2 of M (bits to represent channels quantity)
 	function int bit_lenght();
 		if(0<M && M<=2)

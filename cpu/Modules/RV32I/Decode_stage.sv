@@ -13,7 +13,7 @@ module Decode_stage
 	input logic clock,
 	input logic async_reset,
 	
-	// Control signals	
+	// Control signals
 	output logic write_scalar_reg_D,
 	output logic [1:0] result_source_D,
 	output logic [2:0] width_type_D,
@@ -21,10 +21,10 @@ module Decode_stage
 	output logic [3:0] ALU_op_D,
 	output logic [2:0] cond_code_D,
 	output logic ALU_source_D,
+	output logic branch_D,
 	output logic jump_D,
 	output logic i_jump_D,
-	output logic branch_D,
-	output logic pc_to_ALU_D,
+	output logic PC_to_ALU_D,
 	output logic memory_transaction_D,
 
 	output logic write_vector_reg_D,
@@ -47,7 +47,7 @@ module Decode_stage
 
 	output logic [31:0] immediate_D,
 	
-	output logic [31:0] predicted_PC_address_D
+	output logic [31:0] predicted_PC_D
 );
 	// Aux nets
 	// Instruction Splitter
@@ -100,7 +100,7 @@ module Decode_stage
 		.jump(jump_D),
 		.i_jump(i_jump_D),
 		.branch(branch_D),
-		.pc_to_ALU(pc_to_ALU_D),
+		.PC_to_ALU(PC_to_ALU_D),
 		.memory_transaction(memory_transaction_D),
 		.immediate_type(immediate_type_D),
 		
@@ -111,7 +111,6 @@ module Decode_stage
 		.rerouting_select(rerouting_select_D),
 		.rerouting_code(rerouting_code_D)
 	);	
-
 
 	Sign_extend_RV32I sign_ext
 	(
@@ -127,9 +126,8 @@ module Decode_stage
 		.A(immediate_D),
 		.B(PC_D),
 
-		.O(predicted_PC_address_D)
+		.O(predicted_PC_D)
 	);
-
 
 	Regfile_32x32_vN scalar_reg_file
 	(

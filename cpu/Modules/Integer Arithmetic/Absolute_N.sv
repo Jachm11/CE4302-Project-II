@@ -6,7 +6,7 @@ module Absolute_N #(parameter N=4)
 
 
 	logic [N-1:0] adder_o;
-	Adder_with_carries_N #(.N(N)) add
+	Adder_with_carry_in_N #(.N(N)) add
 	(
 		.ci(A[N-1]),
 		.A(~A),

@@ -1,4 +1,4 @@
-module Instruction_decoder_RV32I #(parameter N=4)
+module Instruction_decoder_RV32I
 (
 	input logic [6:0] opcode,
 	
