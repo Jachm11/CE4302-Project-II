@@ -1,0 +1,32 @@
+module Comparison_unit_RV32I
+(
+	input logic [2:0] cond,
+	input logic [31:0] a,
+	input logic [31:0] b,
+	
+	output logic approved
+);
+	
+	logic [5:0] conditions;
+	
+	Comparator_RV32I comp
+	(
+		a,
+		b,
+		conditions[0],	// ==
+		conditions[1],	// !=
+		conditions[2],	// <
+		conditions[3],	// >=
+		conditions[4],	// <u
+		conditions[5]
+	);// >=u
+
+	Multiplexer_MxN #(.M(6), .N(1)) mux_
+	(
+		cond,
+		conditions,
+		
+		approved
+	);
+	
+endmodule

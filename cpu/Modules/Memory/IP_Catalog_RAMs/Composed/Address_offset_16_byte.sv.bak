@@ -1,0 +1,47 @@
+module Address_offset_16_byte
+(
+	input logic [15:0] address_in,
+	input logic [3:0] offset,
+
+	output logic [15:0] address_0,
+	output logic [15:0] address_1,
+	output logic [15:0] address_2,
+	output logic [15:0] address_3,
+	output logic [15:0] address_4,
+	output logic [15:0] address_5,
+	output logic [15:0] address_6,
+	output logic [15:0] address_7,
+	output logic [15:0] address_8,
+	output logic [15:0] address_9,
+	output logic [15:0] address_10,
+	output logic [15:0] address_11,
+	output logic [15:0] address_12,
+	output logic [15:0] address_13,
+	output logic [15:0] address_14,
+	output logic [15:0] address_15
+);
+	logic [15:0] dec_o;
+	Decoder_N #(.N(4))
+	(
+		.code(offset),
+		
+		.o(dec_o)
+	);
+
+	Adder_with_carry_in_N #(.N(16)) add0(!dec_o[0], address_in, 16'd0, address_0);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[1:0]), address_in, 16'd0, address_1);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[2:0]), address_in, 16'd0, address_2);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[3:0]), address_in, 16'd0, address_3);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[4:0]), address_in, 16'd0, address_4);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[5:0]), address_in, 16'd0, address_5);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[6:0]), address_in, 16'd0, address_6);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[7:0]), address_in, 16'd0, address_7);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[8:0]), address_in, 16'd0, address_8);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[9:0]), address_in, 16'd0, address_9);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[10:0]), address_in, 16'd0, address_10);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[11:0]), address_in, 16'd0, address_11);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[12:0]), address_in, 16'd0, address_12);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[13:0]), address_in, 16'd0, address_13);
+	Adder_with_carry_in_N #(.N(16)) add0(!(|dec_o[14:0]), address_in, 16'd0, address_14);
+	assign address_15 = address_in;	
+endmodule

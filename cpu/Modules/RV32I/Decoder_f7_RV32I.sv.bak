@@ -1,0 +1,21 @@
+module Decoder_f7_RV32I #(parameter N=4)
+(
+	input logic [6:0] f7,
+	
+	output logic o_0x0,
+	output logic o_0x1,
+	output logic o_0x20
+);
+	
+	logic [2:0] o_aux;
+	always_comb
+	begin
+		case(f7)
+			7'h0: o_aux = 3'b001;
+			7'h1: o_aux = 3'b010;
+			7'h20: o_aux = 3'b100;
+			default: o = 3'd0;
+		endcase
+	end
+	assign {o_0x20, o_0x1, o_0x0} = o_aux;
+endmodule
