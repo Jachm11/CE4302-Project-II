@@ -95,7 +95,7 @@ draw_line:
         add a0 a0 t4  # address += x
         # add a0 a0 t6 # +0x200 RIPES
 
-        sb a4 0 a0  # store pixel color
+        sb a4 0(a0)  # store pixel color
         add t1 t1 a3 # x++
 
         # Update error

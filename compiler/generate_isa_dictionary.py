@@ -13,10 +13,13 @@ def generate_isa_dictionary():
     dictionary["sra"] = ['R', R_opcode, "101", "0100000"]    
     dictionary["slt"] = ['R', R_opcode, "010", "0000000"]    
     dictionary["sltu"] = ['R', R_opcode, "011", "0000000"]
+    dictionary["neg"] = ['R', R_opcode, "000", "0100000"]
+    dictionary["mul"] = ['R', R_opcode, "000", "0000111"]
  
     # Arithmetic Logic Inmmediate (ALI)
     ALI_opcode = "0010011"
     dictionary["addi"] = ['I', ALI_opcode, "000"]
+    dictionary["mv"] = dictionary['addi']
     dictionary["li"] = dictionary["addi"]
     dictionary["xori"] = ['I', ALI_opcode, "100"]
 
@@ -50,7 +53,11 @@ def generate_isa_dictionary():
     dictionary["bge"] = ['B', branches_opcode, "101"]    
     dictionary["bltu"] = ['B', branches_opcode, "110"]
     dictionary["bgeu"] = ['B', branches_opcode, "111"]
-    
+
+    dictionary['bgez'] = dictionary["bne"]
+    dictionary["bgt"] = dictionary["blt"]
+    dictionary["ble"] = dictionary["bge"]  
+
     dictionary["jal"] = ['J', "1101111"]
     dictionary["j"] = dictionary["jal"]
     dictionary["jalr"] = ['I', "1100111", "000"]
@@ -70,7 +77,7 @@ def generate_isa_dictionary():
     dictionary["stv"] = ['STV', "1111001", "000"]
     dictionary["vts"] = ["VTS", "1111010", "000"]
 
-    dictionary['abs'] = ["ABS", "1111101", "000"]
+    dictionary['vabs'] = ["ABS", "1111101", "000"]
  
     return dictionary
 

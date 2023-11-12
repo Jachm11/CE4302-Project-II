@@ -45,18 +45,21 @@ def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_di
         opcode = dictionary_instruction_data[1]
         print("opcode:", opcode)
         instruction_bits = "00000000000000000000000000000000"
-        print("instruction_bits: ", instruction_bits)
-
 
         instruction_bits = indexed_replace_inverted(instruction_bits, 0, 6, opcode)
-        print("instruction_bits: ", instruction_bits)
 
         if(instruction_type == "R"):
             print("Instruction type of R")
 
-            rd = instruction_tokens[1]
-            rs1 = instruction_tokens[2]
-            rs2 = instruction_tokens[3]
+            if(instruction_key_word == "neg"):
+                rd = instruction_tokens[1]
+                rs1 = "x0"
+                rs2 = instruction_tokens[2]
+            else:
+                rd = instruction_tokens[1]
+                rs1 = instruction_tokens[2]
+                rs2 = instruction_tokens[3]
+
             rd_bits = register_dictionary[rd]
             print("\trd:", rd, " bits:", rd_bits)
             instruction_bits = indexed_replace_inverted(instruction_bits, 7, 11, rd_bits)
@@ -85,8 +88,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_di
         elif(instruction_type == "I" or instruction_type == "L"):
 
             if(instruction_type == "I"):
-                print("if I!")
-
+  
                 if(instruction_key_word != "nop"):
 
                     # remapeos de pseudoinstrucciones
@@ -96,8 +98,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_di
                         minus = instruction_tokens[2]
                         hex_prefix = instruction_tokens[3]
                         value = instruction_tokens[4]
-                        instruction_tokens = ["addi", rd, rs1, minus, hex_prefix, value]
-                        print("\tinstruction_tokens remapped: ", instruction_tokens)
+                        print("\tinstruction_tokens remapped: ", ["addi", rd, rs1, minus, hex_prefix, value])
 
                     elif(instruction_key_word == "not"):
                         rd = instruction_tokens[1]
@@ -105,9 +106,13 @@ def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_di
                         minus = "-"
                         hex_prefix = ""
                         value = "1"
-                        instruction_tokens = ["xori", rd, rs1, minus, hex_prefix, value]
-                        print("\tinstruction_tokens remapped: ", instruction_tokens)
+                        print("\tinstruction_tokens remapped: ", ["xori", rd, rs1, minus, hex_prefix, value])
 
+                    elif(instruction_key_word == "mv"):
+                        rd = instruction_tokens[1]
+                        rs1 = instruction_tokens[2]
+                        value = "0"
+                        print("\tinstruction_tokens remapped: ", ["addi", rd, rs1, minus, hex_prefix, value])
                     else:
                         rd = instruction_tokens[1]
                         rs1 = instruction_tokens[2]
@@ -179,8 +184,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_di
                 print("\t", instruction_bits)
 
         elif(instruction_type == "S"):
-            print("Instruction type of S")
-
+                        
             rs2 = instruction_tokens[1]
             minus = instruction_tokens[2]
             hex_prefix = instruction_tokens[3]
@@ -220,16 +224,24 @@ def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_di
             print("\t", instruction_bits)
 
         elif(instruction_type == "B"):
-            print("if B!")
-
 
             rs1 = instruction_tokens[1]
 
             # remapeos de pseudoinstrucciones
             if(instruction_key_word == "beqz"):
                 rs2 = "x0"
+                tag = instruction_tokens[2] 
+            elif(instruction_key_word == "bgez"):
+                rs2 = "x0"
                 tag = instruction_tokens[2]
-
+            elif(instruction_key_word == "bgt"):
+                rs1 = instruction_tokens[2] 
+                rs2 = instruction_tokens[1]
+                tag = instruction_tokens[3]
+            elif(instruction_key_word == "ble"):
+                rs1 = instruction_tokens[2] 
+                rs2 = instruction_tokens[1]
+                tag = instruction_tokens[3]
             else:
                 rs2 = instruction_tokens[2]
                 tag = instruction_tokens[3]
@@ -278,7 +290,6 @@ def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_di
             print("\t", instruction_bits)
 
         elif(instruction_type == "U"):
-            print("if U!")
 
             rd = instruction_tokens[1]
             minus = instruction_tokens[2]
@@ -413,9 +424,8 @@ def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_di
 
             instruction_bits = indexed_replace_inverted(instruction_bits, 20, 31, "".zfill(12))
 
-            
-            
-
+        
+        print("bin", instruction_bits)
         hex_instruction = binary_to_8digit_hexadecimal(instruction_bits)
         print("hex:", hex_instruction)
         hex_list.append(hex_instruction)

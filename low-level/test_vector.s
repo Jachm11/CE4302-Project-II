@@ -132,7 +132,7 @@ draw_line:
         mul a0 t5 a1 # a0 = address = y * display width
         add a0 a0 t4 # address += x
 
-        sb a4 a0 # store pixel color 
+        sb a4 0(a0) # store pixel color 
         add t1 t1 a3 # x++
 
         # Update error
