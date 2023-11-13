@@ -14,7 +14,7 @@ def generate_isa_dictionary():
     dictionary["slt"] = ['R', R_opcode, "010", "0000000"]    
     dictionary["sltu"] = ['R', R_opcode, "011", "0000000"]
     dictionary["neg"] = ['R', R_opcode, "000", "0100000"]
-    dictionary["mul"] = ['R', R_opcode, "000", "0000111"]
+    dictionary["mul"] = ['R', R_opcode, "000", "0000001"]
  
     # Arithmetic Logic Inmmediate (ALI)
     ALI_opcode = "0010011"
@@ -54,7 +54,7 @@ def generate_isa_dictionary():
     dictionary["bltu"] = ['B', branches_opcode, "110"]
     dictionary["bgeu"] = ['B', branches_opcode, "111"]
 
-    dictionary['bgez'] = dictionary["bne"]
+    dictionary['bgez'] = dictionary["bge"]
     dictionary["bgt"] = dictionary["blt"]
     dictionary["ble"] = dictionary["bge"]  
 
