@@ -67,19 +67,19 @@ module RAM_1p_32w_18a_8b
 		{enabler_3, enabler_2, enabler_1, enabler_0});
 
 		
-	RAM_1p_8w_16a_8b_from_file #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/data_null/sub_ram_0.mif")) sub_RAM_0(
+	RAM_1p_8w_16a_8b_from_file #(.PATH("C:/intelFPGA_lite/LBP/Projects/logic _circuit_main/Modules/Memory/Mifs/Data/sub_ram_0.mif")) sub_RAM_0(
 		address_0, clock, byte_in_0, enabler_0,
 		byte_out_0);
 
-	RAM_1p_8w_16a_8b_from_file #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/data_null/sub_ram_1.mif")) sub_RAM_1(
+	RAM_1p_8w_16a_8b_from_file #(.PATH("C:/intelFPGA_lite/LBP/Projects/logic _circuit_main/Modules/Memory/Mifs/Data/sub_ram_1.mif")) sub_RAM_1(
 		address_1, clock, byte_in_1, enabler_1,
 		byte_out_1);
 
-	RAM_1p_8w_16a_8b_from_file #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/data_null/sub_ram_2.mif")) sub_RAM_2(
+	RAM_1p_8w_16a_8b_from_file #(.PATH("C:/intelFPGA_lite/LBP/Projects/logic _circuit_main/Modules/Memory/Mifs/Data/sub_ram_2.mif")) sub_RAM_2(
 		address_2, clock, byte_in_2, enabler_2,
 		byte_out_2);
 
-	RAM_1p_8w_16a_8b_from_file #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/data_null/sub_ram_3.mif")) sub_RAM_3(
+	RAM_1p_8w_16a_8b_from_file #(.PATH("C:/intelFPGA_lite/LBP/Projects/logic _circuit_main/Modules/Memory/Mifs/Data/sub_ram_3.mif")) sub_RAM_3(
 		address_3, clock, byte_in_3, enabler_3,
 		byte_out_3);
 		

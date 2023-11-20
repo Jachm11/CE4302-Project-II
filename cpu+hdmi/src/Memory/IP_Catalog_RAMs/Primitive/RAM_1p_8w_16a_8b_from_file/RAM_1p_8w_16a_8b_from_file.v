@@ -37,7 +37,7 @@
 // synopsys translate_off
 `timescale 1 ps / 1 ps
 // synopsys translate_on
-module RAM_1p_8w_16a_8b_from_file #(parameter PATH = "C:/intelFPGA_lite/LBP/Projects/logic _circuit_main/Modules/Memory/Mifs/16a_8b_empty.mif")
+module RAM_1p_8w_16a_8b_from_file #(parameter PATH = "C:/intelFPGA_lite/LBP/Projects/logic_circuit_main/Modules/Memory/Mifs/16a_8g_empty_init_file")
 (
 	address,
 	clock,
