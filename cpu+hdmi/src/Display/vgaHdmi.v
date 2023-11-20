@@ -28,7 +28,8 @@ module vgaHdmi(
   output reg dataEnable,
   output reg vgaClock,
   output wire [9:0] pixelX,
-  output wire [9:0] pixelY
+  output wire [9:0] pixelY,
+  output wire [18:0] address
 );
 
 reg [9:0]pixelH, pixelV; // estado interno de pixeles del modulo
@@ -111,5 +112,6 @@ end
 
 assign pixelX = pixelH;
 assign pixelY = pixelV;
+assign address = (pixelY*640) + pixelX;
 
 endmodule

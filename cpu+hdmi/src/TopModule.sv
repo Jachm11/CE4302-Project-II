@@ -6,6 +6,7 @@ module TopModule(
 	// **input**
 	input clock50, 
 	input reset_n,
+	input switch,
 
 	// ********************************** //
 	// ** HDMI CONNECTIONS **
@@ -55,6 +56,9 @@ assign reset = ~reset_n; // reset de placa presionado funciona con logica negati
 	logic [15:0] byte_enablers;
 	logic [31:0] PC;
 	assign instruction_ready = 1'b1;
+	logic [19:0] mux_out_address;
+	logic [127:0] mux_out_data;
+	logic [7:0] color_index;
 	
 // Core-ROM Interface
 logic [31:0] shiftted_PC;
@@ -64,6 +68,8 @@ assign shiftted_PC = PC >> 2;// ROM workaround
 logic [9:0] pixelX;
 logic [9:0] pixelY;
 logic clock25, locked;
+logic [18:0] address;
+
 
 // Señales de audio en alta impedancia
 assign HDMI_I2S0  = 1'bz;
@@ -114,15 +120,30 @@ ROM_1p_32w_8a_32b #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdm
 
 // **MEMORY: DATA RAM**
 RAM_1p_8g_20a_128b RAM(
-	.address(ALU_result[19:0]),
-	.data_in(data_out_bus),
-	.byte_enablers(byte_enablers),
-	.write_enable(mem_write),
-
-	.clock(!clock50),
-
-	.data_out(read_data_bus)
+    .address(mux_out_address),
+    .data_in(data_out_bus),
+    .byte_enablers(byte_enablers),
+    .write_enable(mem_write),
+	 
+    .clock(!clock50),
+	 
+    .data_out(mux_out_data)
 );
+
+// MUX for Address selection
+always_comb begin
+    if (switch == 1'b0) begin
+        mux_out_address = ALU_result[19:0];
+        read_data_bus = mux_out_data;
+        color_index = 0;
+    end 
+    else begin
+        mux_out_address = address;
+        color_index = mux_out_data;
+        read_data_bus = 0;
+    end
+end
+
 
 // **VGA CLOCK**
 pll_25 pll_25(
@@ -148,7 +169,8 @@ vgaHdmi vgaHdmi (
 	.dataEnable (HDMI_TX_DE),
 	.vgaClock   (HDMI_TX_CLK),
 	.pixelX (pixelX),
-	.pixelY (pixelY)
+	.pixelY (pixelY),
+	.address(address)
 );
 
 // **DISPLAY LOGIC**
@@ -157,15 +179,12 @@ pixelPrinter pixelPrinter(
 	.vgaClk(HDMI_TX_CLK),
 	.rst(~locked),
 	.videoOn(HDMI_TX_DE),
-	.pixelX(pixelX),
-	.pixelY(pixelY),
-	.color(100),
+	.color_index(color_index),
 	
 	//output
 	.red(HDMI_TX_D [23:16]),
 	.green(HDMI_TX_D [15:8]),
 	.blue(HDMI_TX_D [7:0])
-	//.address()
 );
 
 // **I2C Interface for ADV7513 initial config**
