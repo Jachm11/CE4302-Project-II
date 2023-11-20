@@ -83,7 +83,7 @@ RV32I RV(
 	.instruction_ready(instruction_ready),
 			
 	// Secuential signals
-	.clock(clock),
+	.clock(clock50),
 	.async_reset(reset_n),
 
 	// output
@@ -99,16 +99,16 @@ RV32I RV(
 MT_FSM FSM(
 	.MT(memory_transaction),
 	// Secuential signals
-	.clock(clock),	
-	.async_reset(async_reset),
+	.clock(clock50),	
+	.async_reset(reset_n),
 
 	.state(data_ready)
 );
 
 // **MEMORY: INSTRUCTIONS ROM**
-ROM_1p_32w_8a_32b #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/Instructions/test.mif")) ROM(
+ROM_1p_32w_8a_32b #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/Instructions/test_vector.mif")) ROM(
 	.address(shiftted_PC[7:0]),
-	.clock(!clock),
+	.clock(!clock50),
 	.q(instruction)
 );
 
@@ -119,7 +119,7 @@ RAM_1p_8g_20a_128b RAM(
 	.byte_enablers(byte_enablers),
 	.write_enable(mem_write),
 
-	.clock(!clock),
+	.clock(!clock50),
 
 	.data_out(read_data_bus)
 );

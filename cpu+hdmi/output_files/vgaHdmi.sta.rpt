@@ -1,5 +1,5 @@
 Timing Analyzer report for vgaHdmi
-Sun Nov 19 19:47:25 2023
+Mon Nov 20 01:18:14 2023
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -109,7 +109,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------+--------+--------------------------+
 ; SDC File Path ; Status ; Read at                  ;
 +---------------+--------+--------------------------+
-; vgaHdmi.sdc   ; OK     ; Sun Nov 19 19:47:12 2023 ;
+; vgaHdmi.sdc   ; OK     ; Mon Nov 20 01:18:10 2023 ;
 +---------------+--------+--------------------------+
 
 
@@ -130,9 +130,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +------------+-----------------+---------------------------------------------------------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                                                                ; Note ;
 +------------+-----------------+---------------------------------------------------------------------------+------+
-; 109.81 MHz ; 109.81 MHz      ; clk50                                                                     ;      ;
-; 150.9 MHz  ; 150.9 MHz       ; i2c_20k_clock                                                             ;      ;
-; 192.75 MHz ; 192.75 MHz      ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ;      ;
+; 115.58 MHz ; 115.58 MHz      ; clk50                                                                     ;      ;
+; 176.37 MHz ; 176.37 MHz      ; i2c_20k_clock                                                             ;      ;
+; 302.02 MHz ; 302.02 MHz      ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ;      ;
 +------------+-----------------+---------------------------------------------------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -148,9 +148,9 @@ HTML report is unavailable in plain text report export.
 +---------------------------------------------------------------------------+-----------+---------------+
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
-; clk50                                                                     ; 10.893    ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 34.812    ; 0.000         ;
-; i2c_20k_clock                                                             ; 49993.373 ; 0.000         ;
+; clk50                                                                     ; 11.348    ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 36.689    ; 0.000         ;
+; i2c_20k_clock                                                             ; 49994.330 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -159,9 +159,9 @@ HTML report is unavailable in plain text report export.
 +---------------------------------------------------------------------------+-------+---------------+
 ; Clock                                                                     ; Slack ; End Point TNS ;
 +---------------------------------------------------------------------------+-------+---------------+
-; clk50                                                                     ; 0.437 ; 0.000         ;
-; i2c_20k_clock                                                             ; 0.525 ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.596 ; 0.000         ;
+; clk50                                                                     ; 0.263 ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.352 ; 0.000         ;
+; i2c_20k_clock                                                             ; 0.618 ; 0.000         ;
 +---------------------------------------------------------------------------+-------+---------------+
 
 
@@ -183,9 +183,9 @@ No paths to report.
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
 ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 1.666     ; 0.000         ;
-; clk50                                                                     ; 8.953     ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.262    ; 0.000         ;
-; i2c_20k_clock                                                             ; 24999.145 ; 0.000         ;
+; clk50                                                                     ; 8.859     ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.267    ; 0.000         ;
+; i2c_20k_clock                                                             ; 24999.239 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -200,9 +200,9 @@ No synchronizer chains to report.
 +------------+-----------------+---------------------------------------------------------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                                                                ; Note ;
 +------------+-----------------+---------------------------------------------------------------------------+------+
-; 109.05 MHz ; 109.05 MHz      ; clk50                                                                     ;      ;
-; 154.82 MHz ; 154.82 MHz      ; i2c_20k_clock                                                             ;      ;
-; 195.39 MHz ; 195.39 MHz      ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ;      ;
+; 113.16 MHz ; 113.16 MHz      ; clk50                                                                     ;      ;
+; 176.03 MHz ; 176.03 MHz      ; i2c_20k_clock                                                             ;      ;
+; 298.69 MHz ; 298.69 MHz      ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ;      ;
 +------------+-----------------+---------------------------------------------------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -212,9 +212,9 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------------------------------------------------------------+-----------+---------------+
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
-; clk50                                                                     ; 10.830    ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 34.882    ; 0.000         ;
-; i2c_20k_clock                                                             ; 49993.541 ; 0.000         ;
+; clk50                                                                     ; 11.163    ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 36.652    ; 0.000         ;
+; i2c_20k_clock                                                             ; 49994.319 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -223,9 +223,9 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------------------------------------------------------------+-------+---------------+
 ; Clock                                                                     ; Slack ; End Point TNS ;
 +---------------------------------------------------------------------------+-------+---------------+
-; clk50                                                                     ; 0.457 ; 0.000         ;
-; i2c_20k_clock                                                             ; 0.585 ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.646 ; 0.000         ;
+; clk50                                                                     ; 0.249 ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.336 ; 0.000         ;
+; i2c_20k_clock                                                             ; 0.627 ; 0.000         ;
 +---------------------------------------------------------------------------+-------+---------------+
 
 
@@ -247,9 +247,9 @@ No paths to report.
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
 ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 1.666     ; 0.000         ;
-; clk50                                                                     ; 8.970     ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.194    ; 0.000         ;
-; i2c_20k_clock                                                             ; 24999.200 ; 0.000         ;
+; clk50                                                                     ; 8.916     ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.193    ; 0.000         ;
+; i2c_20k_clock                                                             ; 24999.256 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -264,9 +264,9 @@ No synchronizer chains to report.
 +---------------------------------------------------------------------------+-----------+---------------+
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
-; clk50                                                                     ; 14.213    ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 37.182    ; 0.000         ;
-; i2c_20k_clock                                                             ; 49995.855 ; 0.000         ;
+; clk50                                                                     ; 14.737    ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 38.532    ; 0.000         ;
+; i2c_20k_clock                                                             ; 49996.739 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -275,9 +275,9 @@ No synchronizer chains to report.
 +---------------------------------------------------------------------------+-------+---------------+
 ; Clock                                                                     ; Slack ; End Point TNS ;
 +---------------------------------------------------------------------------+-------+---------------+
-; i2c_20k_clock                                                             ; 0.162 ; 0.000         ;
-; clk50                                                                     ; 0.205 ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.228 ; 0.000         ;
+; clk50                                                                     ; 0.138 ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.193 ; 0.000         ;
+; i2c_20k_clock                                                             ; 0.232 ; 0.000         ;
 +---------------------------------------------------------------------------+-------+---------------+
 
 
@@ -299,9 +299,9 @@ No paths to report.
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
 ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 1.666     ; 0.000         ;
-; clk50                                                                     ; 9.024     ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.556    ; 0.000         ;
-; i2c_20k_clock                                                             ; 24999.474 ; 0.000         ;
+; clk50                                                                     ; 8.970     ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.557    ; 0.000         ;
+; i2c_20k_clock                                                             ; 24999.550 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -316,9 +316,9 @@ No synchronizer chains to report.
 +---------------------------------------------------------------------------+-----------+---------------+
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
-; clk50                                                                     ; 15.054    ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 37.613    ; 0.000         ;
-; i2c_20k_clock                                                             ; 49996.501 ; 0.000         ;
+; clk50                                                                     ; 15.479    ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 38.682    ; 0.000         ;
+; i2c_20k_clock                                                             ; 49997.204 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -327,9 +327,9 @@ No synchronizer chains to report.
 +---------------------------------------------------------------------------+-------+---------------+
 ; Clock                                                                     ; Slack ; End Point TNS ;
 +---------------------------------------------------------------------------+-------+---------------+
-; i2c_20k_clock                                                             ; 0.142 ; 0.000         ;
-; clk50                                                                     ; 0.189 ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.212 ; 0.000         ;
+; clk50                                                                     ; 0.123 ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.168 ; 0.000         ;
+; i2c_20k_clock                                                             ; 0.187 ; 0.000         ;
 +---------------------------------------------------------------------------+-------+---------------+
 
 
@@ -351,9 +351,9 @@ No paths to report.
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
 ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 1.666     ; 0.000         ;
-; clk50                                                                     ; 9.058     ; 0.000         ;
+; clk50                                                                     ; 9.045     ; 0.000         ;
 ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.547    ; 0.000         ;
-; i2c_20k_clock                                                             ; 24999.545 ; 0.000         ;
+; i2c_20k_clock                                                             ; 24999.589 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -368,11 +368,11 @@ No synchronizer chains to report.
 +----------------------------------------------------------------------------+-----------+-------+----------+---------+---------------------+
 ; Clock                                                                      ; Setup     ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
 +----------------------------------------------------------------------------+-----------+-------+----------+---------+---------------------+
-; Worst-case Slack                                                           ; 10.830    ; 0.142 ; N/A      ; N/A     ; 1.666               ;
-;  clk50                                                                     ; 10.830    ; 0.189 ; N/A      ; N/A     ; 8.953               ;
-;  i2c_20k_clock                                                             ; 49993.373 ; 0.142 ; N/A      ; N/A     ; 24999.145           ;
+; Worst-case Slack                                                           ; 11.163    ; 0.123 ; N/A      ; N/A     ; 1.666               ;
+;  clk50                                                                     ; 11.163    ; 0.123 ; N/A      ; N/A     ; 8.859               ;
+;  i2c_20k_clock                                                             ; 49994.319 ; 0.187 ; N/A      ; N/A     ; 24999.239           ;
 ;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; N/A       ; N/A   ; N/A      ; N/A     ; 1.666               ;
-;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 34.812    ; 0.212 ; N/A      ; N/A     ; 19.194              ;
+;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 36.652    ; 0.168 ; N/A      ; N/A     ; 19.193              ;
 ; Design-wide TNS                                                            ; 0.0       ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
 ;  clk50                                                                     ; 0.000     ; 0.000 ; N/A      ; N/A     ; 0.000               ;
 ;  i2c_20k_clock                                                             ; 0.000     ; 0.000 ; N/A      ; N/A     ; 0.000               ;
@@ -613,10 +613,10 @@ No synchronizer chains to report.
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
 ; From Clock                                                                ; To Clock                                                                  ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
-; clk50                                                                     ; clk50                                                                     ; 375      ; 0        ; 0        ; 0        ;
+; clk50                                                                     ; clk50                                                                     ; 410      ; 0        ; 0        ; 0        ;
 ; i2c_20k_clock                                                             ; clk50                                                                     ; 1        ; 1        ; 0        ; 0        ;
-; i2c_20k_clock                                                             ; i2c_20k_clock                                                             ; 837      ; 0        ; 0        ; 0        ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 620      ; 0        ; 0        ; 0        ;
+; i2c_20k_clock                                                             ; i2c_20k_clock                                                             ; 798      ; 0        ; 0        ; 0        ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 619      ; 0        ; 0        ; 0        ;
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -626,10 +626,10 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
 ; From Clock                                                                ; To Clock                                                                  ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
-; clk50                                                                     ; clk50                                                                     ; 375      ; 0        ; 0        ; 0        ;
+; clk50                                                                     ; clk50                                                                     ; 410      ; 0        ; 0        ; 0        ;
 ; i2c_20k_clock                                                             ; clk50                                                                     ; 1        ; 1        ; 0        ; 0        ;
-; i2c_20k_clock                                                             ; i2c_20k_clock                                                             ; 837      ; 0        ; 0        ; 0        ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 620      ; 0        ; 0        ; 0        ;
+; i2c_20k_clock                                                             ; i2c_20k_clock                                                             ; 798      ; 0        ; 0        ; 0        ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 619      ; 0        ; 0        ; 0        ;
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -652,25 +652,24 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Property                        ; Setup ; Hold ;
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
-; Unconstrained Clocks            ; 1     ; 1    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
 ; Unconstrained Input Ports       ; 3     ; 3    ;
-; Unconstrained Input Port Paths  ; 80    ; 80   ;
-; Unconstrained Output Ports      ; 31    ; 31   ;
-; Unconstrained Output Port Paths ; 31    ; 31   ;
+; Unconstrained Input Port Paths  ; 79    ; 79   ;
+; Unconstrained Output Ports      ; 7     ; 7    ;
+; Unconstrained Output Port Paths ; 7     ; 7    ;
 +---------------------------------+-------+------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Clock Status Summary                                                                                                                                                              ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+---------------+
-; Target                                                                    ; Clock                                                                     ; Type      ; Status        ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+---------------+
-; I2C_HDMI_Config:I2C_HDMI_Config|mI2C_CTRL_CLK                             ; i2c_20k_clock                                                             ; Base      ; Constrained   ;
-; clock50                                                                   ; clk50                                                                     ; Base      ; Constrained   ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; Generated ; Constrained   ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; Constrained   ;
-; vgaHdmi:vgaHdmi|vgaClock                                                  ;                                                                           ; Base      ; Unconstrained ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+---------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Status Summary                                                                                                                                                            ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+-------------+
+; Target                                                                    ; Clock                                                                     ; Type      ; Status      ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+-------------+
+; I2C_HDMI_Config:I2C_HDMI_Config|mI2C_CTRL_CLK                             ; i2c_20k_clock                                                             ; Base      ; Constrained ;
+; clock50                                                                   ; clk50                                                                     ; Base      ; Constrained ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; Generated ; Constrained ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; Constrained ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+-------------+
 
 
 +-----------------------------------------------------------------------------------------------------+
@@ -684,43 +683,19 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +--------------+--------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------+
-; Unconstrained Output Ports                                                                            ;
-+---------------+---------------------------------------------------------------------------------------+
-; Output Port   ; Comment                                                                               ;
-+---------------+---------------------------------------------------------------------------------------+
-; HDMI_I2C_SCL  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_I2C_SDA  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_CLK   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_DE    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[0]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[1]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[2]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[3]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[4]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[5]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[6]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[7]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[8]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[9]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[10] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[11] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[12] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[13] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[14] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[15] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[16] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[17] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[18] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[19] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[20] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[21] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[22] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[23] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_HS    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_VS    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; READY         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-+---------------+---------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                           ;
++--------------+---------------------------------------------------------------------------------------+
+; Output Port  ; Comment                                                                               ;
++--------------+---------------------------------------------------------------------------------------+
+; HDMI_I2C_SCL ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_I2C_SDA ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_CLK  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_DE   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_HS   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_VS   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; READY        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++--------------+---------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------+
@@ -734,43 +709,19 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +--------------+--------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------+
-; Unconstrained Output Ports                                                                            ;
-+---------------+---------------------------------------------------------------------------------------+
-; Output Port   ; Comment                                                                               ;
-+---------------+---------------------------------------------------------------------------------------+
-; HDMI_I2C_SCL  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_I2C_SDA  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_CLK   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_DE    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[0]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[1]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[2]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[3]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[4]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[5]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[6]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[7]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[8]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[9]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[10] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[11] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[12] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[13] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[14] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[15] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[16] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[17] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[18] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[19] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[20] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[21] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[22] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_D[23] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_HS    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_VS    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; READY         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-+---------------+---------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                           ;
++--------------+---------------------------------------------------------------------------------------+
+; Output Port  ; Comment                                                                               ;
++--------------+---------------------------------------------------------------------------------------+
+; HDMI_I2C_SCL ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_I2C_SDA ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_CLK  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_DE   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_HS   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_VS   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; READY        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++--------------+---------------------------------------------------------------------------------------+
 
 
 +--------------------------+
@@ -779,7 +730,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Sun Nov 19 19:47:09 2023
+    Info: Processing started: Mon Nov 20 01:18:08 2023
 Info: Command: quartus_sta vgaHdmi -c vgaHdmi
 Info: qsta_default_script.tcl version: #1
 Warning (12473): User specified to use only one processors but 4 processors were detected which could be used to decrease run time.
@@ -790,8 +741,6 @@ Info (332110): Deriving PLL clocks
     Info (332110): create_generated_clock -source {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin} -divide_by 2 -multiply_by 12 -duty_cycle 50.00 -name {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]} {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]}
     Info (332110): create_generated_clock -source {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|vco0ph[0]} -divide_by 12 -duty_cycle 50.00 -name {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk} {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk}
 Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
-Warning (332060): Node: vgaHdmi:vgaHdmi|vgaClock was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register pixelPrinter:pixelPrinter|blue[0] is being clocked by vgaHdmi:vgaHdmi|vgaClock
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
@@ -799,49 +748,76 @@ Info (332097): The following timing edges are non-unate.  The Timing Analyzer wi
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1100mV 100C Model
-Info (332146): Worst-case setup slack is 10.893
+Info (332146): Worst-case setup slack is 11.348
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    10.893               0.000 clk50 
-    Info (332119):    34.812               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 49993.373               0.000 i2c_20k_clock 
-Info (332146): Worst-case hold slack is 0.437
+    Info (332119):    11.348               0.000 clk50 
+    Info (332119):    36.689               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 49994.330               0.000 i2c_20k_clock 
+Info (332146): Worst-case hold slack is 0.263
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.437               0.000 clk50 
-    Info (332119):     0.525               0.000 i2c_20k_clock 
-    Info (332119):     0.596               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.263               0.000 clk50 
+    Info (332119):     0.352               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.618               0.000 i2c_20k_clock 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is 1.666
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     1.666               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
-    Info (332119):     8.953               0.000 clk50 
-    Info (332119):    19.262               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 24999.145               0.000 i2c_20k_clock 
+    Info (332119):     8.859               0.000 clk50 
+    Info (332119):    19.267               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 24999.239               0.000 i2c_20k_clock 
 Info: Analyzing Slow 1100mV -40C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Warning (332060): Node: vgaHdmi:vgaHdmi|vgaClock was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register pixelPrinter:pixelPrinter|blue[0] is being clocked by vgaHdmi:vgaHdmi|vgaClock
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 10.830
+Info (332146): Worst-case setup slack is 11.163
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    10.830               0.000 clk50 
-    Info (332119):    34.882               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 49993.541               0.000 i2c_20k_clock 
-Info (332146): Worst-case hold slack is 0.457
+    Info (332119):    11.163               0.000 clk50 
+    Info (332119):    36.652               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 49994.319               0.000 i2c_20k_clock 
+Info (332146): Worst-case hold slack is 0.249
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.457               0.000 clk50 
-    Info (332119):     0.585               0.000 i2c_20k_clock 
-    Info (332119):     0.646               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.249               0.000 clk50 
+    Info (332119):     0.336               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.627               0.000 i2c_20k_clock 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 1.666
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     1.666               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     8.916               0.000 clk50 
+    Info (332119):    19.193               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 24999.256               0.000 i2c_20k_clock 
+Info: Analyzing Fast 1100mV 100C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
+    Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
+    Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info (332146): Worst-case setup slack is 14.737
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    14.737               0.000 clk50 
+    Info (332119):    38.532               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 49996.739               0.000 i2c_20k_clock 
+Info (332146): Worst-case hold slack is 0.138
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.138               0.000 clk50 
+    Info (332119):     0.193               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.232               0.000 i2c_20k_clock 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is 1.666
@@ -849,74 +825,41 @@ Info (332146): Worst-case minimum pulse width slack is 1.666
     Info (332119): ========= =================== =====================
     Info (332119):     1.666               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
     Info (332119):     8.970               0.000 clk50 
-    Info (332119):    19.194               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 24999.200               0.000 i2c_20k_clock 
-Info: Analyzing Fast 1100mV 100C Model
-Info (334003): Started post-fitting delay annotation
-Info (334004): Delay annotation completed successfully
-Warning (332060): Node: vgaHdmi:vgaHdmi|vgaClock was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register pixelPrinter:pixelPrinter|blue[0] is being clocked by vgaHdmi:vgaHdmi|vgaClock
-Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
-    Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
-    Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
-    Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
-Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 14.213
-    Info (332119):     Slack       End Point TNS Clock 
-    Info (332119): ========= =================== =====================
-    Info (332119):    14.213               0.000 clk50 
-    Info (332119):    37.182               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 49995.855               0.000 i2c_20k_clock 
-Info (332146): Worst-case hold slack is 0.162
-    Info (332119):     Slack       End Point TNS Clock 
-    Info (332119): ========= =================== =====================
-    Info (332119):     0.162               0.000 i2c_20k_clock 
-    Info (332119):     0.205               0.000 clk50 
-    Info (332119):     0.228               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-Info (332140): No Recovery paths to report
-Info (332140): No Removal paths to report
-Info (332146): Worst-case minimum pulse width slack is 1.666
-    Info (332119):     Slack       End Point TNS Clock 
-    Info (332119): ========= =================== =====================
-    Info (332119):     1.666               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
-    Info (332119):     9.024               0.000 clk50 
-    Info (332119):    19.556               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 24999.474               0.000 i2c_20k_clock 
+    Info (332119):    19.557               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 24999.550               0.000 i2c_20k_clock 
 Info: Analyzing Fast 1100mV -40C Model
-Warning (332060): Node: vgaHdmi:vgaHdmi|vgaClock was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register pixelPrinter:pixelPrinter|blue[0] is being clocked by vgaHdmi:vgaHdmi|vgaClock
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 15.054
+Info (332146): Worst-case setup slack is 15.479
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    15.054               0.000 clk50 
-    Info (332119):    37.613               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 49996.501               0.000 i2c_20k_clock 
-Info (332146): Worst-case hold slack is 0.142
+    Info (332119):    15.479               0.000 clk50 
+    Info (332119):    38.682               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 49997.204               0.000 i2c_20k_clock 
+Info (332146): Worst-case hold slack is 0.123
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.142               0.000 i2c_20k_clock 
-    Info (332119):     0.189               0.000 clk50 
-    Info (332119):     0.212               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.123               0.000 clk50 
+    Info (332119):     0.168               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.187               0.000 i2c_20k_clock 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is 1.666
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     1.666               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
-    Info (332119):     9.058               0.000 clk50 
+    Info (332119):     9.045               0.000 clk50 
     Info (332119):    19.547               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 24999.545               0.000 i2c_20k_clock 
+    Info (332119): 24999.589               0.000 i2c_20k_clock 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
-Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 913 megabytes
-    Info: Processing ended: Sun Nov 19 19:47:25 2023
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:16
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 847 megabytes
+    Info: Processing ended: Mon Nov 20 01:18:14 2023
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:06
 
 

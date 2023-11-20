@@ -1,6 +1,5 @@
 `timescale 1ns/100ps
-module Test_RV32I_Harvard
-();
+module Test_RV32I_Harvard();
 	logic clock;
 	logic async_reset;
 	

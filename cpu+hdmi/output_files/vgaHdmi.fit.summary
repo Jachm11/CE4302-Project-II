@@ -1,16 +1,16 @@
-Fitter Status : Successful - Sun Nov 19 19:46:53 2023
+Fitter Status : Successful - Mon Nov 20 01:17:59 2023
 Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : vgaHdmi
 Top-level Entity Name : TopModule
 Family : Cyclone V
 Device : 5CSEBA6U23I7
 Timing Models : Final
-Logic utilization (in ALMs) : 142 / 41,910 ( < 1 % )
-Total registers : 170
+Logic utilization (in ALMs) : 82 / 41,910 ( < 1 % )
+Total registers : 100
 Total pins : 38 / 314 ( 12 % )
 Total virtual pins : 0
-Total block memory bits : 921,600 / 5,662,720 ( 16 % )
-Total RAM Blocks : 113 / 553 ( 20 % )
+Total block memory bits : 0 / 5,662,720 ( 0 % )
+Total RAM Blocks : 0 / 553 ( 0 % )
 Total DSP Blocks : 0 / 112 ( 0 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0

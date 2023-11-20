@@ -127,7 +127,7 @@ module RAM_2p_32w_18a_8b
 		{enabler_3_2, enabler_2_2, enabler_1_2, enabler_0_2});
 
 
-	RAM_2p_8w_16a_8b_from_file #(.PATH("C:/Users/aleja/OneDrive/Documents/D/Files/program_works/quartus/arqui_2_proyecto_2_procesador_vectorial/Modules/Memory/Mifs/data_null/sub_ram_0.mif")) sub_RAM_0	
+	RAM_2p_8w_16a_8b_from_file #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/data_null/sub_ram_0.mif")) sub_RAM_0	
 	(
 		address_0_1,
 		address_0_2,
@@ -141,7 +141,7 @@ module RAM_2p_32w_18a_8b
 		byte_out_0_2);
 
 
-	RAM_2p_8w_16a_8b_from_file #(.PATH("C:/Users/aleja/OneDrive/Documents/D/Files/program_works/quartus/arqui_2_proyecto_2_procesador_vectorial/Modules/Memory/Mifs/data_null/sub_ram_1.mif")) sub_RAM_1	
+	RAM_2p_8w_16a_8b_from_file #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/data_null/sub_ram_1.mif")) sub_RAM_1	
 	(
 		address_1_1,
 		address_1_2,
@@ -155,7 +155,7 @@ module RAM_2p_32w_18a_8b
 		byte_out_1_2);
 
 
-	RAM_2p_8w_16a_8b_from_file #(.PATH("C:/Users/aleja/OneDrive/Documents/D/Files/program_works/quartus/arqui_2_proyecto_2_procesador_vectorial/Modules/Memory/Mifs/data_null/sub_ram_2.mif")) sub_RAM_2	
+	RAM_2p_8w_16a_8b_from_file #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/data_null/sub_ram_2.mif")) sub_RAM_2	
 	(
 		address_2_1,
 		address_2_2,
@@ -169,7 +169,7 @@ module RAM_2p_32w_18a_8b
 		byte_out_2_2);
 
 
-	RAM_2p_8w_16a_8b_from_file #(.PATH("C:/Users/aleja/OneDrive/Documents/D/Files/program_works/quartus/arqui_2_proyecto_2_procesador_vectorial/Modules/Memory/Mifs/data_null/sub_ram_3.mif")) sub_RAM_3	
+	RAM_2p_8w_16a_8b_from_file #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/data_null/sub_ram_3.mif")) sub_RAM_3	
 	(
 		address_3_1,
 		address_3_2,

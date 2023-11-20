@@ -38,9 +38,9 @@ module pixelPrinter(
 		end
 	end
 	
-	initial begin
-    $readmemb("image.mem", memory); // Initialize memory from the .mem file
-	end
+//	initial begin
+//    $readmemb("image.mem", memory); // Initialize memory from the .mem file
+//	end
 	
 	initial begin
     $readmemh("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/grapichs/palette.mem", palette); // Initialize palette from the .mem file
