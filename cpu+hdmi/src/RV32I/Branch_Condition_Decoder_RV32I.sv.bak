@@ -1,0 +1,18 @@
+module Branch_Condition_Decoder_RV32I
+(
+	input logic f3,
+	input logic B,
+
+	output logic [2:0] comp_code
+);
+	logic [4:0] coder_inputs;
+		// default 0 -> ==
+		assign coder_inputs[0] = f3[1] && B;	// !=
+		assign coder_inputs[1] = f3[4] && B;	// <
+		assign coder_inputs[2] = f3[5] && B;	// >=
+		assign coder_inputs[3] = f3[6] && B;	// <u
+		assign coder_inputs[4] = f3[7] && B;	// >=u
+
+		Coder_5x3 cod(coder_inputs, comp_code);		
+
+endmodule

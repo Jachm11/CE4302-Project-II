@@ -1,0 +1,16 @@
+module Comparator_RV32I
+(
+	input logic [31:0] a,
+	input logic [31:0] a,
+	
+	output logic eq,
+	output logic neq,
+	output logic lt,
+	output logic ge,
+	output logic ltu,
+	output logic geu
+);
+
+	//Adder_with_carries_N #(.N()) add(ci,A,B,O,co);	
+
+endmodule

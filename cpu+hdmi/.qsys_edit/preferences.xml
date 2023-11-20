@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="47" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Library/DSP/Video and Image Processing,Library/University Program,Library/Basic Functions/Bridges and Adaptors,Library/Tri-State Components,Library/Interface Protocols/Audio &amp; Video,Library/DSP,Library/Interface Protocols/PCI Express,Library,Project,Library/Basic Functions,Library/Interface Protocols,Library/University Program/Audio &amp; Video" />
+ <window width="1920" height="1030" x="0" y="0" />
+</preferences>
