@@ -15,7 +15,8 @@ def tokenize(instructions_list):
     pattern_name_name_name =    r'^(' + sub_pattern_keyword + r')\s+(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_name + r')$'
     pattern_name_name_tag =     r'^(' + sub_pattern_keyword + r')\s+(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_tag + r')$'
     pattern_name_value_name =   r'^(' + sub_pattern_keyword + r')\s+(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_value + r')\(\s*(' + sub_pattern_name + r')\s*\)$'
-    pattern_name_name_name_value = r'^(' + sub_pattern_keyword + r')\s+(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_name + r')\s*(\,)\s*(' + sub_pattern_value + r')$'
+    pattern_name_name_name_value = r'^(' + sub_pattern_keyword + r')\s+(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_value + r')$'
+    
     pattern_name_tag =          r'^(' + sub_pattern_keyword + r')\s+(' + sub_pattern_name + r')\s*(\,| +)\s*(' + sub_pattern_tag + r')$'
     pattern_tag = r'(' + sub_pattern_keyword + r')\s+(' + sub_pattern_tag + r')$'
     pattern_nop = r'(nop)$'
@@ -25,11 +26,12 @@ def tokenize(instructions_list):
     print("pattern_name_name_name: ", pattern_name_name_name)
     print("pattern_name_name_tag: ", pattern_name_name_tag)
     print("pattern_name_value_name: ", pattern_name_value_name)
+    print("pattern_name_name_name_value: ", pattern_name_name_name_value)
     print("pattern_name_tag: ", pattern_name_tag)
     print("pattern_nop: ", pattern_nop)
 
     for instruction in instructions_list:
-        #print("Instruction: ", instruction)
+        print("Instruction: ", instruction)
 
         match = re.findall(pattern_name_value, instruction[0])
         if(match != []):
@@ -162,7 +164,7 @@ def tokenize(instructions_list):
             # group[1] = tag
             tokenized_list.append([[group[0], group[1]], instruction[1]])
 
-    
+
         match = re.findall(pattern_name_name_name_value, instruction[0])
         if(match != []):
 
@@ -178,6 +180,6 @@ def tokenize(instructions_list):
 
             print(group)
             tokenized_list.append([[group[0], group[1], group[3], group[5], group[7]], instruction[1]])
-
+            print(tokenized_list[-1])
 
     return tokenized_list
