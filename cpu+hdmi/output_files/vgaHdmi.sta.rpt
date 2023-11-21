@@ -1,5 +1,5 @@
 Timing Analyzer report for vgaHdmi
-Mon Nov 20 01:18:14 2023
+Tue Nov 21 02:38:28 2023
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -109,7 +109,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------+--------+--------------------------+
 ; SDC File Path ; Status ; Read at                  ;
 +---------------+--------+--------------------------+
-; vgaHdmi.sdc   ; OK     ; Mon Nov 20 01:18:10 2023 ;
+; vgaHdmi.sdc   ; OK     ; Tue Nov 21 02:36:30 2023 ;
 +---------------+--------+--------------------------+
 
 
@@ -130,9 +130,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +------------+-----------------+---------------------------------------------------------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                                                                ; Note ;
 +------------+-----------------+---------------------------------------------------------------------------+------+
-; 115.58 MHz ; 115.58 MHz      ; clk50                                                                     ;      ;
-; 176.37 MHz ; 176.37 MHz      ; i2c_20k_clock                                                             ;      ;
-; 302.02 MHz ; 302.02 MHz      ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ;      ;
+; 11.02 MHz  ; 11.02 MHz       ; clk50                                                                     ;      ;
+; 95.57 MHz  ; 95.57 MHz       ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ;      ;
+; 153.68 MHz ; 153.68 MHz      ; i2c_20k_clock                                                             ;      ;
 +------------+-----------------+---------------------------------------------------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -148,9 +148,9 @@ HTML report is unavailable in plain text report export.
 +---------------------------------------------------------------------------+-----------+---------------+
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
-; clk50                                                                     ; 11.348    ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 36.689    ; 0.000         ;
-; i2c_20k_clock                                                             ; 49994.330 ; 0.000         ;
+; clk50                                                                     ; -70.754   ; -34538.941    ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 29.537    ; 0.000         ;
+; i2c_20k_clock                                                             ; 49993.493 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -159,9 +159,9 @@ HTML report is unavailable in plain text report export.
 +---------------------------------------------------------------------------+-------+---------------+
 ; Clock                                                                     ; Slack ; End Point TNS ;
 +---------------------------------------------------------------------------+-------+---------------+
-; clk50                                                                     ; 0.263 ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.352 ; 0.000         ;
-; i2c_20k_clock                                                             ; 0.618 ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.370 ; 0.000         ;
+; clk50                                                                     ; 0.411 ; 0.000         ;
+; i2c_20k_clock                                                             ; 0.778 ; 0.000         ;
 +---------------------------------------------------------------------------+-------+---------------+
 
 
@@ -183,9 +183,9 @@ No paths to report.
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
 ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 1.666     ; 0.000         ;
-; clk50                                                                     ; 8.859     ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.267    ; 0.000         ;
-; i2c_20k_clock                                                             ; 24999.239 ; 0.000         ;
+; clk50                                                                     ; 8.612     ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.275    ; 0.000         ;
+; i2c_20k_clock                                                             ; 24999.269 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -200,9 +200,9 @@ No synchronizer chains to report.
 +------------+-----------------+---------------------------------------------------------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                                                                ; Note ;
 +------------+-----------------+---------------------------------------------------------------------------+------+
-; 113.16 MHz ; 113.16 MHz      ; clk50                                                                     ;      ;
-; 176.03 MHz ; 176.03 MHz      ; i2c_20k_clock                                                             ;      ;
-; 298.69 MHz ; 298.69 MHz      ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ;      ;
+; 10.5 MHz   ; 10.5 MHz        ; clk50                                                                     ;      ;
+; 102.01 MHz ; 102.01 MHz      ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ;      ;
+; 151.03 MHz ; 151.03 MHz      ; i2c_20k_clock                                                             ;      ;
 +------------+-----------------+---------------------------------------------------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -212,9 +212,9 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------------------------------------------------------------+-----------+---------------+
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
-; clk50                                                                     ; 11.163    ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 36.652    ; 0.000         ;
-; i2c_20k_clock                                                             ; 49994.319 ; 0.000         ;
+; clk50                                                                     ; -75.272   ; -32639.641    ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 30.197    ; 0.000         ;
+; i2c_20k_clock                                                             ; 49993.379 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -223,9 +223,9 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------------------------------------------------------------+-------+---------------+
 ; Clock                                                                     ; Slack ; End Point TNS ;
 +---------------------------------------------------------------------------+-------+---------------+
-; clk50                                                                     ; 0.249 ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.336 ; 0.000         ;
-; i2c_20k_clock                                                             ; 0.627 ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.353 ; 0.000         ;
+; clk50                                                                     ; 0.372 ; 0.000         ;
+; i2c_20k_clock                                                             ; 0.772 ; 0.000         ;
 +---------------------------------------------------------------------------+-------+---------------+
 
 
@@ -247,9 +247,9 @@ No paths to report.
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
 ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 1.666     ; 0.000         ;
-; clk50                                                                     ; 8.916     ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.193    ; 0.000         ;
-; i2c_20k_clock                                                             ; 24999.256 ; 0.000         ;
+; clk50                                                                     ; 8.532     ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.198    ; 0.000         ;
+; i2c_20k_clock                                                             ; 24999.315 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -264,9 +264,9 @@ No synchronizer chains to report.
 +---------------------------------------------------------------------------+-----------+---------------+
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
-; clk50                                                                     ; 14.737    ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 38.532    ; 0.000         ;
-; i2c_20k_clock                                                             ; 49996.739 ; 0.000         ;
+; clk50                                                                     ; -25.288   ; -5120.349     ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 33.541    ; 0.000         ;
+; i2c_20k_clock                                                             ; 49996.365 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -275,9 +275,9 @@ No synchronizer chains to report.
 +---------------------------------------------------------------------------+-------+---------------+
 ; Clock                                                                     ; Slack ; End Point TNS ;
 +---------------------------------------------------------------------------+-------+---------------+
-; clk50                                                                     ; 0.138 ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.193 ; 0.000         ;
-; i2c_20k_clock                                                             ; 0.232 ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.195 ; 0.000         ;
+; clk50                                                                     ; 0.203 ; 0.000         ;
+; i2c_20k_clock                                                             ; 0.322 ; 0.000         ;
 +---------------------------------------------------------------------------+-------+---------------+
 
 
@@ -299,9 +299,9 @@ No paths to report.
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
 ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 1.666     ; 0.000         ;
-; clk50                                                                     ; 8.970     ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.557    ; 0.000         ;
-; i2c_20k_clock                                                             ; 24999.550 ; 0.000         ;
+; clk50                                                                     ; 8.782     ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.559    ; 0.000         ;
+; i2c_20k_clock                                                             ; 24999.581 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -316,9 +316,9 @@ No synchronizer chains to report.
 +---------------------------------------------------------------------------+-----------+---------------+
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
-; clk50                                                                     ; 15.479    ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 38.682    ; 0.000         ;
-; i2c_20k_clock                                                             ; 49997.204 ; 0.000         ;
+; clk50                                                                     ; -20.896   ; -4266.224     ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 34.742    ; 0.000         ;
+; i2c_20k_clock                                                             ; 49996.820 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -327,9 +327,9 @@ No synchronizer chains to report.
 +---------------------------------------------------------------------------+-------+---------------+
 ; Clock                                                                     ; Slack ; End Point TNS ;
 +---------------------------------------------------------------------------+-------+---------------+
-; clk50                                                                     ; 0.123 ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.168 ; 0.000         ;
-; i2c_20k_clock                                                             ; 0.187 ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.175 ; 0.000         ;
+; clk50                                                                     ; 0.187 ; 0.000         ;
+; i2c_20k_clock                                                             ; 0.279 ; 0.000         ;
 +---------------------------------------------------------------------------+-------+---------------+
 
 
@@ -351,9 +351,9 @@ No paths to report.
 ; Clock                                                                     ; Slack     ; End Point TNS ;
 +---------------------------------------------------------------------------+-----------+---------------+
 ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 1.666     ; 0.000         ;
-; clk50                                                                     ; 9.045     ; 0.000         ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.547    ; 0.000         ;
-; i2c_20k_clock                                                             ; 24999.589 ; 0.000         ;
+; clk50                                                                     ; 8.773     ; 0.000         ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 19.548    ; 0.000         ;
+; i2c_20k_clock                                                             ; 24999.622 ; 0.000         ;
 +---------------------------------------------------------------------------+-----------+---------------+
 
 
@@ -363,22 +363,22 @@ No paths to report.
 No synchronizer chains to report.
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Multicorner Timing Analysis Summary                                                                                                       ;
-+----------------------------------------------------------------------------+-----------+-------+----------+---------+---------------------+
-; Clock                                                                      ; Setup     ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
-+----------------------------------------------------------------------------+-----------+-------+----------+---------+---------------------+
-; Worst-case Slack                                                           ; 11.163    ; 0.123 ; N/A      ; N/A     ; 1.666               ;
-;  clk50                                                                     ; 11.163    ; 0.123 ; N/A      ; N/A     ; 8.859               ;
-;  i2c_20k_clock                                                             ; 49994.319 ; 0.187 ; N/A      ; N/A     ; 24999.239           ;
-;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; N/A       ; N/A   ; N/A      ; N/A     ; 1.666               ;
-;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 36.652    ; 0.168 ; N/A      ; N/A     ; 19.193              ;
-; Design-wide TNS                                                            ; 0.0       ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
-;  clk50                                                                     ; 0.000     ; 0.000 ; N/A      ; N/A     ; 0.000               ;
-;  i2c_20k_clock                                                             ; 0.000     ; 0.000 ; N/A      ; N/A     ; 0.000               ;
-;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; N/A       ; N/A   ; N/A      ; N/A     ; 0.000               ;
-;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.000     ; 0.000 ; N/A      ; N/A     ; 0.000               ;
-+----------------------------------------------------------------------------+-----------+-------+----------+---------+---------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                                                                                        ;
++----------------------------------------------------------------------------+------------+-------+----------+---------+---------------------+
+; Clock                                                                      ; Setup      ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++----------------------------------------------------------------------------+------------+-------+----------+---------+---------------------+
+; Worst-case Slack                                                           ; -75.272    ; 0.175 ; N/A      ; N/A     ; 1.666               ;
+;  clk50                                                                     ; -75.272    ; 0.187 ; N/A      ; N/A     ; 8.532               ;
+;  i2c_20k_clock                                                             ; 49993.379  ; 0.279 ; N/A      ; N/A     ; 24999.269           ;
+;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; N/A        ; N/A   ; N/A      ; N/A     ; 1.666               ;
+;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 29.537     ; 0.175 ; N/A      ; N/A     ; 19.198              ;
+; Design-wide TNS                                                            ; -34538.941 ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
+;  clk50                                                                     ; -34538.941 ; 0.000 ; N/A      ; N/A     ; 0.000               ;
+;  i2c_20k_clock                                                             ; 0.000      ; 0.000 ; N/A      ; N/A     ; 0.000               ;
+;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; N/A        ; N/A   ; N/A      ; N/A     ; 0.000               ;
+;  pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.000      ; 0.000 ; N/A      ; N/A     ; 0.000               ;
++----------------------------------------------------------------------------+------------+-------+----------+---------+---------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -386,10 +386,8 @@ No synchronizer chains to report.
 +---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
 ; Pin           ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
 +---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
-; HDMI_I2S0     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
-; HDMI_MCLK     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
-; HDMI_LRCLK    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
-; HDMI_SCLK     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; HDMI_I2C_SCL  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; READY         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; HDMI_TX_D[0]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; HDMI_TX_D[1]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; HDMI_TX_D[2]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
@@ -418,8 +416,10 @@ No synchronizer chains to report.
 ; HDMI_TX_HS    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; HDMI_TX_DE    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; HDMI_TX_CLK   ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
-; HDMI_I2C_SCL  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
-; READY         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; HDMI_I2S0     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; HDMI_MCLK     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; HDMI_LRCLK    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; HDMI_SCLK     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; HDMI_I2C_SDA  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 +---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
 
@@ -429,9 +429,10 @@ No synchronizer chains to report.
 +--------------+--------------+-----------------+-----------------+
 ; Pin          ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
 +--------------+--------------+-----------------+-----------------+
+; switch       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; HDMI_I2C_SDA ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; clock50      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; reset_n      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; clock50      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; HDMI_TX_INT  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 +--------------+--------------+-----------------+-----------------+
 
@@ -441,10 +442,8 @@ No synchronizer chains to report.
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
-; HDMI_I2S0     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.6e-08 V                    ; 2.42 V              ; -0.0509 V           ; 0.197 V                              ; 0.118 V                              ; 4.57e-10 s                  ; 4.47e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.6e-08 V                   ; 2.42 V             ; -0.0509 V          ; 0.197 V                             ; 0.118 V                             ; 4.57e-10 s                 ; 4.47e-10 s                 ; No                        ; Yes                       ;
-; HDMI_MCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.33e-08 V                   ; 2.36 V              ; -0.0253 V           ; 0.132 V                              ; 0.078 V                              ; 4.45e-10 s                  ; 4.26e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.33e-08 V                  ; 2.36 V             ; -0.0253 V          ; 0.132 V                             ; 0.078 V                             ; 4.45e-10 s                 ; 4.26e-10 s                 ; No                        ; Yes                       ;
-; HDMI_LRCLK    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.6e-08 V                    ; 2.42 V              ; -0.0509 V           ; 0.197 V                              ; 0.118 V                              ; 4.57e-10 s                  ; 4.47e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.6e-08 V                   ; 2.42 V             ; -0.0509 V          ; 0.197 V                             ; 0.118 V                             ; 4.57e-10 s                 ; 4.47e-10 s                 ; No                        ; Yes                       ;
-; HDMI_SCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.33e-08 V                   ; 2.36 V              ; -0.0253 V           ; 0.132 V                              ; 0.078 V                              ; 4.45e-10 s                  ; 4.26e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.33e-08 V                  ; 2.36 V             ; -0.0253 V          ; 0.132 V                             ; 0.078 V                             ; 4.45e-10 s                 ; 4.26e-10 s                 ; No                        ; Yes                       ;
+; HDMI_I2C_SCL  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.6e-08 V                    ; 2.42 V              ; -0.0509 V           ; 0.197 V                              ; 0.118 V                              ; 4.57e-10 s                  ; 4.47e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.6e-08 V                   ; 2.42 V             ; -0.0509 V          ; 0.197 V                             ; 0.118 V                             ; 4.57e-10 s                 ; 4.47e-10 s                 ; No                        ; Yes                       ;
+; READY         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.33e-08 V                   ; 2.36 V              ; -0.0253 V           ; 0.132 V                              ; 0.078 V                              ; 4.45e-10 s                  ; 4.26e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.33e-08 V                  ; 2.36 V             ; -0.0253 V          ; 0.132 V                             ; 0.078 V                             ; 4.45e-10 s                 ; 4.26e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_TX_D[0]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.33e-08 V                   ; 2.36 V              ; -0.0253 V           ; 0.132 V                              ; 0.078 V                              ; 4.45e-10 s                  ; 4.26e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.33e-08 V                  ; 2.36 V             ; -0.0253 V          ; 0.132 V                             ; 0.078 V                             ; 4.45e-10 s                 ; 4.26e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_TX_D[1]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.6e-08 V                    ; 2.42 V              ; -0.0509 V           ; 0.197 V                              ; 0.118 V                              ; 4.57e-10 s                  ; 4.47e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.6e-08 V                   ; 2.42 V             ; -0.0509 V          ; 0.197 V                             ; 0.118 V                             ; 4.57e-10 s                 ; 4.47e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_TX_D[2]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.6e-08 V                    ; 2.42 V              ; -0.0509 V           ; 0.197 V                              ; 0.118 V                              ; 4.57e-10 s                  ; 4.47e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.6e-08 V                   ; 2.42 V             ; -0.0509 V          ; 0.197 V                             ; 0.118 V                             ; 4.57e-10 s                 ; 4.47e-10 s                 ; No                        ; Yes                       ;
@@ -473,8 +472,10 @@ No synchronizer chains to report.
 ; HDMI_TX_HS    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.33e-08 V                   ; 2.36 V              ; -0.0253 V           ; 0.132 V                              ; 0.078 V                              ; 4.45e-10 s                  ; 4.26e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.33e-08 V                  ; 2.36 V             ; -0.0253 V          ; 0.132 V                             ; 0.078 V                             ; 4.45e-10 s                 ; 4.26e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_TX_DE    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.33e-08 V                   ; 2.36 V              ; -0.0253 V           ; 0.132 V                              ; 0.078 V                              ; 4.45e-10 s                  ; 4.26e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.33e-08 V                  ; 2.36 V             ; -0.0253 V          ; 0.132 V                             ; 0.078 V                             ; 4.45e-10 s                 ; 4.26e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_TX_CLK   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.56e-08 V                   ; 2.43 V              ; -0.0617 V           ; 0.35 V                               ; 0.107 V                              ; 3.1e-10 s                   ; 4.28e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 1.56e-08 V                  ; 2.43 V             ; -0.0617 V          ; 0.35 V                              ; 0.107 V                             ; 3.1e-10 s                  ; 4.28e-10 s                 ; No                        ; No                        ;
-; HDMI_I2C_SCL  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.6e-08 V                    ; 2.42 V              ; -0.0509 V           ; 0.197 V                              ; 0.118 V                              ; 4.57e-10 s                  ; 4.47e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.6e-08 V                   ; 2.42 V             ; -0.0509 V          ; 0.197 V                             ; 0.118 V                             ; 4.57e-10 s                 ; 4.47e-10 s                 ; No                        ; Yes                       ;
-; READY         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.33e-08 V                   ; 2.36 V              ; -0.0253 V           ; 0.132 V                              ; 0.078 V                              ; 4.45e-10 s                  ; 4.26e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.33e-08 V                  ; 2.36 V             ; -0.0253 V          ; 0.132 V                             ; 0.078 V                             ; 4.45e-10 s                 ; 4.26e-10 s                 ; No                        ; Yes                       ;
+; HDMI_I2S0     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.6e-08 V                    ; 2.42 V              ; -0.0509 V           ; 0.197 V                              ; 0.118 V                              ; 4.57e-10 s                  ; 4.47e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.6e-08 V                   ; 2.42 V             ; -0.0509 V          ; 0.197 V                             ; 0.118 V                             ; 4.57e-10 s                 ; 4.47e-10 s                 ; No                        ; Yes                       ;
+; HDMI_MCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.33e-08 V                   ; 2.36 V              ; -0.0253 V           ; 0.132 V                              ; 0.078 V                              ; 4.45e-10 s                  ; 4.26e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.33e-08 V                  ; 2.36 V             ; -0.0253 V          ; 0.132 V                             ; 0.078 V                             ; 4.45e-10 s                 ; 4.26e-10 s                 ; No                        ; Yes                       ;
+; HDMI_LRCLK    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.6e-08 V                    ; 2.42 V              ; -0.0509 V           ; 0.197 V                              ; 0.118 V                              ; 4.57e-10 s                  ; 4.47e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.6e-08 V                   ; 2.42 V             ; -0.0509 V          ; 0.197 V                             ; 0.118 V                             ; 4.57e-10 s                 ; 4.47e-10 s                 ; No                        ; Yes                       ;
+; HDMI_SCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.33e-08 V                   ; 2.36 V              ; -0.0253 V           ; 0.132 V                              ; 0.078 V                              ; 4.45e-10 s                  ; 4.26e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.33e-08 V                  ; 2.36 V             ; -0.0253 V          ; 0.132 V                             ; 0.078 V                             ; 4.45e-10 s                 ; 4.26e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_I2C_SDA  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.56e-08 V                   ; 2.43 V              ; -0.0617 V           ; 0.35 V                               ; 0.107 V                              ; 3.1e-10 s                   ; 4.28e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 1.56e-08 V                  ; 2.43 V             ; -0.0617 V          ; 0.35 V                              ; 0.107 V                             ; 3.1e-10 s                  ; 4.28e-10 s                 ; No                        ; No                        ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -484,10 +485,8 @@ No synchronizer chains to report.
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
-; HDMI_I2S0     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.81e-05 V                   ; 2.37 V              ; -0.0242 V           ; 0.257 V                              ; 0.097 V                              ; 5.03e-10 s                  ; 6.18e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 4.81e-05 V                  ; 2.37 V             ; -0.0242 V          ; 0.257 V                             ; 0.097 V                             ; 5.03e-10 s                 ; 6.18e-10 s                 ; No                        ; Yes                       ;
-; HDMI_MCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.28e-05 V                   ; 2.34 V              ; -0.00773 V          ; 0.214 V                              ; 0.065 V                              ; 5.06e-10 s                  ; 5.4e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 4.28e-05 V                  ; 2.34 V             ; -0.00773 V         ; 0.214 V                             ; 0.065 V                             ; 5.06e-10 s                 ; 5.4e-10 s                  ; Yes                       ; Yes                       ;
-; HDMI_LRCLK    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.81e-05 V                   ; 2.37 V              ; -0.0242 V           ; 0.257 V                              ; 0.097 V                              ; 5.03e-10 s                  ; 6.18e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 4.81e-05 V                  ; 2.37 V             ; -0.0242 V          ; 0.257 V                             ; 0.097 V                             ; 5.03e-10 s                 ; 6.18e-10 s                 ; No                        ; Yes                       ;
-; HDMI_SCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.28e-05 V                   ; 2.34 V              ; -0.00773 V          ; 0.214 V                              ; 0.065 V                              ; 5.06e-10 s                  ; 5.4e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 4.28e-05 V                  ; 2.34 V             ; -0.00773 V         ; 0.214 V                             ; 0.065 V                             ; 5.06e-10 s                 ; 5.4e-10 s                  ; Yes                       ; Yes                       ;
+; HDMI_I2C_SCL  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.81e-05 V                   ; 2.37 V              ; -0.0242 V           ; 0.257 V                              ; 0.097 V                              ; 5.03e-10 s                  ; 6.18e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 4.81e-05 V                  ; 2.37 V             ; -0.0242 V          ; 0.257 V                             ; 0.097 V                             ; 5.03e-10 s                 ; 6.18e-10 s                 ; No                        ; Yes                       ;
+; READY         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.28e-05 V                   ; 2.34 V              ; -0.00773 V          ; 0.214 V                              ; 0.065 V                              ; 5.06e-10 s                  ; 5.4e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 4.28e-05 V                  ; 2.34 V             ; -0.00773 V         ; 0.214 V                             ; 0.065 V                             ; 5.06e-10 s                 ; 5.4e-10 s                  ; Yes                       ; Yes                       ;
 ; HDMI_TX_D[0]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.28e-05 V                   ; 2.34 V              ; -0.00773 V          ; 0.214 V                              ; 0.065 V                              ; 5.06e-10 s                  ; 5.4e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 4.28e-05 V                  ; 2.34 V             ; -0.00773 V         ; 0.214 V                             ; 0.065 V                             ; 5.06e-10 s                 ; 5.4e-10 s                  ; Yes                       ; Yes                       ;
 ; HDMI_TX_D[1]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.81e-05 V                   ; 2.37 V              ; -0.0242 V           ; 0.257 V                              ; 0.097 V                              ; 5.03e-10 s                  ; 6.18e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 4.81e-05 V                  ; 2.37 V             ; -0.0242 V          ; 0.257 V                             ; 0.097 V                             ; 5.03e-10 s                 ; 6.18e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_TX_D[2]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.81e-05 V                   ; 2.37 V              ; -0.0242 V           ; 0.257 V                              ; 0.097 V                              ; 5.03e-10 s                  ; 6.18e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 4.81e-05 V                  ; 2.37 V             ; -0.0242 V          ; 0.257 V                             ; 0.097 V                             ; 5.03e-10 s                 ; 6.18e-10 s                 ; No                        ; Yes                       ;
@@ -516,8 +515,10 @@ No synchronizer chains to report.
 ; HDMI_TX_HS    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.28e-05 V                   ; 2.34 V              ; -0.00773 V          ; 0.214 V                              ; 0.065 V                              ; 5.06e-10 s                  ; 5.4e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 4.28e-05 V                  ; 2.34 V             ; -0.00773 V         ; 0.214 V                             ; 0.065 V                             ; 5.06e-10 s                 ; 5.4e-10 s                  ; Yes                       ; Yes                       ;
 ; HDMI_TX_DE    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.28e-05 V                   ; 2.34 V              ; -0.00773 V          ; 0.214 V                              ; 0.065 V                              ; 5.06e-10 s                  ; 5.4e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 4.28e-05 V                  ; 2.34 V             ; -0.00773 V         ; 0.214 V                             ; 0.065 V                             ; 5.06e-10 s                 ; 5.4e-10 s                  ; Yes                       ; Yes                       ;
 ; HDMI_TX_CLK   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.73e-05 V                   ; 2.38 V              ; -0.0301 V           ; 0.21 V                               ; 0.2 V                                ; 4.78e-10 s                  ; 4.96e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 4.73e-05 V                  ; 2.38 V             ; -0.0301 V          ; 0.21 V                              ; 0.2 V                               ; 4.78e-10 s                 ; 4.96e-10 s                 ; No                        ; Yes                       ;
-; HDMI_I2C_SCL  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.81e-05 V                   ; 2.37 V              ; -0.0242 V           ; 0.257 V                              ; 0.097 V                              ; 5.03e-10 s                  ; 6.18e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 4.81e-05 V                  ; 2.37 V             ; -0.0242 V          ; 0.257 V                             ; 0.097 V                             ; 5.03e-10 s                 ; 6.18e-10 s                 ; No                        ; Yes                       ;
-; READY         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.28e-05 V                   ; 2.34 V              ; -0.00773 V          ; 0.214 V                              ; 0.065 V                              ; 5.06e-10 s                  ; 5.4e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 4.28e-05 V                  ; 2.34 V             ; -0.00773 V         ; 0.214 V                             ; 0.065 V                             ; 5.06e-10 s                 ; 5.4e-10 s                  ; Yes                       ; Yes                       ;
+; HDMI_I2S0     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.81e-05 V                   ; 2.37 V              ; -0.0242 V           ; 0.257 V                              ; 0.097 V                              ; 5.03e-10 s                  ; 6.18e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 4.81e-05 V                  ; 2.37 V             ; -0.0242 V          ; 0.257 V                             ; 0.097 V                             ; 5.03e-10 s                 ; 6.18e-10 s                 ; No                        ; Yes                       ;
+; HDMI_MCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.28e-05 V                   ; 2.34 V              ; -0.00773 V          ; 0.214 V                              ; 0.065 V                              ; 5.06e-10 s                  ; 5.4e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 4.28e-05 V                  ; 2.34 V             ; -0.00773 V         ; 0.214 V                             ; 0.065 V                             ; 5.06e-10 s                 ; 5.4e-10 s                  ; Yes                       ; Yes                       ;
+; HDMI_LRCLK    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.81e-05 V                   ; 2.37 V              ; -0.0242 V           ; 0.257 V                              ; 0.097 V                              ; 5.03e-10 s                  ; 6.18e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 4.81e-05 V                  ; 2.37 V             ; -0.0242 V          ; 0.257 V                             ; 0.097 V                             ; 5.03e-10 s                 ; 6.18e-10 s                 ; No                        ; Yes                       ;
+; HDMI_SCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.28e-05 V                   ; 2.34 V              ; -0.00773 V          ; 0.214 V                              ; 0.065 V                              ; 5.06e-10 s                  ; 5.4e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 4.28e-05 V                  ; 2.34 V             ; -0.00773 V         ; 0.214 V                             ; 0.065 V                             ; 5.06e-10 s                 ; 5.4e-10 s                  ; Yes                       ; Yes                       ;
 ; HDMI_I2C_SDA  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.73e-05 V                   ; 2.38 V              ; -0.0301 V           ; 0.21 V                               ; 0.2 V                                ; 4.78e-10 s                  ; 4.96e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 4.73e-05 V                  ; 2.38 V             ; -0.0301 V          ; 0.21 V                              ; 0.2 V                               ; 4.78e-10 s                 ; 4.96e-10 s                 ; No                        ; Yes                       ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -527,10 +528,8 @@ No synchronizer chains to report.
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
-; HDMI_I2S0     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 2.45e-07 V                   ; 2.93 V              ; -0.127 V            ; 0.351 V                              ; 0.317 V                              ; 2.74e-10 s                  ; 2.82e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 2.45e-07 V                  ; 2.93 V             ; -0.127 V           ; 0.351 V                             ; 0.317 V                             ; 2.74e-10 s                 ; 2.82e-10 s                 ; No                        ; No                        ;
-; HDMI_MCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 1.99e-07 V                   ; 2.83 V              ; -0.0718 V           ; 0.269 V                              ; 0.234 V                              ; 2.77e-10 s                  ; 2.75e-10 s                  ; Yes                        ; Yes                        ; 2.75 V                      ; 1.99e-07 V                  ; 2.83 V             ; -0.0718 V          ; 0.269 V                             ; 0.234 V                             ; 2.77e-10 s                 ; 2.75e-10 s                 ; Yes                       ; Yes                       ;
-; HDMI_LRCLK    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 2.45e-07 V                   ; 2.93 V              ; -0.127 V            ; 0.351 V                              ; 0.317 V                              ; 2.74e-10 s                  ; 2.82e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 2.45e-07 V                  ; 2.93 V             ; -0.127 V           ; 0.351 V                             ; 0.317 V                             ; 2.74e-10 s                 ; 2.82e-10 s                 ; No                        ; No                        ;
-; HDMI_SCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 1.99e-07 V                   ; 2.83 V              ; -0.0718 V           ; 0.269 V                              ; 0.234 V                              ; 2.77e-10 s                  ; 2.75e-10 s                  ; Yes                        ; Yes                        ; 2.75 V                      ; 1.99e-07 V                  ; 2.83 V             ; -0.0718 V          ; 0.269 V                             ; 0.234 V                             ; 2.77e-10 s                 ; 2.75e-10 s                 ; Yes                       ; Yes                       ;
+; HDMI_I2C_SCL  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 2.45e-07 V                   ; 2.93 V              ; -0.127 V            ; 0.351 V                              ; 0.317 V                              ; 2.74e-10 s                  ; 2.82e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 2.45e-07 V                  ; 2.93 V             ; -0.127 V           ; 0.351 V                             ; 0.317 V                             ; 2.74e-10 s                 ; 2.82e-10 s                 ; No                        ; No                        ;
+; READY         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 1.99e-07 V                   ; 2.83 V              ; -0.0718 V           ; 0.269 V                              ; 0.234 V                              ; 2.77e-10 s                  ; 2.75e-10 s                  ; Yes                        ; Yes                        ; 2.75 V                      ; 1.99e-07 V                  ; 2.83 V             ; -0.0718 V          ; 0.269 V                             ; 0.234 V                             ; 2.77e-10 s                 ; 2.75e-10 s                 ; Yes                       ; Yes                       ;
 ; HDMI_TX_D[0]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 1.99e-07 V                   ; 2.83 V              ; -0.0718 V           ; 0.269 V                              ; 0.234 V                              ; 2.77e-10 s                  ; 2.75e-10 s                  ; Yes                        ; Yes                        ; 2.75 V                      ; 1.99e-07 V                  ; 2.83 V             ; -0.0718 V          ; 0.269 V                             ; 0.234 V                             ; 2.77e-10 s                 ; 2.75e-10 s                 ; Yes                       ; Yes                       ;
 ; HDMI_TX_D[1]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 2.45e-07 V                   ; 2.93 V              ; -0.127 V            ; 0.351 V                              ; 0.317 V                              ; 2.74e-10 s                  ; 2.82e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 2.45e-07 V                  ; 2.93 V             ; -0.127 V           ; 0.351 V                             ; 0.317 V                             ; 2.74e-10 s                 ; 2.82e-10 s                 ; No                        ; No                        ;
 ; HDMI_TX_D[2]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 2.45e-07 V                   ; 2.93 V              ; -0.127 V            ; 0.351 V                              ; 0.317 V                              ; 2.74e-10 s                  ; 2.82e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 2.45e-07 V                  ; 2.93 V             ; -0.127 V           ; 0.351 V                             ; 0.317 V                             ; 2.74e-10 s                 ; 2.82e-10 s                 ; No                        ; No                        ;
@@ -559,8 +558,10 @@ No synchronizer chains to report.
 ; HDMI_TX_HS    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 1.99e-07 V                   ; 2.83 V              ; -0.0718 V           ; 0.269 V                              ; 0.234 V                              ; 2.77e-10 s                  ; 2.75e-10 s                  ; Yes                        ; Yes                        ; 2.75 V                      ; 1.99e-07 V                  ; 2.83 V             ; -0.0718 V          ; 0.269 V                             ; 0.234 V                             ; 2.77e-10 s                 ; 2.75e-10 s                 ; Yes                       ; Yes                       ;
 ; HDMI_TX_DE    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 1.99e-07 V                   ; 2.83 V              ; -0.0718 V           ; 0.269 V                              ; 0.234 V                              ; 2.77e-10 s                  ; 2.75e-10 s                  ; Yes                        ; Yes                        ; 2.75 V                      ; 1.99e-07 V                  ; 2.83 V             ; -0.0718 V          ; 0.269 V                             ; 0.234 V                             ; 2.77e-10 s                 ; 2.75e-10 s                 ; Yes                       ; Yes                       ;
 ; HDMI_TX_CLK   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 2.38e-07 V                   ; 2.94 V              ; -0.135 V            ; 0.31 V                               ; 0.268 V                              ; 2.65e-10 s                  ; 2.64e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 2.38e-07 V                  ; 2.94 V             ; -0.135 V           ; 0.31 V                              ; 0.268 V                             ; 2.65e-10 s                 ; 2.64e-10 s                 ; No                        ; Yes                       ;
-; HDMI_I2C_SCL  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 2.45e-07 V                   ; 2.93 V              ; -0.127 V            ; 0.351 V                              ; 0.317 V                              ; 2.74e-10 s                  ; 2.82e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 2.45e-07 V                  ; 2.93 V             ; -0.127 V           ; 0.351 V                             ; 0.317 V                             ; 2.74e-10 s                 ; 2.82e-10 s                 ; No                        ; No                        ;
-; READY         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 1.99e-07 V                   ; 2.83 V              ; -0.0718 V           ; 0.269 V                              ; 0.234 V                              ; 2.77e-10 s                  ; 2.75e-10 s                  ; Yes                        ; Yes                        ; 2.75 V                      ; 1.99e-07 V                  ; 2.83 V             ; -0.0718 V          ; 0.269 V                             ; 0.234 V                             ; 2.77e-10 s                 ; 2.75e-10 s                 ; Yes                       ; Yes                       ;
+; HDMI_I2S0     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 2.45e-07 V                   ; 2.93 V              ; -0.127 V            ; 0.351 V                              ; 0.317 V                              ; 2.74e-10 s                  ; 2.82e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 2.45e-07 V                  ; 2.93 V             ; -0.127 V           ; 0.351 V                             ; 0.317 V                             ; 2.74e-10 s                 ; 2.82e-10 s                 ; No                        ; No                        ;
+; HDMI_MCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 1.99e-07 V                   ; 2.83 V              ; -0.0718 V           ; 0.269 V                              ; 0.234 V                              ; 2.77e-10 s                  ; 2.75e-10 s                  ; Yes                        ; Yes                        ; 2.75 V                      ; 1.99e-07 V                  ; 2.83 V             ; -0.0718 V          ; 0.269 V                             ; 0.234 V                             ; 2.77e-10 s                 ; 2.75e-10 s                 ; Yes                       ; Yes                       ;
+; HDMI_LRCLK    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 2.45e-07 V                   ; 2.93 V              ; -0.127 V            ; 0.351 V                              ; 0.317 V                              ; 2.74e-10 s                  ; 2.82e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 2.45e-07 V                  ; 2.93 V             ; -0.127 V           ; 0.351 V                             ; 0.317 V                             ; 2.74e-10 s                 ; 2.82e-10 s                 ; No                        ; No                        ;
+; HDMI_SCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 1.99e-07 V                   ; 2.83 V              ; -0.0718 V           ; 0.269 V                              ; 0.234 V                              ; 2.77e-10 s                  ; 2.75e-10 s                  ; Yes                        ; Yes                        ; 2.75 V                      ; 1.99e-07 V                  ; 2.83 V             ; -0.0718 V          ; 0.269 V                             ; 0.234 V                             ; 2.77e-10 s                 ; 2.75e-10 s                 ; Yes                       ; Yes                       ;
 ; HDMI_I2C_SDA  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 2.38e-07 V                   ; 2.94 V              ; -0.135 V            ; 0.31 V                               ; 0.268 V                              ; 2.65e-10 s                  ; 2.64e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 2.38e-07 V                  ; 2.94 V             ; -0.135 V           ; 0.31 V                              ; 0.268 V                             ; 2.65e-10 s                 ; 2.64e-10 s                 ; No                        ; Yes                       ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -570,10 +571,8 @@ No synchronizer chains to report.
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
-; HDMI_I2S0     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000419 V                   ; 2.85 V              ; -0.0671 V           ; 0.203 V                              ; 0.19 V                               ; 4.57e-10 s                  ; 4.54e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000419 V                  ; 2.85 V             ; -0.0671 V          ; 0.203 V                             ; 0.19 V                              ; 4.57e-10 s                 ; 4.54e-10 s                 ; No                        ; No                        ;
-; HDMI_MCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000362 V                   ; 2.79 V              ; -0.0303 V           ; 0.139 V                              ; 0.127 V                              ; 4.44e-10 s                  ; 4.38e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000362 V                  ; 2.79 V             ; -0.0303 V          ; 0.139 V                             ; 0.127 V                             ; 4.44e-10 s                 ; 4.38e-10 s                 ; No                        ; Yes                       ;
-; HDMI_LRCLK    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000419 V                   ; 2.85 V              ; -0.0671 V           ; 0.203 V                              ; 0.19 V                               ; 4.57e-10 s                  ; 4.54e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000419 V                  ; 2.85 V             ; -0.0671 V          ; 0.203 V                             ; 0.19 V                              ; 4.57e-10 s                 ; 4.54e-10 s                 ; No                        ; No                        ;
-; HDMI_SCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000362 V                   ; 2.79 V              ; -0.0303 V           ; 0.139 V                              ; 0.127 V                              ; 4.44e-10 s                  ; 4.38e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000362 V                  ; 2.79 V             ; -0.0303 V          ; 0.139 V                             ; 0.127 V                             ; 4.44e-10 s                 ; 4.38e-10 s                 ; No                        ; Yes                       ;
+; HDMI_I2C_SCL  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000419 V                   ; 2.85 V              ; -0.0671 V           ; 0.203 V                              ; 0.19 V                               ; 4.57e-10 s                  ; 4.54e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000419 V                  ; 2.85 V             ; -0.0671 V          ; 0.203 V                             ; 0.19 V                              ; 4.57e-10 s                 ; 4.54e-10 s                 ; No                        ; No                        ;
+; READY         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000362 V                   ; 2.79 V              ; -0.0303 V           ; 0.139 V                              ; 0.127 V                              ; 4.44e-10 s                  ; 4.38e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000362 V                  ; 2.79 V             ; -0.0303 V          ; 0.139 V                             ; 0.127 V                             ; 4.44e-10 s                 ; 4.38e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_TX_D[0]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000362 V                   ; 2.79 V              ; -0.0303 V           ; 0.139 V                              ; 0.127 V                              ; 4.44e-10 s                  ; 4.38e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000362 V                  ; 2.79 V             ; -0.0303 V          ; 0.139 V                             ; 0.127 V                             ; 4.44e-10 s                 ; 4.38e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_TX_D[1]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000419 V                   ; 2.85 V              ; -0.0671 V           ; 0.203 V                              ; 0.19 V                               ; 4.57e-10 s                  ; 4.54e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000419 V                  ; 2.85 V             ; -0.0671 V          ; 0.203 V                             ; 0.19 V                              ; 4.57e-10 s                 ; 4.54e-10 s                 ; No                        ; No                        ;
 ; HDMI_TX_D[2]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000419 V                   ; 2.85 V              ; -0.0671 V           ; 0.203 V                              ; 0.19 V                               ; 4.57e-10 s                  ; 4.54e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000419 V                  ; 2.85 V             ; -0.0671 V          ; 0.203 V                             ; 0.19 V                              ; 4.57e-10 s                 ; 4.54e-10 s                 ; No                        ; No                        ;
@@ -602,35 +601,39 @@ No synchronizer chains to report.
 ; HDMI_TX_HS    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000362 V                   ; 2.79 V              ; -0.0303 V           ; 0.139 V                              ; 0.127 V                              ; 4.44e-10 s                  ; 4.38e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000362 V                  ; 2.79 V             ; -0.0303 V          ; 0.139 V                             ; 0.127 V                             ; 4.44e-10 s                 ; 4.38e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_TX_DE    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000362 V                   ; 2.79 V              ; -0.0303 V           ; 0.139 V                              ; 0.127 V                              ; 4.44e-10 s                  ; 4.38e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000362 V                  ; 2.79 V             ; -0.0303 V          ; 0.139 V                             ; 0.127 V                             ; 4.44e-10 s                 ; 4.38e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_TX_CLK   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.00041 V                    ; 2.85 V              ; -0.076 V            ; 0.363 V                              ; 0.16 V                               ; 3.08e-10 s                  ; 4.37e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.00041 V                   ; 2.85 V             ; -0.076 V           ; 0.363 V                             ; 0.16 V                              ; 3.08e-10 s                 ; 4.37e-10 s                 ; No                        ; No                        ;
-; HDMI_I2C_SCL  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000419 V                   ; 2.85 V              ; -0.0671 V           ; 0.203 V                              ; 0.19 V                               ; 4.57e-10 s                  ; 4.54e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000419 V                  ; 2.85 V             ; -0.0671 V          ; 0.203 V                             ; 0.19 V                              ; 4.57e-10 s                 ; 4.54e-10 s                 ; No                        ; No                        ;
-; READY         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000362 V                   ; 2.79 V              ; -0.0303 V           ; 0.139 V                              ; 0.127 V                              ; 4.44e-10 s                  ; 4.38e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000362 V                  ; 2.79 V             ; -0.0303 V          ; 0.139 V                             ; 0.127 V                             ; 4.44e-10 s                 ; 4.38e-10 s                 ; No                        ; Yes                       ;
+; HDMI_I2S0     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000419 V                   ; 2.85 V              ; -0.0671 V           ; 0.203 V                              ; 0.19 V                               ; 4.57e-10 s                  ; 4.54e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000419 V                  ; 2.85 V             ; -0.0671 V          ; 0.203 V                             ; 0.19 V                              ; 4.57e-10 s                 ; 4.54e-10 s                 ; No                        ; No                        ;
+; HDMI_MCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000362 V                   ; 2.79 V              ; -0.0303 V           ; 0.139 V                              ; 0.127 V                              ; 4.44e-10 s                  ; 4.38e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000362 V                  ; 2.79 V             ; -0.0303 V          ; 0.139 V                             ; 0.127 V                             ; 4.44e-10 s                 ; 4.38e-10 s                 ; No                        ; Yes                       ;
+; HDMI_LRCLK    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000419 V                   ; 2.85 V              ; -0.0671 V           ; 0.203 V                              ; 0.19 V                               ; 4.57e-10 s                  ; 4.54e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000419 V                  ; 2.85 V             ; -0.0671 V          ; 0.203 V                             ; 0.19 V                              ; 4.57e-10 s                 ; 4.54e-10 s                 ; No                        ; No                        ;
+; HDMI_SCLK     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000362 V                   ; 2.79 V              ; -0.0303 V           ; 0.139 V                              ; 0.127 V                              ; 4.44e-10 s                  ; 4.38e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000362 V                  ; 2.79 V             ; -0.0303 V          ; 0.139 V                             ; 0.127 V                             ; 4.44e-10 s                 ; 4.38e-10 s                 ; No                        ; Yes                       ;
 ; HDMI_I2C_SDA  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.00041 V                    ; 2.85 V              ; -0.076 V            ; 0.363 V                              ; 0.16 V                               ; 3.08e-10 s                  ; 4.37e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.00041 V                   ; 2.85 V             ; -0.076 V           ; 0.363 V                             ; 0.16 V                              ; 3.08e-10 s                 ; 4.37e-10 s                 ; No                        ; No                        ;
 +---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup Transfers                                                                                                                                                                                   ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
-; From Clock                                                                ; To Clock                                                                  ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
-; clk50                                                                     ; clk50                                                                     ; 410      ; 0        ; 0        ; 0        ;
-; i2c_20k_clock                                                             ; clk50                                                                     ; 1        ; 1        ; 0        ; 0        ;
-; i2c_20k_clock                                                             ; i2c_20k_clock                                                             ; 798      ; 0        ; 0        ; 0        ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 619      ; 0        ; 0        ; 0        ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup Transfers                                                                                                                                                                                       ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+--------------+----------+----------+----------+
+; From Clock                                                                ; To Clock                                                                  ; RR Paths     ; FR Paths ; RF Paths ; FF Paths ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+--------------+----------+----------+----------+
+; clk50                                                                     ; clk50                                                                     ; > 2147483647 ; 28101    ; 437834   ; 0        ;
+; i2c_20k_clock                                                             ; clk50                                                                     ; 1            ; 1        ; 0        ; 0        ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; clk50                                                                     ; 0            ; 0        ; 410530   ; 0        ;
+; i2c_20k_clock                                                             ; i2c_20k_clock                                                             ; 809          ; 0        ; 0        ; 0        ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 689          ; 0        ; 0        ; 0        ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+--------------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold Transfers                                                                                                                                                                                    ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
-; From Clock                                                                ; To Clock                                                                  ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
-; clk50                                                                     ; clk50                                                                     ; 410      ; 0        ; 0        ; 0        ;
-; i2c_20k_clock                                                             ; clk50                                                                     ; 1        ; 1        ; 0        ; 0        ;
-; i2c_20k_clock                                                             ; i2c_20k_clock                                                             ; 798      ; 0        ; 0        ; 0        ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 619      ; 0        ; 0        ; 0        ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+----------+----------+----------+----------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold Transfers                                                                                                                                                                                        ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+--------------+----------+----------+----------+
+; From Clock                                                                ; To Clock                                                                  ; RR Paths     ; FR Paths ; RF Paths ; FF Paths ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+--------------+----------+----------+----------+
+; clk50                                                                     ; clk50                                                                     ; > 2147483647 ; 28101    ; 437834   ; 0        ;
+; i2c_20k_clock                                                             ; clk50                                                                     ; 1            ; 1        ; 0        ; 0        ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; clk50                                                                     ; 0            ; 0        ; 410530   ; 0        ;
+; i2c_20k_clock                                                             ; i2c_20k_clock                                                             ; 809          ; 0        ; 0        ; 0        ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 689          ; 0        ; 0        ; 0        ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+--------------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
 
@@ -652,24 +655,25 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Property                        ; Setup ; Hold ;
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
-; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Clocks            ; 1     ; 1    ;
 ; Unconstrained Input Ports       ; 3     ; 3    ;
-; Unconstrained Input Port Paths  ; 79    ; 79   ;
-; Unconstrained Output Ports      ; 7     ; 7    ;
-; Unconstrained Output Port Paths ; 7     ; 7    ;
+; Unconstrained Input Port Paths  ; 6364  ; 6364 ;
+; Unconstrained Output Ports      ; 31    ; 31   ;
+; Unconstrained Output Port Paths ; 31    ; 31   ;
 +---------------------------------+-------+------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Clock Status Summary                                                                                                                                                            ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+-------------+
-; Target                                                                    ; Clock                                                                     ; Type      ; Status      ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+-------------+
-; I2C_HDMI_Config:I2C_HDMI_Config|mI2C_CTRL_CLK                             ; i2c_20k_clock                                                             ; Base      ; Constrained ;
-; clock50                                                                   ; clk50                                                                     ; Base      ; Constrained ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; Generated ; Constrained ;
-; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; Constrained ;
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+-------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Status Summary                                                                                                                                                              ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+---------------+
+; Target                                                                    ; Clock                                                                     ; Type      ; Status        ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+---------------+
+; I2C_HDMI_Config:I2C_HDMI_Config|mI2C_CTRL_CLK                             ; i2c_20k_clock                                                             ; Base      ; Constrained   ;
+; clock50                                                                   ; clk50                                                                     ; Base      ; Constrained   ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; Generated ; Constrained   ;
+; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; Constrained   ;
+; vgaHdmi:vgaHdmi|vgaClock                                                  ;                                                                           ; Base      ; Unconstrained ;
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+---------------+
 
 
 +-----------------------------------------------------------------------------------------------------+
@@ -683,19 +687,43 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +--------------+--------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------+
-; Unconstrained Output Ports                                                                           ;
-+--------------+---------------------------------------------------------------------------------------+
-; Output Port  ; Comment                                                                               ;
-+--------------+---------------------------------------------------------------------------------------+
-; HDMI_I2C_SCL ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_I2C_SDA ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_CLK  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_DE   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_HS   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_VS   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; READY        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-+--------------+---------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                            ;
++---------------+---------------------------------------------------------------------------------------+
+; Output Port   ; Comment                                                                               ;
++---------------+---------------------------------------------------------------------------------------+
+; HDMI_I2C_SCL  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_I2C_SDA  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_CLK   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_DE    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[0]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[1]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[2]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[3]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[4]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[5]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[6]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[7]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[8]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[9]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[10] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[11] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[12] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[13] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[14] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[15] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[16] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[17] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[18] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[19] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[20] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[21] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[22] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[23] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_HS    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_VS    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; READY         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++---------------+---------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------+
@@ -709,19 +737,43 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +--------------+--------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------+
-; Unconstrained Output Ports                                                                           ;
-+--------------+---------------------------------------------------------------------------------------+
-; Output Port  ; Comment                                                                               ;
-+--------------+---------------------------------------------------------------------------------------+
-; HDMI_I2C_SCL ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_I2C_SDA ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_CLK  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_DE   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_HS   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; HDMI_TX_VS   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; READY        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
-+--------------+---------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                            ;
++---------------+---------------------------------------------------------------------------------------+
+; Output Port   ; Comment                                                                               ;
++---------------+---------------------------------------------------------------------------------------+
+; HDMI_I2C_SCL  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_I2C_SDA  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_CLK   ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_DE    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[0]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[1]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[2]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[3]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[4]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[5]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[6]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[7]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[8]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[9]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[10] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[11] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[12] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[13] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[14] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[15] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[16] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[17] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[18] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[19] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[20] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[21] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[22] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_D[23] ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_HS    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; HDMI_TX_VS    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; READY         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++---------------+---------------------------------------------------------------------------------------+
 
 
 +--------------------------+
@@ -730,7 +782,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Mon Nov 20 01:18:08 2023
+    Info: Processing started: Tue Nov 21 02:36:25 2023
 Info: Command: quartus_sta vgaHdmi -c vgaHdmi
 Info: qsta_default_script.tcl version: #1
 Warning (12473): User specified to use only one processors but 4 processors were detected which could be used to decrease run time.
@@ -741,6 +793,8 @@ Info (332110): Deriving PLL clocks
     Info (332110): create_generated_clock -source {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin} -divide_by 2 -multiply_by 12 -duty_cycle 50.00 -name {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]} {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]}
     Info (332110): create_generated_clock -source {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|vco0ph[0]} -divide_by 12 -duty_cycle 50.00 -name {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk} {pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk}
 Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
+Warning (332060): Node: vgaHdmi:vgaHdmi|vgaClock was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register pixelPrinter:pixelPrinter|blue[0] is being clocked by vgaHdmi:vgaHdmi|vgaClock
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
@@ -748,118 +802,132 @@ Info (332097): The following timing edges are non-unate.  The Timing Analyzer wi
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1100mV 100C Model
-Info (332146): Worst-case setup slack is 11.348
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -70.754
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    11.348               0.000 clk50 
-    Info (332119):    36.689               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 49994.330               0.000 i2c_20k_clock 
-Info (332146): Worst-case hold slack is 0.263
+    Info (332119):   -70.754          -34538.941 clk50 
+    Info (332119):    29.537               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 49993.493               0.000 i2c_20k_clock 
+Info (332146): Worst-case hold slack is 0.370
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.263               0.000 clk50 
-    Info (332119):     0.352               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     0.618               0.000 i2c_20k_clock 
+    Info (332119):     0.370               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.411               0.000 clk50 
+    Info (332119):     0.778               0.000 i2c_20k_clock 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is 1.666
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     1.666               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
-    Info (332119):     8.859               0.000 clk50 
-    Info (332119):    19.267               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 24999.239               0.000 i2c_20k_clock 
+    Info (332119):     8.612               0.000 clk50 
+    Info (332119):    19.275               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 24999.269               0.000 i2c_20k_clock 
 Info: Analyzing Slow 1100mV -40C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
+Warning (332060): Node: vgaHdmi:vgaHdmi|vgaClock was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register pixelPrinter:pixelPrinter|blue[0] is being clocked by vgaHdmi:vgaHdmi|vgaClock
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 11.163
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -75.272
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    11.163               0.000 clk50 
-    Info (332119):    36.652               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 49994.319               0.000 i2c_20k_clock 
-Info (332146): Worst-case hold slack is 0.249
+    Info (332119):   -75.272          -32639.641 clk50 
+    Info (332119):    30.197               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 49993.379               0.000 i2c_20k_clock 
+Info (332146): Worst-case hold slack is 0.353
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.249               0.000 clk50 
-    Info (332119):     0.336               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     0.627               0.000 i2c_20k_clock 
+    Info (332119):     0.353               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.372               0.000 clk50 
+    Info (332119):     0.772               0.000 i2c_20k_clock 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is 1.666
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     1.666               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
-    Info (332119):     8.916               0.000 clk50 
-    Info (332119):    19.193               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 24999.256               0.000 i2c_20k_clock 
+    Info (332119):     8.532               0.000 clk50 
+    Info (332119):    19.198               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 24999.315               0.000 i2c_20k_clock 
 Info: Analyzing Fast 1100mV 100C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
+Warning (332060): Node: vgaHdmi:vgaHdmi|vgaClock was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register pixelPrinter:pixelPrinter|blue[0] is being clocked by vgaHdmi:vgaHdmi|vgaClock
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 14.737
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -25.288
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    14.737               0.000 clk50 
-    Info (332119):    38.532               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 49996.739               0.000 i2c_20k_clock 
-Info (332146): Worst-case hold slack is 0.138
+    Info (332119):   -25.288           -5120.349 clk50 
+    Info (332119):    33.541               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 49996.365               0.000 i2c_20k_clock 
+Info (332146): Worst-case hold slack is 0.195
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.138               0.000 clk50 
-    Info (332119):     0.193               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     0.232               0.000 i2c_20k_clock 
+    Info (332119):     0.195               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.203               0.000 clk50 
+    Info (332119):     0.322               0.000 i2c_20k_clock 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is 1.666
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     1.666               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
-    Info (332119):     8.970               0.000 clk50 
-    Info (332119):    19.557               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 24999.550               0.000 i2c_20k_clock 
+    Info (332119):     8.782               0.000 clk50 
+    Info (332119):    19.559               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 24999.581               0.000 i2c_20k_clock 
 Info: Analyzing Fast 1100mV -40C Model
+Warning (332060): Node: vgaHdmi:vgaHdmi|vgaClock was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register pixelPrinter:pixelPrinter|blue[0] is being clocked by vgaHdmi:vgaHdmi|vgaClock
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
     Info (332098): Cell: pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 15.479
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -20.896
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    15.479               0.000 clk50 
-    Info (332119):    38.682               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 49997.204               0.000 i2c_20k_clock 
-Info (332146): Worst-case hold slack is 0.123
+    Info (332119):   -20.896           -4266.224 clk50 
+    Info (332119):    34.742               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 49996.820               0.000 i2c_20k_clock 
+Info (332146): Worst-case hold slack is 0.175
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.123               0.000 clk50 
-    Info (332119):     0.168               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     0.187               0.000 i2c_20k_clock 
+    Info (332119):     0.175               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.187               0.000 clk50 
+    Info (332119):     0.279               0.000 i2c_20k_clock 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is 1.666
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     1.666               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
-    Info (332119):     9.045               0.000 clk50 
-    Info (332119):    19.547               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119): 24999.589               0.000 i2c_20k_clock 
+    Info (332119):     8.773               0.000 clk50 
+    Info (332119):    19.548               0.000 pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119): 24999.622               0.000 i2c_20k_clock 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
-Info: Quartus Prime Timing Analyzer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 847 megabytes
-    Info: Processing ended: Mon Nov 20 01:18:14 2023
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:06
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 9 warnings
+    Info: Peak virtual memory: 1320 megabytes
+    Info: Processing ended: Tue Nov 21 02:38:28 2023
+    Info: Elapsed time: 00:02:03
+    Info: Total CPU time (on all processors): 00:02:02
 
 

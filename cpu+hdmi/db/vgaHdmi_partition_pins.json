@@ -4,15 +4,11 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "HDMI_TX_VS",
+					"name" : "HDMI_I2C_SCL",
 					"strict" : false
 				},
 				{
-					"name" : "HDMI_TX_HS",
-					"strict" : false
-				},
-				{
-					"name" : "HDMI_TX_DE",
+					"name" : "READY",
 					"strict" : false
 				},
 				{
@@ -112,15 +108,19 @@
 					"strict" : false
 				},
 				{
+					"name" : "HDMI_TX_VS",
+					"strict" : false
+				},
+				{
+					"name" : "HDMI_TX_HS",
+					"strict" : false
+				},
+				{
+					"name" : "HDMI_TX_DE",
+					"strict" : false
+				},
+				{
 					"name" : "HDMI_TX_CLK",
-					"strict" : false
-				},
-				{
-					"name" : "HDMI_I2C_SCL",
-					"strict" : false
-				},
-				{
-					"name" : "READY",
 					"strict" : false
 				},
 				{
@@ -128,15 +128,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "clock50",
-					"strict" : false
-				},
-				{
 					"name" : "reset_n",
 					"strict" : false
 				},
 				{
-					"name" : "switch",
+					"name" : "clock50",
 					"strict" : false
 				},
 				{

@@ -12,7 +12,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:42:25 on Nov 20,2023
+# Start time: 02:16:11 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -94,5 +94,1649 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 12:42:26 on Nov 20,2023, Elapsed time: 0:00:01
+# End time: 02:16:12 on Nov 21,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/lpm_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/lpm_ver".
+# vmap lpm_ver ./verilog_libs/lpm_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap lpm_ver ./verilog_libs/lpm_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work lpm_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/220model.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:13 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work lpm_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/220model.v 
+# -- Compiling module LPM_MEMORY_INITIALIZATION
+# -- Compiling module LPM_HINT_EVALUATION
+# -- Compiling module LPM_DEVICE_FAMILIES
+# -- Compiling module lpm_constant
+# -- Compiling module lpm_inv
+# -- Compiling module lpm_and
+# -- Compiling module lpm_or
+# -- Compiling module lpm_xor
+# -- Compiling module lpm_bustri
+# -- Compiling module lpm_mux
+# -- Compiling module lpm_decode
+# -- Compiling module lpm_clshift
+# -- Compiling module lpm_add_sub
+# -- Compiling module lpm_compare
+# -- Compiling module lpm_mult
+# -- Compiling module lpm_divide
+# -- Compiling module lpm_abs
+# -- Compiling module lpm_counter
+# -- Compiling module lpm_latch
+# -- Compiling module lpm_ff
+# -- Compiling module lpm_shiftreg
+# -- Compiling module lpm_ram_dq
+# -- Compiling module lpm_ram_dp
+# -- Compiling module lpm_ram_io
+# -- Compiling module lpm_rom
+# -- Compiling module lpm_fifo
+# -- Compiling module lpm_fifo_dc_dffpipe
+# -- Compiling module lpm_fifo_dc_fefifo
+# -- Compiling module lpm_fifo_dc_async
+# -- Compiling module lpm_fifo_dc
+# -- Compiling module lpm_inpad
+# -- Compiling module lpm_outpad
+# -- Compiling module lpm_bipad
+# 
+# Top level modules:
+# 	lpm_constant
+# 	lpm_inv
+# 	lpm_and
+# 	lpm_or
+# 	lpm_xor
+# 	lpm_bustri
+# 	lpm_mux
+# 	lpm_decode
+# 	lpm_clshift
+# 	lpm_add_sub
+# 	lpm_compare
+# 	lpm_mult
+# 	lpm_divide
+# 	lpm_abs
+# 	lpm_counter
+# 	lpm_latch
+# 	lpm_ff
+# 	lpm_shiftreg
+# 	lpm_ram_dq
+# 	lpm_ram_dp
+# 	lpm_ram_io
+# 	lpm_rom
+# 	lpm_fifo
+# 	lpm_fifo_dc
+# 	lpm_inpad
+# 	lpm_outpad
+# 	lpm_bipad
+# End time: 02:16:13 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/sgate_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/sgate_ver".
+# vmap sgate_ver ./verilog_libs/sgate_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap sgate_ver ./verilog_libs/sgate_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work sgate_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/sgate.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:13 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work sgate_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/sgate.v 
+# -- Compiling module oper_add
+# -- Compiling module oper_addsub
+# -- Compiling module mux21
+# -- Compiling module io_buf_tri
+# -- Compiling module io_buf_opdrn
+# -- Compiling module oper_mult
+# -- Compiling module tri_bus
+# -- Compiling module oper_div
+# -- Compiling module oper_mod
+# -- Compiling module oper_left_shift
+# -- Compiling module oper_right_shift
+# -- Compiling module oper_rotate_left
+# -- Compiling module oper_rotate_right
+# -- Compiling module oper_less_than
+# -- Compiling module oper_mux
+# -- Compiling module oper_selector
+# -- Compiling module oper_decoder
+# -- Compiling module oper_bus_mux
+# -- Compiling module oper_latch
+# 
+# Top level modules:
+# 	oper_add
+# 	oper_addsub
+# 	mux21
+# 	io_buf_tri
+# 	io_buf_opdrn
+# 	oper_mult
+# 	tri_bus
+# 	oper_div
+# 	oper_mod
+# 	oper_left_shift
+# 	oper_right_shift
+# 	oper_rotate_left
+# 	oper_rotate_right
+# 	oper_less_than
+# 	oper_mux
+# 	oper_selector
+# 	oper_decoder
+# 	oper_bus_mux
+# 	oper_latch
+# End time: 02:16:13 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_mf_ver".
+# vmap altera_mf_ver ./verilog_libs/altera_mf_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_mf_ver ./verilog_libs/altera_mf_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work altera_mf_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:13 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work altera_mf_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 02:16:14 on Nov 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_lnsim_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_lnsim_ver".
+# vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver 
+# Modifying modelsim.ini
+# vlog -sv -work altera_lnsim_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:14 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work altera_lnsim_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
+# -- Compiling package altera_lnsim_functions
+# -- Compiling package altera_generic_pll_functions
+# -- Compiling module generic_pll
+# -- Importing package altera_lnsim_functions
+# -- Importing package altera_generic_pll_functions
+# -- Compiling module generic_cdr
+# -- Compiling module common_28nm_ram_pulse_generator
+# -- Compiling module common_28nm_ram_register
+# -- Compiling module common_28nm_ram_block
+# -- Compiling module generic_m20k
+# -- Compiling module generic_m10k
+# -- Compiling module common_28nm_mlab_cell_pulse_generator
+# -- Compiling module common_28nm_mlab_latch
+# -- Compiling module common_28nm_mlab_cell_core
+# -- Compiling module common_porta_latches
+# -- Compiling module generic_28nm_hp_mlab_cell_impl
+# -- Compiling module common_porta_registers
+# -- Compiling module generic_28nm_lc_mlab_cell_impl
+# -- Compiling module common_28nm_lutram_register
+# -- Compiling module generic_14nm_mlab_cell_impl
+# -- Compiling module common_14nm_lutram_register
+# -- Compiling module generic_mux
+# -- Compiling module generic_device_pll
+# -- Compiling module altera_mult_add
+# -- Compiling module altera_mult_add_rtl
+# -- Compiling module ama_signed_extension_function
+# -- Compiling module ama_dynamic_signed_function
+# -- Compiling module ama_register_function
+# -- Compiling module ama_register_with_ext_function
+# -- Compiling module ama_data_split_reg_ext_function
+# -- Compiling module ama_coef_reg_ext_function
+# -- Compiling module ama_adder_function
+# -- Compiling module ama_multiplier_function
+# -- Compiling module ama_preadder_function
+# -- Compiling module ama_chainout_adder_accumulator_function
+# -- Compiling module ama_systolic_adder_function
+# -- Compiling module ama_scanchain
+# -- Compiling module ama_latency_function
+# -- Compiling module altera_pll_reconfig_tasks
+# -- Compiling module altera_syncram
+# -- Compiling module altera_syncram_forwarding_logic
+# -- Compiling module ALTERA_LNSIM_MEMORY_INITIALIZATION
+# -- Compiling module altera_stratixv_pll
+# -- Compiling module altera_arriav_pll
+# -- Compiling module altera_arriavgz_pll
+# -- Compiling module altera_cyclonev_pll
+# -- Compiling module altera_pll
+# -- Compiling module dps_extra_kick
+# -- Compiling module dprio_init
+# -- Compiling module dps_pulse_gen
+# -- Compiling module altera_iopll
+# -- Compiling module dps_pulse_gen_iopll
+# -- Compiling module twentynm_iopll_arlol
+# -- Compiling module fourteennm_altera_iopll
+# -- Compiling module dps_pulse_gen_fourteennm_iopll
+# -- Compiling package fourteennm_iopll_functions
+# -- Compiling module fourteennm_simple_iopll
+# -- Importing package fourteennm_iopll_functions
+# -- Compiling module fourteennm_sub_iopll
+# -- Compiling module twentynm_iopll_ip
+# -- Compiling module altera_iopll_rotation_lcells
+# -- Compiling module altera_pll_dps_lcell_comb
+# -- Compiling module iopll_bootstrap
+# 
+# Top level modules:
+# 	generic_cdr
+# 	generic_m20k
+# 	generic_m10k
+# 	common_porta_latches
+# 	generic_28nm_hp_mlab_cell_impl
+# 	generic_28nm_lc_mlab_cell_impl
+# 	generic_14nm_mlab_cell_impl
+# 	generic_mux
+# 	generic_device_pll
+# 	altera_mult_add
+# 	altera_pll_reconfig_tasks
+# 	altera_syncram
+# 	altera_pll
+# 	altera_iopll
+# 	fourteennm_altera_iopll
+# 	fourteennm_simple_iopll
+# End time: 02:16:15 on Nov 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/cyclonev_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cyclonev_ver".
+# vmap cyclonev_ver ./verilog_libs/cyclonev_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap cyclonev_ver ./verilog_libs/cyclonev_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cyclonev_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:15 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
+# 
+# Top level modules:
+# End time: 02:16:18 on Nov 21,2023, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cyclonev_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:18 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
+# 
+# Top level modules:
+# End time: 02:16:19 on Nov 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cyclonev_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:19 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
+# -- Compiling UDP CYCLONEV_PRIM_DFFE
+# -- Compiling UDP CYCLONEV_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEV_PRIM_DFFEAS_HIGH
+# -- Compiling module cyclonev_dffe
+# -- Compiling module cyclonev_mux21
+# -- Compiling module cyclonev_mux41
+# -- Compiling module cyclonev_and1
+# -- Compiling module cyclonev_and16
+# -- Compiling module cyclonev_bmux21
+# -- Compiling module cyclonev_b17mux21
+# -- Compiling module cyclonev_nmux21
+# -- Compiling module cyclonev_b5mux21
+# -- Compiling module cyclonev_ff
+# -- Compiling module cyclonev_lcell_comb
+# -- Compiling module cyclonev_routing_wire
+# -- Compiling module cyclonev_ram_block
+# -- Compiling module cyclonev_mlab_cell
+# -- Compiling module cyclonev_io_ibuf
+# -- Compiling module cyclonev_io_obuf
+# -- Compiling module cyclonev_ddio_out
+# -- Compiling module cyclonev_ddio_oe
+# -- Compiling module cyclonev_ddio_in
+# -- Compiling module cyclonev_io_pad
+# -- Compiling module cyclonev_pseudo_diff_out
+# -- Compiling module cyclonev_bias_logic
+# -- Compiling module cyclonev_bias_generator
+# -- Compiling module cyclonev_bias_block
+# -- Compiling module cyclonev_clk_phase_select
+# -- Compiling module cyclonev_clkena
+# -- Compiling module cyclonev_clkselect
+# -- Compiling module cyclonev_delay_chain
+# -- Compiling module cyclonev_dll_offset_ctrl
+# -- Compiling module cyclonev_dll
+# -- Compiling module cyclonev_dqs_config
+# -- Compiling module cyclonev_dqs_delay_chain
+# -- Compiling module cyclonev_dqs_enable_ctrl
+# -- Compiling module cyclonev_duty_cycle_adjustment
+# -- Compiling module cyclonev_fractional_pll
+# -- Compiling module cyclonev_half_rate_input
+# -- Compiling module cyclonev_input_phase_alignment
+# -- Compiling module cyclonev_io_clock_divider
+# -- Compiling module cyclonev_io_config
+# -- Compiling module cyclonev_leveling_delay_chain
+# -- Compiling module cyclonev_pll_dll_output
+# -- Compiling module cyclonev_pll_dpa_output
+# -- Compiling module cyclonev_pll_extclk_output
+# -- Compiling module cyclonev_pll_lvds_output
+# -- Compiling module cyclonev_pll_output_counter
+# -- Compiling module cyclonev_pll_reconfig
+# -- Compiling module cyclonev_pll_refclk_select
+# -- Compiling module cyclonev_termination_logic
+# -- Compiling module cyclonev_termination
+# -- Compiling module cyclonev_asmiblock
+# -- Compiling module cyclonev_chipidblock
+# -- Compiling module cyclonev_controller
+# -- Compiling module cyclonev_crcblock
+# -- Compiling module cyclonev_jtag
+# -- Compiling module cyclonev_prblock
+# -- Compiling module cyclonev_rublock
+# -- Compiling module cyclonev_tsdblock
+# -- Compiling module cyclonev_read_fifo
+# -- Compiling module cyclonev_read_fifo_read_enable
+# -- Compiling module cyclonev_phy_clkbuf
+# -- Compiling module cyclonev_ir_fifo_userdes
+# -- Compiling module cyclonev_read_fifo_read_clock_select
+# -- Compiling module cyclonev_lfifo
+# -- Compiling module cyclonev_vfifo
+# -- Compiling module cyclonev_mac
+# -- Compiling module cyclonev_mem_phy
+# -- Compiling module cyclonev_oscillator
+# -- Compiling module cyclonev_hps_interface_fpga2sdram
+# 
+# Top level modules:
+# 	cyclonev_dffe
+# 	cyclonev_mux41
+# 	cyclonev_and1
+# 	cyclonev_and16
+# 	cyclonev_bmux21
+# 	cyclonev_b17mux21
+# 	cyclonev_nmux21
+# 	cyclonev_b5mux21
+# 	cyclonev_ff
+# 	cyclonev_lcell_comb
+# 	cyclonev_routing_wire
+# 	cyclonev_ram_block
+# 	cyclonev_mlab_cell
+# 	cyclonev_io_ibuf
+# 	cyclonev_io_obuf
+# 	cyclonev_ddio_out
+# 	cyclonev_ddio_oe
+# 	cyclonev_ddio_in
+# 	cyclonev_io_pad
+# 	cyclonev_pseudo_diff_out
+# 	cyclonev_bias_block
+# 	cyclonev_clk_phase_select
+# 	cyclonev_clkena
+# 	cyclonev_clkselect
+# 	cyclonev_delay_chain
+# 	cyclonev_dll_offset_ctrl
+# 	cyclonev_dll
+# 	cyclonev_dqs_config
+# 	cyclonev_dqs_delay_chain
+# 	cyclonev_dqs_enable_ctrl
+# 	cyclonev_duty_cycle_adjustment
+# 	cyclonev_fractional_pll
+# 	cyclonev_half_rate_input
+# 	cyclonev_input_phase_alignment
+# 	cyclonev_io_clock_divider
+# 	cyclonev_io_config
+# 	cyclonev_leveling_delay_chain
+# 	cyclonev_pll_dll_output
+# 	cyclonev_pll_dpa_output
+# 	cyclonev_pll_extclk_output
+# 	cyclonev_pll_lvds_output
+# 	cyclonev_pll_output_counter
+# 	cyclonev_pll_reconfig
+# 	cyclonev_pll_refclk_select
+# 	cyclonev_termination_logic
+# 	cyclonev_termination
+# 	cyclonev_asmiblock
+# 	cyclonev_chipidblock
+# 	cyclonev_controller
+# 	cyclonev_crcblock
+# 	cyclonev_jtag
+# 	cyclonev_prblock
+# 	cyclonev_rublock
+# 	cyclonev_tsdblock
+# 	cyclonev_read_fifo
+# 	cyclonev_read_fifo_read_enable
+# 	cyclonev_phy_clkbuf
+# 	cyclonev_ir_fifo_userdes
+# 	cyclonev_read_fifo_read_clock_select
+# 	cyclonev_lfifo
+# 	cyclonev_vfifo
+# 	cyclonev_mac
+# 	cyclonev_mem_phy
+# 	cyclonev_oscillator
+# 	cyclonev_hps_interface_fpga2sdram
+# End time: 02:16:20 on Nov 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/cyclonev_hssi_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cyclonev_hssi_ver".
+# vmap cyclonev_hssi_ver ./verilog_libs/cyclonev_hssi_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap cyclonev_hssi_ver ./verilog_libs/cyclonev_hssi_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cyclonev_hssi_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:20 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
+# 
+# Top level modules:
+# End time: 02:16:22 on Nov 21,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cyclonev_hssi_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:22 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
+# -- Compiling module cyclonev_hssi_8g_pcs_aggregate
+# -- Compiling module cyclonev_hssi_8g_rx_pcs
+# -- Compiling module cyclonev_hssi_8g_tx_pcs
+# -- Compiling module cyclonev_hssi_common_pcs_pma_interface
+# -- Compiling module cyclonev_hssi_common_pld_pcs_interface
+# -- Compiling module cyclonev_hssi_pipe_gen1_2
+# -- Compiling module cyclonev_hssi_pma_aux
+# -- Compiling module cyclonev_hssi_pma_int
+# -- Compiling module cyclonev_hssi_pma_rx_buf
+# -- Compiling module cyclonev_hssi_pma_rx_deser
+# -- Compiling module cyclonev_hssi_pma_tx_buf
+# -- Compiling module cyclonev_hssi_pma_tx_cgb
+# -- Compiling module cyclonev_hssi_pma_tx_ser
+# -- Compiling module cyclonev_hssi_pma_cdr_refclk_select_mux
+# -- Compiling module cyclonev_hssi_rx_pcs_pma_interface
+# -- Compiling module cyclonev_hssi_rx_pld_pcs_interface
+# -- Compiling module cyclonev_hssi_tx_pcs_pma_interface
+# -- Compiling module cyclonev_hssi_tx_pld_pcs_interface
+# -- Compiling module cyclonev_hssi_refclk_divider
+# -- Compiling module cyclonev_pll_aux
+# -- Compiling module cyclonev_channel_pll
+# -- Compiling module cyclonev_hssi_avmm_interface
+# -- Compiling module cyclonev_hssi_pma_hi_pmaif
+# -- Compiling module cyclonev_hssi_pma_hi_xcvrif
+# -- Compiling module arriav_hssi_8g_pcs_aggregate
+# -- Compiling module arriav_hssi_8g_rx_pcs
+# -- Compiling module arriav_hssi_8g_tx_pcs
+# -- Compiling module arriav_hssi_common_pcs_pma_interface
+# -- Compiling module arriav_hssi_common_pld_pcs_interface
+# -- Compiling module arriav_hssi_pipe_gen1_2
+# -- Compiling module arriav_hssi_pma_aux
+# -- Compiling module arriav_hssi_pma_int
+# -- Compiling module arriav_hssi_pma_rx_buf
+# -- Compiling module arriav_hssi_pma_rx_deser
+# -- Compiling module arriav_hssi_pma_tx_buf
+# -- Compiling module arriav_hssi_pma_tx_cgb
+# -- Compiling module arriav_hssi_pma_tx_ser
+# -- Compiling module arriav_hssi_pma_cdr_refclk_select_mux
+# -- Compiling module arriav_hssi_rx_pcs_pma_interface
+# -- Compiling module arriav_hssi_rx_pld_pcs_interface
+# -- Compiling module arriav_hssi_tx_pcs_pma_interface
+# -- Compiling module arriav_hssi_tx_pld_pcs_interface
+# -- Compiling module arriav_hssi_refclk_divider
+# -- Compiling module arriav_pll_aux
+# -- Compiling module arriav_channel_pll
+# -- Compiling module arriav_hssi_avmm_interface
+# -- Compiling module arriav_hssi_pma_hi_pmaif
+# -- Compiling module arriav_hssi_pma_hi_xcvrif
+# 
+# Top level modules:
+# 	cyclonev_hssi_8g_pcs_aggregate
+# 	cyclonev_hssi_8g_rx_pcs
+# 	cyclonev_hssi_8g_tx_pcs
+# 	cyclonev_hssi_common_pcs_pma_interface
+# 	cyclonev_hssi_common_pld_pcs_interface
+# 	cyclonev_hssi_pipe_gen1_2
+# 	cyclonev_hssi_pma_aux
+# 	cyclonev_hssi_pma_int
+# 	cyclonev_hssi_pma_rx_buf
+# 	cyclonev_hssi_pma_rx_deser
+# 	cyclonev_hssi_pma_tx_buf
+# 	cyclonev_hssi_pma_tx_cgb
+# 	cyclonev_hssi_pma_tx_ser
+# 	cyclonev_hssi_pma_cdr_refclk_select_mux
+# 	cyclonev_hssi_rx_pcs_pma_interface
+# 	cyclonev_hssi_rx_pld_pcs_interface
+# 	cyclonev_hssi_tx_pcs_pma_interface
+# 	cyclonev_hssi_tx_pld_pcs_interface
+# 	cyclonev_hssi_refclk_divider
+# 	cyclonev_pll_aux
+# 	cyclonev_channel_pll
+# 	cyclonev_hssi_avmm_interface
+# 	cyclonev_hssi_pma_hi_pmaif
+# 	cyclonev_hssi_pma_hi_xcvrif
+# 	arriav_hssi_8g_pcs_aggregate
+# 	arriav_hssi_8g_rx_pcs
+# 	arriav_hssi_8g_tx_pcs
+# 	arriav_hssi_common_pcs_pma_interface
+# 	arriav_hssi_common_pld_pcs_interface
+# 	arriav_hssi_pipe_gen1_2
+# 	arriav_hssi_pma_aux
+# 	arriav_hssi_pma_int
+# 	arriav_hssi_pma_rx_buf
+# 	arriav_hssi_pma_rx_deser
+# 	arriav_hssi_pma_tx_buf
+# 	arriav_hssi_pma_tx_cgb
+# 	arriav_hssi_pma_tx_ser
+# 	arriav_hssi_pma_cdr_refclk_select_mux
+# 	arriav_hssi_rx_pcs_pma_interface
+# 	arriav_hssi_rx_pld_pcs_interface
+# 	arriav_hssi_tx_pcs_pma_interface
+# 	arriav_hssi_tx_pld_pcs_interface
+# 	arriav_hssi_refclk_divider
+# 	arriav_pll_aux
+# 	arriav_channel_pll
+# 	arriav_hssi_avmm_interface
+# 	arriav_hssi_pma_hi_pmaif
+# 	arriav_hssi_pma_hi_xcvrif
+# End time: 02:16:22 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/cyclonev_pcie_hip_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cyclonev_pcie_hip_ver".
+# vmap cyclonev_pcie_hip_ver ./verilog_libs/cyclonev_pcie_hip_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap cyclonev_pcie_hip_ver ./verilog_libs/cyclonev_pcie_hip_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cyclonev_pcie_hip_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:22 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
+# 
+# Top level modules:
+# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cyclonev_pcie_hip_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:25 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
+# -- Compiling module cyclonev_hd_altpe2_hip_top
+# -- Compiling module arriav_hd_altpe2_hip_top
+# 
+# Top level modules:
+# 	cyclonev_hd_altpe2_hip_top
+# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:25 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file.v 
+# -- Compiling module RAM_2rwp_15a_8b_8g_from_file
+# 
+# Top level modules:
+# 	RAM_2rwp_15a_8b_8g_from_file
+# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:25 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.v 
+# -- Compiling module ROM_1p_32w_8a_32b
+# 
+# Top level modules:
+# 	ROM_1p_32w_8a_32b
+# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements/A1_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:25 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements/A1_N.sv 
+# -- Compiling module A1_N
+# 
+# Top level modules:
+# 	A1_N
+# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Decoder_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:25 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Decoder_N.sv 
+# -- Compiling module Decoder_N
+# 
+# Top level modules:
+# 	Decoder_N
+# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_15x4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:25 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_15x4.sv 
+# -- Compiling module Encoder_15x4
+# 
+# Top level modules:
+# 	Encoder_15x4
+# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_5x3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:25 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_5x3.sv 
+# -- Compiling module Encoder_5x3
+# 
+# Top level modules:
+# 	Encoder_5x3
+# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers/Exception.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers/Exception.sv 
+# -- Compiling module Exception
+# 
+# Top level modules:
+# 	Exception
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Absolute_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Absolute_N.sv 
+# -- Compiling module Absolute_N
+# 
+# Top level modules:
+# 	Absolute_N
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_N.sv 
+# -- Compiling module Adder_N
+# 
+# Top level modules:
+# 	Adder_N
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_Subtractor_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_Subtractor_N.sv 
+# -- Compiling module Adder_Subtractor_N
+# 
+# Top level modules:
+# 	Adder_Subtractor_N
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carries_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carries_N.sv 
+# -- Compiling module Adder_with_carries_N
+# 
+# Top level modules:
+# 	Adder_with_carries_N
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carry_in_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carry_in_N.sv 
+# -- Compiling module Adder_with_carry_in_N
+# 
+# Top level modules:
+# 	Adder_with_carry_in_N
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/SLT_U_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/SLT_U_N.sv 
+# -- Compiling module SLT_U_N
+# 
+# Top level modules:
+# 	SLT_U_N
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers/Multiplexer_MxN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers/Multiplexer_MxN.sv 
+# -- Compiling module Multiplexer_MxN
+# ** Warning: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers/Multiplexer_MxN.sv(6): (vlog-13314) Defaulting port 'channels' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	Multiplexer_MxN
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_vP.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_vP.sv 
+# -- Compiling module Register_N_vP
+# 
+# Top level modules:
+# 	Register_N_vP
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_with_enabler_vP.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_with_enabler_vP.sv 
+# -- Compiling module Register_N_with_enabler_vP
+# 
+# Top level modules:
+# 	Register_N_with_enabler_vP
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_decoder_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_decoder_RV32I.sv 
+# -- Compiling module ALU_decoder_RV32I
+# 
+# Top level modules:
+# 	ALU_decoder_RV32I
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_RV32I.sv 
+# -- Compiling module ALU_RV32I
+# 
+# Top level modules:
+# 	ALU_RV32I
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Branch_condition_decoder_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Branch_condition_decoder_RV32I.sv 
+# -- Compiling module Branch_condition_decoder_RV32I
+# 
+# Top level modules:
+# 	Branch_condition_decoder_RV32I
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparator_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:26 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparator_RV32I.sv 
+# -- Compiling module Comparator_RV32I
+# 
+# Top level modules:
+# 	Comparator_RV32I
+# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparison_unit_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparison_unit_RV32I.sv 
+# -- Compiling module Comparison_unit_RV32I
+# 
+# Top level modules:
+# 	Comparison_unit_RV32I
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decode_stage.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decode_stage.sv 
+# -- Compiling module Decode_stage
+# 
+# Top level modules:
+# 	Decode_stage
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decoder_f7_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decoder_f7_RV32I.sv 
+# -- Compiling module Decoder_f7_RV32I
+# 
+# Top level modules:
+# 	Decoder_f7_RV32I
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Execute_stage.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Execute_stage.sv 
+# -- Compiling module Execute_stage
+# 
+# Top level modules:
+# 	Execute_stage
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Fetch_stage.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Fetch_stage.sv 
+# -- Compiling module Fetch_stage
+# 
+# Top level modules:
+# 	Fetch_stage
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Hazard_unit_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Hazard_unit_RV32I.sv 
+# -- Compiling module Hazard_unit_RV32I
+# 
+# Top level modules:
+# 	Hazard_unit_RV32I
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Input_byte_handler_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Input_byte_handler_RV32I.sv 
+# -- Compiling module Input_byte_handler_RV32I
+# 
+# Top level modules:
+# 	Input_byte_handler_RV32I
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_decoder_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_decoder_RV32I.sv 
+# -- Compiling module Instruction_decoder_RV32I
+# 
+# Top level modules:
+# 	Instruction_decoder_RV32I
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_splitter_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_splitter_RV32I.sv 
+# -- Compiling module Instruction_splitter_RV32I
+# 
+# Top level modules:
+# 	Instruction_splitter_RV32I
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Load_store_width_decoder_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Load_store_width_decoder_RV32I.sv 
+# -- Compiling module Load_store_width_decoder_RV32I
+# 
+# Top level modules:
+# 	Load_store_width_decoder_RV32I
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Main_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Main_decoder.sv 
+# -- Compiling module Main_decoder
+# 
+# Top level modules:
+# 	Main_decoder
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/MT_FSM.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/MT_FSM.sv 
+# -- Compiling module MT_FSM
+# 
+# Top level modules:
+# 	MT_FSM
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Output_byte_handler_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Output_byte_handler_RV32I.sv 
+# -- Compiling module Output_byte_handler_RV32I
+# 
+# Top level modules:
+# 	Output_byte_handler_RV32I
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_decode_vP.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:27 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_decode_vP.sv 
+# -- Compiling module Pipe_decode_vP
+# 
+# Top level modules:
+# 	Pipe_decode_vP
+# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_execute_vP.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_execute_vP.sv 
+# -- Compiling module Pipe_execute_vP
+# 
+# Top level modules:
+# 	Pipe_execute_vP
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_memory_vP.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_memory_vP.sv 
+# -- Compiling module Pipe_memory_vP
+# 
+# Top level modules:
+# 	Pipe_memory_vP
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_writeback_vP.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_writeback_vP.sv 
+# -- Compiling module Pipe_writeback_vP
+# 
+# Top level modules:
+# 	Pipe_writeback_vP
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_32x32_vN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_32x32_vN.sv 
+# -- Compiling module Regfile_32x32_vN
+# 
+# Top level modules:
+# 	Regfile_32x32_vN
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_vector_32x128_vN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_vector_32x128_vN.sv 
+# -- Compiling module Regfile_vector_32x128_vN
+# 
+# Top level modules:
+# 	Regfile_vector_32x128_vN
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Rerouting_decoder_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Rerouting_decoder_RV32I.sv 
+# -- Compiling module Rerouting_decoder_RV32I
+# 
+# Top level modules:
+# 	Rerouting_decoder_RV32I
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Result_source_decoder_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Result_source_decoder_RV32I.sv 
+# -- Compiling module Result_source_decoder_RV32I
+# 
+# Top level modules:
+# 	Result_source_decoder_RV32I
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Router_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Router_RV32I.sv 
+# -- Compiling module Router_RV32I
+# 
+# Top level modules:
+# 	Router_RV32I
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I.sv 
+# -- Compiling module RV32I
+# 
+# Top level modules:
+# 	RV32I
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I_Harvard.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I_Harvard.sv 
+# -- Compiling module RV32I_Harvard
+# 
+# Top level modules:
+# 	RV32I_Harvard
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Sign_extend_RV32I.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Sign_extend_RV32I.sv 
+# -- Compiling module Sign_extend_RV32I
+# 
+# Top level modules:
+# 	Sign_extend_RV32I
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/VALU_4xN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/VALU_4xN.sv 
+# -- Compiling module VALU_4xN
+# 
+# Top level modules:
+# 	VALU_4xN
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv 
+# -- Compiling module Address_offset_16_byte
+# 
+# Top level modules:
+# 	Address_offset_16_byte
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_left_byte_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:28 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_left_byte_N.sv 
+# -- Compiling module Circular_shifter_left_byte_N
+# 
+# Top level modules:
+# 	Circular_shifter_left_byte_N
+# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_right_byte_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:29 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_right_byte_N.sv 
+# -- Compiling module Circular_shifter_right_byte_N
+# 
+# Top level modules:
+# 	Circular_shifter_right_byte_N
+# End time: 02:16:29 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:29 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv 
+# -- Compiling module RAM_1rwp_1rp_19a_128b_8g
+# 
+# Top level modules:
+# 	RAM_1rwp_1rp_19a_128b_8g
+# End time: 02:16:29 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Test_RV32I_Harvard.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 02:16:29 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Test_RV32I_Harvard.sv 
+# -- Compiling module Test_RV32I_Harvard
+# 
+# Top level modules:
+# 	Test_RV32I_Harvard
+# End time: 02:16:29 on Nov 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  RV32I_Harvard
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" RV32I_Harvard 
+# Start time: 02:16:29 on Nov 21,2023
+# Loading sv_std.std
+# Loading work.RV32I_Harvard
+# Loading work.RV32I
+# Loading work.Fetch_stage
+# Loading work.Multiplexer_MxN
+# Loading work.Register_N_with_enabler_vP
+# Loading work.Adder_N
+# Loading work.Pipe_decode_vP
+# Loading work.Decode_stage
+# Loading work.Instruction_splitter_RV32I
+# Loading work.Main_decoder
+# Loading work.Instruction_decoder_RV32I
+# Loading work.Decoder_N
+# Loading work.Decoder_f7_RV32I
+# Loading work.Result_source_decoder_RV32I
+# Loading work.Load_store_width_decoder_RV32I
+# Loading work.Encoder_5x3
+# Loading work.ALU_decoder_RV32I
+# Loading work.Encoder_15x4
+# Loading work.Branch_condition_decoder_RV32I
+# Loading work.Rerouting_decoder_RV32I
+# Loading work.Sign_extend_RV32I
+# Loading work.Regfile_32x32_vN
+# Loading work.Regfile_vector_32x128_vN
+# Loading work.Pipe_execute_vP
+# Loading work.Execute_stage
+# Loading work.Comparison_unit_RV32I
+# Loading work.Comparator_RV32I
+# Loading work.Adder_with_carries_N
+# Loading work.VALU_4xN
+# Loading work.ALU_RV32I
+# Loading work.Adder_Subtractor_N
+# Loading work.A1_N
+# Loading work.Adder_with_carry_in_N
+# Loading work.SLT_U_N
+# Loading work.Absolute_N
+# Loading work.Router_RV32I
+# Loading work.Pipe_memory_vP
+# Loading work.Output_byte_handler_RV32I
+# Loading work.Input_byte_handler_RV32I
+# Loading work.Pipe_writeback_vP
+# Loading work.Hazard_unit_RV32I
+# Loading work.Exception
+# Loading work.MT_FSM
+# Loading work.Register_N_vP
+# Loading work.ROM_1p_32w_8a_32b
+# Loading altera_mf_ver.altsyncram
+# Loading work.RAM_1rwp_1rp_19a_128b_8g
+# Loading work.Address_offset_16_byte
+# Loading work.Circular_shifter_left_byte_N
+# Loading work.RAM_2rwp_15a_8b_8g_from_file
+# Loading work.Circular_shifter_right_byte_N
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) [PCDPC] - Port size (128) does not match connection size (19) for port 'data_out_b'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I_Harvard.sv Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'address_without_offset'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_0'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_1'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_2'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_3'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_4'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_5'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_6'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_7'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_8'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_9'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_10'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_11'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(17).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_12'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(18).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_13'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_14'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_15'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'address_without_offset'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_0'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_1'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_2'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_3'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_4'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_5'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_6'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_7'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_8'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_9'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_10'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_11'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(17).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_12'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(18).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_13'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_14'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_15'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /RV32I_Harvard/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# 
+# stdin: <EOF>
+# Break key hit
+vsim work.Test_RV32I_Harvard -Lf altera_mf_ver
+# End time: 02:17:18 on Nov 21,2023, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 35
+# vsim work.Test_RV32I_Harvard -Lf altera_mf_ver 
+# Start time: 02:17:18 on Nov 21,2023
+# Loading sv_std.std
+# Loading work.Test_RV32I_Harvard
+# Loading work.RV32I_Harvard
+# Loading work.RV32I
+# Loading work.Fetch_stage
+# Loading work.Multiplexer_MxN
+# Loading work.Register_N_with_enabler_vP
+# Loading work.Adder_N
+# Loading work.Pipe_decode_vP
+# Loading work.Decode_stage
+# Loading work.Instruction_splitter_RV32I
+# Loading work.Main_decoder
+# Loading work.Instruction_decoder_RV32I
+# Loading work.Decoder_N
+# Loading work.Decoder_f7_RV32I
+# Loading work.Result_source_decoder_RV32I
+# Loading work.Load_store_width_decoder_RV32I
+# Loading work.Encoder_5x3
+# Loading work.ALU_decoder_RV32I
+# Loading work.Encoder_15x4
+# Loading work.Branch_condition_decoder_RV32I
+# Loading work.Rerouting_decoder_RV32I
+# Loading work.Sign_extend_RV32I
+# Loading work.Regfile_32x32_vN
+# Loading work.Regfile_vector_32x128_vN
+# Loading work.Pipe_execute_vP
+# Loading work.Execute_stage
+# Loading work.Comparison_unit_RV32I
+# Loading work.Comparator_RV32I
+# Loading work.Adder_with_carries_N
+# Loading work.VALU_4xN
+# Loading work.ALU_RV32I
+# Loading work.Adder_Subtractor_N
+# Loading work.A1_N
+# Loading work.Adder_with_carry_in_N
+# Loading work.SLT_U_N
+# Loading work.Absolute_N
+# Loading work.Router_RV32I
+# Loading work.Pipe_memory_vP
+# Loading work.Output_byte_handler_RV32I
+# Loading work.Input_byte_handler_RV32I
+# Loading work.Pipe_writeback_vP
+# Loading work.Hazard_unit_RV32I
+# Loading work.Exception
+# Loading work.MT_FSM
+# Loading work.Register_N_vP
+# Loading work.ROM_1p_32w_8a_32b
+# Loading altera_mf_ver.altsyncram
+# Loading work.RAM_1rwp_1rp_19a_128b_8g
+# Loading work.Address_offset_16_byte
+# Loading work.Circular_shifter_left_byte_N
+# Loading work.RAM_2rwp_15a_8b_8g_from_file
+# Loading work.Circular_shifter_right_byte_N
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) [PCDPC] - Port size (128) does not match connection size (19) for port 'data_out_b'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I_Harvard.sv Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'address_without_offset'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_0'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_1'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_2'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_3'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_4'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_5'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_6'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_7'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_8'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_9'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_10'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_11'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(17).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_12'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(18).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_13'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_14'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_15'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_a File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'address_without_offset'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_0'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_1'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_2'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_3'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_4'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_5'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_6'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_7'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_8'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_9'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_10'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_11'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(17).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_12'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(18).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_13'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_14'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_15'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/address_without_offset'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 448
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/offset'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 449
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_0'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 450
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_1'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 451
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_2'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 452
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_3'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 453
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_4'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 454
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_5'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 455
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_6'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 456
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_7'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 457
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_8'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 458
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_9'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 459
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_10'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 460
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_11'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 461
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_12'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 462
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_13'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 463
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_14'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 464
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_15'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 465
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/dec_o'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 466
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 471
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 473
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 474
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 475
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 477
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 479
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 480
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 481
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 483
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 485
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 486
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 487
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 489
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 491
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 492
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 493
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 495
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 497
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 498
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 499
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 501
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 503
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 504
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 505
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 507
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 509
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 510
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 511
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 513
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 515
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 516
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 517
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 519
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 521
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 522
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 523
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 525
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 527
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 528
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 529
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 531
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 533
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 534
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 535
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 537
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 539
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 540
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 541
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 543
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 545
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 546
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 547
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 549
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 551
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 552
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 553
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 555
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 557
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 558
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 559
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/address'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 561
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/data'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 563
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/wren'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 564
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/q'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 565
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/csrb/shifting'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 567
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/csrb/shift_amount'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 568
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/csrb/shifted'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 569
+# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/csrb/shift_amount_aux'.
+# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 570
+run
+# End time: 02:19:12 on Nov 21,2023, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 35

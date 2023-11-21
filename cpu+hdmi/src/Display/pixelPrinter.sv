@@ -36,7 +36,7 @@ module pixelPrinter(
 //	end
 	
 	initial begin
-    $readmemh("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/grapichs/palette.mem", palette); // Initialize palette from the .mem file
+    $readmemh("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/graphics/palette.mem", palette); // Initialize palette from the .mem file
 	end
 	
 endmodule

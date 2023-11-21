@@ -45,18 +45,8 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/pll {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/pll/pll_25.vo}
-vlib pll_25
-vmap pll_25 pll_25
-vlog -vlog01compat -work pll_25 +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/pll {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/pll/pll_25.v}
-vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Display {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Display/vgaHdmi.v}
-vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/i2c {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/i2c/I2C_Controller.v}
-vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/i2c {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/i2c/I2C_HDMI_Config.v}
-vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/i2c {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/i2c/I2C_WRITE_WDATA.v}
-vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_1p_8w_16a_8b_from_file {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_1p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file.v}
+vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file.v}
 vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.v}
-vlog -vlog01compat -work pll_25 +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/pll/pll_25 {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/pll/pll_25/pll_25_0002.v}
-vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/TopModule.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements/A1_N.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Decoder_N.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_15x4.sv}
@@ -68,12 +58,7 @@ vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hd
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carries_N.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carry_in_N.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/SLT_U_N.sv}
-vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/Address_offset_16_byte.sv}
-vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/Circular_shifter_left_byte_N.sv}
-vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/Circular_shifter_right_byte_N.sv}
-vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1p_8g_20a_128b.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers/Multiplexer_MxN.sv}
-vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers/Test_Multiplexer_with_enabler_MxN.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_vP.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_with_enabler_vP.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_decoder_RV32I.sv}
@@ -103,13 +88,17 @@ vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hd
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Result_source_decoder_RV32I.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Router_RV32I.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I.sv}
+vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I_Harvard.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Sign_extend_RV32I.sv}
 vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/VALU_4xN.sv}
-vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Display {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Display/pixelPrinter.sv}
+vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv}
+vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_left_byte_N.sv}
+vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_right_byte_N.sv}
+vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv}
 
-vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Test_TopModule.sv}
+vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Test_RV32I_Harvard.sv}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L pll_25 -voptargs="+acc"  TopModule
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  RV32I_Harvard
 
 add wave *
 view structure

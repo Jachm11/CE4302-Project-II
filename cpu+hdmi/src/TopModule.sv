@@ -56,8 +56,6 @@ assign reset = ~reset_n; // reset de placa presionado funciona con logica negati
 	logic [15:0] byte_enablers;
 	logic [31:0] PC;
 	assign instruction_ready = 1'b1;
-	logic [19:0] mux_out_address;
-	logic [127:0] mux_out_data;
 	logic [7:0] color_index;
 	
 // Core-ROM Interface
@@ -68,7 +66,7 @@ assign shiftted_PC = PC >> 2;// ROM workaround
 logic [9:0] pixelX;
 logic [9:0] pixelY;
 logic clock25, locked;
-logic [18:0] address;
+logic [18:0] address_hdmi;
 
 
 // Señales de audio en alta impedancia
@@ -119,31 +117,19 @@ ROM_1p_32w_8a_32b #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdm
 );
 
 // **MEMORY: DATA RAM**
-RAM_1p_8g_20a_128b RAM(
-    .address(mux_out_address),
-    .data_in(data_out_bus),
-    .byte_enablers(byte_enablers),
-    .write_enable(mem_write),
-	 
-    .clock(!clock50),
-	 
-    .data_out(mux_out_data)
+RAM_1rwp_1rp_19a_128b_8g RAM
+(
+	.address_a(ALU_result[18:0]),
+	.address_b(address_hdmi),
+	.data_in(data_out_bus),
+	.byte_enablers(byte_enablers),
+	.write_enable(mem_write),
+
+	.clock(!clock50),
+
+	.data_out_a(read_data_bus),
+	.data_out_b(color_index)	
 );
-
-// MUX for Address selection
-always_comb begin
-    if (switch == 1'b0) begin
-        mux_out_address = ALU_result[19:0];
-        read_data_bus = mux_out_data;
-        color_index = 0;
-    end 
-    else begin
-        mux_out_address = address;
-        color_index = mux_out_data;
-        read_data_bus = 0;
-    end
-end
-
 
 // **VGA CLOCK**
 pll_25 pll_25(
@@ -170,7 +156,7 @@ vgaHdmi vgaHdmi (
 	.vgaClock   (HDMI_TX_CLK),
 	.pixelX (pixelX),
 	.pixelY (pixelY),
-	.address(address)
+	.address(address_hdmi)
 );
 
 // **DISPLAY LOGIC**

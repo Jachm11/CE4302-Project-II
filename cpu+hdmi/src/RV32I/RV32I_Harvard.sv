@@ -56,7 +56,7 @@ module RV32I_Harvard
 			.state(data_ready)
 		);
 
-		ROM_1p_32w_8a_32b #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/Instructions/test.mif")) ROM
+		ROM_1p_32w_8a_32b #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/Instructions/test_vector.mif")) ROM
 		(
 			.address(shiftted_PC[7:0]),
 			
@@ -65,15 +65,19 @@ module RV32I_Harvard
 			.q(instruction)
 		);
 
-		RAM_1p_8g_20a_128b RAM
-		(
-			.address(ALU_result[19:0]),
-			.data_in(data_out_bus),
-			.byte_enablers(byte_enablers),
-			.write_enable(mem_write),
+  logic [18:0] RAM_data_out_b;
+  RAM_1rwp_1rp_19a_128b_8g RAM
+  (
+    .address_a(ALU_result[18:0]),
+    .address_b(19'd0),
+    .data_in(data_out_bus),
+    .byte_enablers(byte_enablers),
+    .write_enable(mem_write),
 
-			.clock(!clock),
+    .clock(!clock),
 
-			.data_out(read_data_bus)
-		);
+    .data_out_a(read_data_bus),
+    .data_out_b(RAM_data_out_b)
+  );
+
 endmodule

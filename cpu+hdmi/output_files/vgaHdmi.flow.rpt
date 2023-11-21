@@ -1,5 +1,5 @@
 Flow report for vgaHdmi
-Mon Nov 20 13:07:18 2023
+Tue Nov 21 02:38:37 2023
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -41,18 +41,18 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Flow Failed - Mon Nov 20 13:07:18 2023         ;
+; Flow Status                     ; Successful - Tue Nov 21 02:38:37 2023          ;
 ; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                   ; vgaHdmi                                        ;
 ; Top-level Entity Name           ; TopModule                                      ;
 ; Family                          ; Cyclone V                                      ;
 ; Device                          ; 5CSEBA6U23I7                                   ;
 ; Timing Models                   ; Final                                          ;
-; Logic utilization (in ALMs)     ; 11,392 / 41,910 ( 27 % )                       ;
-; Total registers                 ; 6332                                           ;
+; Logic utilization (in ALMs)     ; 12,003 / 41,910 ( 29 % )                       ;
+; Total registers                 ; 6501                                           ;
 ; Total pins                      ; 39 / 314 ( 12 % )                              ;
 ; Total virtual pins              ; 0                                              ;
-; Total block memory bits         ; 8,134,656 / 5,662,720 ( 144 % )                ;
+; Total block memory bits         ; 4,202,496 / 5,662,720 ( 74 % )                 ;
 ; Total DSP Blocks                ; 8 / 112 ( 7 % )                                ;
 ; Total HSSI RX PCSs              ; 0                                              ;
 ; Total HSSI PMA RX Deserializers ; 0                                              ;
@@ -68,59 +68,54 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/20/2023 13:05:08 ;
+; Start date & time ; 11/21/2023 02:19:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; vgaHdmi             ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                                                        ;
-+--------------------------------------+---------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
-; Assignment Name                      ; Value                                                                                             ; Default Value ; Entity Name ; Section Id     ;
-+--------------------------------------+---------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 136520661658780.170050710809966                                                                   ; --            ; --          ; --             ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                ; --            ; --          ; RV32I_Harvard  ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                ; --            ; --          ; TopModule      ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; TopModule                                                                                         ; --            ; --          ; eda_simulation ;
-; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                                                       ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                  ; ModelSim (Verilog)                                                                                ; <None>        ; --          ; --             ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                                                   ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_FILE                  ; src/RV32I/Test_RV32I_Harvard.sv                                                                   ; --            ; --          ; RV32I_Harvard  ;
-; EDA_TEST_BENCH_FILE                  ; src/Test_TopModule.sv                                                                             ; --            ; --          ; TopModule      ;
-; EDA_TEST_BENCH_MODULE_NAME           ; RV32I_Harvard                                                                                     ; --            ; --          ; RV32I_Harvard  ;
-; EDA_TEST_BENCH_MODULE_NAME           ; TopModule                                                                                         ; --            ; --          ; TopModule      ;
-; EDA_TEST_BENCH_NAME                  ; RV32I_Harvard                                                                                     ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_NAME                  ; TopModule                                                                                         ; --            ; --          ; eda_simulation ;
-; EDA_TIME_SCALE                       ; 1 ps                                                                                              ; --            ; --          ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP               ; 100                                                                                               ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP               ; -40                                                                                               ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_1p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file.bsf    ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_1p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file_inst.v ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_1p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file_bb.v   ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_1p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file.inc    ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_1p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file.cmp    ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_2p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file.bsf    ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_2p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file_inst.v ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_2p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file_bb.v   ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_2p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file.inc    ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_2p_8w_16a_8b_from_file/RAM_1p_8w_16a_8b_from_file.cmp    ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.bsf                      ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b_inst.v                   ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b_bb.v                     ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.inc                      ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.cmp                      ; --            ; --          ; --             ;
-; MISC_FILE                            ; src/pll/pll_25.cmp                                                                                ; --            ; --          ; --             ;
-; NUM_PARALLEL_PROCESSORS              ; 1                                                                                                 ; --            ; --          ; --             ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                                            ; --            ; TopModule   ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                                            ; --            ; TopModule   ; Top            ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                                                            ; --            ; TopModule   ; Top            ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                                                               ; --            ; --          ; --             ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                             ; --            ; --          ; --             ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                                                      ; --            ; --          ; --             ;
-; SYNTHESIS_ONLY_QIP                   ; On                                                                                                ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                     ; TopModule                                                                                         ; vgaHdmi       ; --          ; --             ;
-+--------------------------------------+---------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                            ;
++--------------------------------------+-------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                      ; Value                                                                                                 ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------+-------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 136520661658780.170055476654885                                                                       ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                    ; --            ; --          ; RV32I_Harvard  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                    ; --            ; --          ; TopModule      ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; RV32I_Harvard                                                                                         ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                                                           ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim (Verilog)                                                                                    ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                                                       ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; src/RV32I/Test_RV32I_Harvard.sv                                                                       ; --            ; --          ; RV32I_Harvard  ;
+; EDA_TEST_BENCH_FILE                  ; src/Test_TopModule.sv                                                                                 ; --            ; --          ; TopModule      ;
+; EDA_TEST_BENCH_MODULE_NAME           ; RV32I_Harvard                                                                                         ; --            ; --          ; RV32I_Harvard  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; TopModule                                                                                             ; --            ; --          ; TopModule      ;
+; EDA_TEST_BENCH_NAME                  ; RV32I_Harvard                                                                                         ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; TopModule                                                                                             ; --            ; --          ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                                                  ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 100                                                                                                   ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; -40                                                                                                   ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/pll/pll_25.cmp                                                                                    ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file.bsf    ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file_inst.v ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file_bb.v   ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file.inc    ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file.cmp    ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.bsf                          ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b_inst.v                       ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b_bb.v                         ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.inc                          ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.cmp                          ; --            ; --          ; --             ;
+; NUM_PARALLEL_PROCESSORS              ; 1                                                                                                     ; --            ; --          ; --             ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                                                ; --            ; TopModule   ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                                                ; --            ; TopModule   ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                                                                ; --            ; TopModule   ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                                                                   ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                                 ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                                                          ; --            ; --          ; --             ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                                                    ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                     ; TopModule                                                                                             ; vgaHdmi       ; --          ; --             ;
++--------------------------------------+-------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -128,9 +123,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:01     ; 1.0                     ; 628 MB              ; 00:01:13                           ;
-; Fitter               ; 00:01:04     ; 1.0                     ; 1302 MB             ; 00:01:11                           ;
-; Total                ; 00:02:05     ; --                      ; --                  ; 00:02:24                           ;
+; Analysis & Synthesis ; 00:01:17     ; 1.0                     ; 595 MB              ; 00:01:38                           ;
+; Fitter               ; 00:15:09     ; 1.0                     ; 1932 MB             ; 00:15:17                           ;
+; Assembler            ; 00:00:17     ; 1.0                     ; 739 MB              ; 00:00:17                           ;
+; Timing Analyzer      ; 00:02:03     ; 1.0                     ; 1320 MB             ; 00:02:02                           ;
+; EDA Netlist Writer   ; 00:00:08     ; 1.0                     ; 1022 MB             ; 00:00:07                           ;
+; Total                ; 00:18:54     ; --                      ; --                  ; 00:19:21                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -141,6 +139,9 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; JACHM-Laptop     ; Linux Mint ; 21         ; x86_64         ;
 ; Fitter               ; JACHM-Laptop     ; Linux Mint ; 21         ; x86_64         ;
+; Assembler            ; JACHM-Laptop     ; Linux Mint ; 21         ; x86_64         ;
+; Timing Analyzer      ; JACHM-Laptop     ; Linux Mint ; 21         ; x86_64         ;
+; EDA Netlist Writer   ; JACHM-Laptop     ; Linux Mint ; 21         ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -149,6 +150,9 @@ https://fpgasoftware.intel.com/eula.
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off vgaHdmi -c vgaHdmi
 quartus_fit --read_settings_files=off --write_settings_files=off vgaHdmi -c vgaHdmi
+quartus_asm --read_settings_files=off --write_settings_files=off vgaHdmi -c vgaHdmi
+quartus_sta vgaHdmi -c vgaHdmi
+quartus_eda --read_settings_files=off --write_settings_files=off vgaHdmi -c vgaHdmi
 
 
 

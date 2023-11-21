@@ -21,9 +21,9 @@
 
 li a0 0
 li a1 0
-li a2 10
-li a3 10
-li a4 5
+li a2 100
+li a3 100
+li a4 3
 
 # Bresenham
 # draw_line(int x0, int y0, int x1, int y1, int color)
