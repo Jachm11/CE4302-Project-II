@@ -139,10 +139,10 @@ add wave -noupdate -expand -group {Fetch Stage} -expand -group {Mux Prediction} 
 add wave -noupdate -expand -group {Fetch Stage} -group {Adder PC+=4} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/FS/adder_pc_plus_4/A
 add wave -noupdate -expand -group {Fetch Stage} -group {Adder PC+=4} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/FS/adder_pc_plus_4/B
 add wave -noupdate -expand -group {Fetch Stage} -group {Adder PC+=4} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/FS/adder_pc_plus_4/O
-add wave -noupdate -expand -group ROM -radix hexadecimal /Test_RV32I_Harvard/rvh/ROM/address
-add wave -noupdate -expand -group ROM -radix hexadecimal /Test_RV32I_Harvard/rvh/ROM/clock
-add wave -noupdate -expand -group ROM -color Magenta -radix hexadecimal /Test_RV32I_Harvard/rvh/ROM/q
 add wave -noupdate -expand -group ROM -group Internal -radix hexadecimal /Test_RV32I_Harvard/rvh/ROM/sub_wire0
+add wave -noupdate -expand -group ROM /Test_RV32I_Harvard/rvh/ROM/address
+add wave -noupdate -expand -group ROM /Test_RV32I_Harvard/rvh/ROM/clock
+add wave -noupdate -expand -group ROM /Test_RV32I_Harvard/rvh/ROM/q
 add wave -noupdate -group {Pipe Decode} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PD/instruction_F
 add wave -noupdate -group {Pipe Decode} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PD/PC_F
 add wave -noupdate -group {Pipe Decode} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PD/PC_plus_4_F
@@ -538,7 +538,7 @@ add wave -noupdate -group {Hazard Unit} -group Internal /Test_RV32I_Harvard/rvh/
 add wave -noupdate -group {Hazard Unit} -group Internal /Test_RV32I_Harvard/rvh/RV/HU/and_aux
 add wave -noupdate -group {Hazard Unit} -group Internal /Test_RV32I_Harvard/rvh/RV/HU/ex_aux_o
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {25008547 ps} 0}
+WaveRestoreCursors {{Cursor 1} {581405 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 402
 configure wave -valuecolwidth 179
@@ -554,4 +554,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {24955937 ps} {25267596 ps}
+WaveRestoreZoom {377142 ps} {1032783 ps}

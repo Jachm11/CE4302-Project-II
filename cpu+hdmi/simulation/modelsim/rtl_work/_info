@@ -11,7 +11,7 @@ cModel Technology
 Z0 d/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim
 vA1_N
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1700590158
+Z2 !s110 1700642957
 !i10b 1
 !s100 1nR2]UXUMH9F;3l?FM5Xl3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1700590158.000000
+Z8 !s108 1700642957.000000
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements/A1_N.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements/A1_N.sv|
 !i113 1
@@ -38,7 +38,7 @@ Z10 tCvgOpt 0
 n@a1_@n
 vAbsolute_N
 R1
-Z11 !s110 1700590159
+Z11 !s110 1700642958
 !i10b 1
 !s100 iB=2_1T71af4g<VIlm^;M2
 R3
@@ -55,12 +55,12 @@ R7
 r1
 !s85 0
 31
-Z12 !s108 1700590159.000000
+R8
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Absolute_N.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Absolute_N.sv|
 !i113 1
 R9
-Z13 !s92 -sv -work work {+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic}
+Z12 !s92 -sv -work work {+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic}
 R10
 n@absolute_@n
 vAdder_N
@@ -82,12 +82,12 @@ R7
 r1
 !s85 0
 31
-R12
+Z13 !s108 1700642958.000000
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_N.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_N.sv|
 !i113 1
 R9
-R13
+R12
 R10
 n@adder_@n
 vAdder_Subtractor_N
@@ -109,12 +109,12 @@ R7
 r1
 !s85 0
 31
-R12
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_Subtractor_N.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_Subtractor_N.sv|
 !i113 1
 R9
-R13
+R12
 R10
 n@adder_@subtractor_@n
 vAdder_with_carries_N
@@ -136,12 +136,12 @@ R7
 r1
 !s85 0
 31
-R12
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carries_N.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carries_N.sv|
 !i113 1
 R9
-R13
+R12
 R10
 n@adder_with_carries_@n
 vAdder_with_carry_in_N
@@ -163,17 +163,17 @@ R7
 r1
 !s85 0
 31
-R12
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carry_in_N.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carry_in_N.sv|
 !i113 1
 R9
-R13
+R12
 R10
 n@adder_with_carry_in_@n
 vAddress_offset_16_byte
 R1
-Z15 !s110 1700590162
+Z15 !s110 1700642960
 !i10b 1
 !s100 =kb`j6Um^5bm6m4c?dL`[0
 R3
@@ -190,7 +190,7 @@ R7
 r1
 !s85 0
 31
-Z17 !s108 1700590162.000000
+Z17 !s108 1700642960.000000
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv|
 !i113 1
@@ -200,7 +200,7 @@ R10
 n@address_offset_16_byte
 vALU_decoder_RV32I
 R1
-Z19 !s110 1700590160
+R11
 !i10b 1
 !s100 9@0L<jmBK`oUMU95W>2=`2
 R3
@@ -212,22 +212,22 @@ R5
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_decoder_RV32I.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_decoder_RV32I.sv
 !i122 16
-Z20 L0 1 42
+Z19 L0 1 42
 R7
 r1
 !s85 0
 31
-Z21 !s108 1700590160.000000
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_decoder_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_decoder_RV32I.sv|
 !i113 1
 R9
-Z22 !s92 -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I
+Z20 !s92 -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I
 R10
 n@a@l@u_decoder_@r@v32@i
 vALU_RV32I
 R1
-R19
+R11
 !i10b 1
 !s100 Bn23:c?W4DRgWjWX[688Q3
 R3
@@ -244,17 +244,17 @@ R7
 r1
 !s85 0
 31
-R21
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@a@l@u_@r@v32@i
 vBranch_condition_decoder_RV32I
 R1
-R19
+R11
 !i10b 1
 !s100 WgCH4U>58ZoXm?kbQGNV;3
 R3
@@ -271,12 +271,12 @@ R7
 r1
 !s85 0
 31
-R21
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Branch_condition_decoder_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Branch_condition_decoder_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@branch_condition_decoder_@r@v32@i
 vCircular_shifter_left_byte_N
@@ -293,7 +293,7 @@ R16
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_left_byte_N.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_left_byte_N.sv
 !i122 47
-Z23 L0 1 46
+Z21 L0 1 46
 R7
 r1
 !s85 0
@@ -320,7 +320,7 @@ R16
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_right_byte_N.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_right_byte_N.sv
 !i122 48
-R23
+R21
 R7
 r1
 !s85 0
@@ -335,7 +335,7 @@ R10
 n@circular_shifter_right_byte_@n
 vComparator_RV32I
 R1
-R19
+R11
 !i10b 1
 !s100 B45oMoR=i[A0_d378>9i33
 R3
@@ -347,22 +347,22 @@ R5
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparator_RV32I.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparator_RV32I.sv
 !i122 19
-Z24 L0 1 31
+Z22 L0 1 31
 R7
 r1
 !s85 0
 31
-R21
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparator_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparator_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@comparator_@r@v32@i
 vComparison_unit_RV32I
 R1
-R19
+R11
 !i10b 1
 !s100 i]>HfIJ]=I8liN[29lYSb2
 R3
@@ -379,17 +379,17 @@ R7
 r1
 !s85 0
 31
-R21
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparison_unit_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparison_unit_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@comparison_unit_@r@v32@i
 vDecode_stage
 R1
-R19
+R11
 !i10b 1
 !s100 DaVUXCe_HkaPD[RFoMkoe2
 R3
@@ -406,17 +406,17 @@ R7
 r1
 !s85 0
 31
-R21
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decode_stage.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decode_stage.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@decode_stage
 vDecoder_f7_RV32I
 R1
-R19
+R11
 !i10b 1
 !s100 8k6`l[:zbN4]YN`FIZZFV0
 R3
@@ -433,12 +433,12 @@ R7
 r1
 !s85 0
 31
-R21
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decoder_f7_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decoder_f7_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@decoder_f7_@r@v32@i
 vDecoder_N
@@ -465,7 +465,7 @@ R8
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Decoder_N.sv|
 !i113 1
 R9
-Z25 !s92 -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders
+Z23 !s92 -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders
 R10
 n@decoder_@n
 vEncoder_15x4
@@ -482,7 +482,7 @@ R5
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_15x4.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_15x4.sv
 !i122 4
-R24
+R22
 R7
 r1
 !s85 0
@@ -492,12 +492,12 @@ R8
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_15x4.sv|
 !i113 1
 R9
-R25
+R23
 R10
 n@encoder_15x4
 vEncoder_5x3
 R1
-R11
+R2
 !i10b 1
 !s100 bOJ6VIZEl43ei3XiE<0h[2
 R3
@@ -509,7 +509,7 @@ R5
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_5x3.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_5x3.sv
 !i122 5
-Z26 L0 1 21
+Z24 L0 1 21
 R7
 r1
 !s85 0
@@ -519,12 +519,12 @@ R8
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_5x3.sv|
 !i113 1
 R9
-R25
+R23
 R10
 n@encoder_5x3
 vException
 R1
-R11
+R2
 !i10b 1
 !s100 8EC1jBn=jm^N@hDBij0533
 R3
@@ -541,7 +541,7 @@ R7
 r1
 !s85 0
 31
-R12
+R8
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers/Exception.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers/Exception.sv|
 !i113 1
@@ -551,7 +551,7 @@ R10
 n@exception
 vExecute_stage
 R1
-R19
+R11
 !i10b 1
 !s100 OOZQeJMDH:Vi4E:iPY^iP2
 R3
@@ -568,17 +568,17 @@ R7
 r1
 !s85 0
 31
-R21
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Execute_stage.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Execute_stage.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@execute_stage
 vFetch_stage
 R1
-R19
+Z25 !s110 1700642959
 !i10b 1
 !s100 2[9Pi[Z;BdEU>W;V6bo^@0
 R3
@@ -595,17 +595,17 @@ R7
 r1
 !s85 0
 31
-R21
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Fetch_stage.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Fetch_stage.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@fetch_stage
 vHazard_unit_RV32I
 R1
-R19
+R25
 !i10b 1
 !s100 E?OcbalZid1CM4eUhf@i43
 R3
@@ -622,17 +622,17 @@ R7
 r1
 !s85 0
 31
-R21
+Z26 !s108 1700642959.000000
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Hazard_unit_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Hazard_unit_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@hazard_unit_@r@v32@i
 vInput_byte_handler_RV32I
 R1
-R19
+R25
 !i10b 1
 !s100 U22i:j5D]aZQcCf:95B[:3
 R3
@@ -649,17 +649,17 @@ R7
 r1
 !s85 0
 31
-R21
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Input_byte_handler_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Input_byte_handler_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@input_byte_handler_@r@v32@i
 vInstruction_decoder_RV32I
 R1
-R19
+R25
 !i10b 1
 !s100 LS[fLV?9A^A0odSb6m:kZ2
 R3
@@ -676,17 +676,17 @@ R7
 r1
 !s85 0
 31
-R21
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_decoder_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_decoder_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@instruction_decoder_@r@v32@i
 vInstruction_splitter_RV32I
 R1
-R19
+R25
 !i10b 1
 !s100 ;Z_i5@TJ0CGd8?YKXE5Be0
 R3
@@ -698,22 +698,22 @@ R5
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_splitter_RV32I.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_splitter_RV32I.sv
 !i122 28
-R26
+R24
 R7
 r1
 !s85 0
 31
-R21
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_splitter_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_splitter_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@instruction_splitter_@r@v32@i
 vLoad_store_width_decoder_RV32I
 R1
-Z27 !s110 1700590161
+R25
 !i10b 1
 !s100 8>0YB66l8oDW6JS?`_FCA0
 R3
@@ -730,17 +730,17 @@ R7
 r1
 !s85 0
 31
-Z28 !s108 1700590161.000000
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Load_store_width_decoder_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Load_store_width_decoder_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@load_store_width_decoder_@r@v32@i
 vMain_decoder
 R1
-R27
+R25
 !i10b 1
 !s100 nhgcA;IDFWl>T1N`ZZnfd2
 R3
@@ -757,17 +757,17 @@ R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Main_decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Main_decoder.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@main_decoder
 vMT_FSM
 R1
-R27
+R25
 !i10b 1
 !s100 Jc6QkY6`WNZJJE5b3>5RZ3
 R3
@@ -784,12 +784,12 @@ R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/MT_FSM.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/MT_FSM.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@m@t_@f@s@m
 vMultiplexer_MxN
@@ -811,7 +811,7 @@ R7
 r1
 !s85 0
 31
-R12
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers/Multiplexer_MxN.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers/Multiplexer_MxN.sv|
 !i113 1
@@ -821,7 +821,7 @@ R10
 n@multiplexer_@mx@n
 vOutput_byte_handler_RV32I
 R1
-R27
+R25
 !i10b 1
 !s100 <LHgZ2]>UlmJVfCcWJkdD0
 R3
@@ -838,17 +838,17 @@ R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Output_byte_handler_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Output_byte_handler_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@output_byte_handler_@r@v32@i
 vPipe_decode_vP
 R1
-R27
+R25
 !i10b 1
 !s100 o>>G^Zk01k>lQ:]8><X7Y0
 R3
@@ -860,22 +860,22 @@ R5
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_decode_vP.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_decode_vP.sv
 !i122 33
-R20
+R19
 R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_decode_vP.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_decode_vP.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@pipe_decode_v@p
 vPipe_execute_vP
 R1
-R27
+R25
 !i10b 1
 !s100 eE:WQMm;JA5OV^`c4GDf12
 R3
@@ -892,17 +892,17 @@ R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_execute_vP.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_execute_vP.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@pipe_execute_v@p
 vPipe_memory_vP
 R1
-R27
+R25
 !i10b 1
 !s100 V=7c@9S@]XB8BXWYRHH_>3
 R3
@@ -919,17 +919,17 @@ R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_memory_vP.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_memory_vP.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@pipe_memory_v@p
 vPipe_writeback_vP
 R1
-R27
+R25
 !i10b 1
 !s100 FGjPT@9[<YJ21:EhPghD30
 R3
@@ -946,12 +946,12 @@ R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_writeback_vP.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_writeback_vP.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@pipe_writeback_v@p
 vRAM_1rwp_1rp_19a_128b_8g
@@ -1002,13 +1002,13 @@ R8
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file.v|
 !i113 1
-Z29 o-vlog01compat -work work
+Z27 o-vlog01compat -work work
 !s92 -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file
 R10
 n@r@a@m_2rwp_15a_8b_8g_from_file
 vRegfile_32x32_vN
 R1
-R27
+R25
 !i10b 1
 !s100 RXLA]_>FbA=1@=P1c3K7R3
 R3
@@ -1020,22 +1020,22 @@ R5
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_32x32_vN.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_32x32_vN.sv
 !i122 37
-Z30 L0 1 34
+Z28 L0 1 34
 R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_32x32_vN.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_32x32_vN.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@regfile_32x32_v@n
 vRegfile_vector_32x128_vN
 R1
-R27
+R25
 !i10b 1
 !s100 kl6@1Y1k6M50L2G1325]40
 R3
@@ -1047,17 +1047,17 @@ R5
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_vector_32x128_vN.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_vector_32x128_vN.sv
 !i122 38
-R30
+R28
 R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_vector_32x128_vN.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_vector_32x128_vN.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@regfile_vector_32x128_v@n
 vRegister_N_vP
@@ -1079,12 +1079,12 @@ R7
 r1
 !s85 0
 31
-R12
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_vP.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_vP.sv|
 !i113 1
 R9
-Z31 !s92 -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers
+Z29 !s92 -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers
 R10
 n@register_@n_v@p
 vRegister_N_with_enabler_vP
@@ -1101,22 +1101,22 @@ R5
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_with_enabler_vP.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_with_enabler_vP.sv
 !i122 15
-R26
+R24
 R7
 r1
 !s85 0
 31
-R12
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_with_enabler_vP.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_with_enabler_vP.sv|
 !i113 1
 R9
-R31
+R29
 R10
 n@register_@n_with_enabler_v@p
 vRerouting_decoder_RV32I
 R1
-R27
+R25
 !i10b 1
 !s100 _WSWoISW6jZbU=>;acPJg1
 R3
@@ -1133,17 +1133,17 @@ R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Rerouting_decoder_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Rerouting_decoder_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@rerouting_decoder_@r@v32@i
 vResult_source_decoder_RV32I
 R1
-R27
+R25
 !i10b 1
 !s100 9Bl2f3KH:[OMg=SozA=Ii3
 R3
@@ -1160,39 +1160,39 @@ R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Result_source_decoder_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Result_source_decoder_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@result_source_decoder_@r@v32@i
-vROM_1p_32w_8a_32b
+vROM_1p_13a_32g
 R2
 !i10b 1
-!s100 3i13YJ1[>E;<Xk4VAGW3o1
+!s100 zPOgen62HWD?Ti[`?nR2f1
 R3
-IbOU9=iMWE<6mL:o:lA`=n3
+I@WV3BS_hMWQ<iB]Glz9>Y1
 R4
 R0
-R5
-8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.v
-F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.v
+w1700619711
+8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g/ROM_1p_13a_32g.v
+F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g/ROM_1p_13a_32g.v
 !i122 1
-L0 40 63
+L0 40 62
 R7
 r1
 !s85 0
 31
 R8
-!s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.v|
+!s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g/ROM_1p_13a_32g.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g/ROM_1p_13a_32g.v|
 !i113 1
-R29
-!s92 -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b
+R27
+!s92 -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g
 R10
-n@r@o@m_1p_32w_8a_32b
+n@r@o@m_1p_13a_32g
 vRouter_RV32I
 R1
 R15
@@ -1212,12 +1212,12 @@ R7
 r1
 !s85 0
 31
-R28
+R26
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Router_RV32I.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Router_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@router_@r@v32@i
 vRV32I
@@ -1244,24 +1244,24 @@ R17
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@r@v32@i
 vRV32I_Harvard
 R1
 R15
 !i10b 1
-!s100 fKnUEF0n;QTUn5NE@7?oR3
+!s100 no6kUcIeziFJgmEFC<G861
 R3
-I`;2be01lAVjWmdilaLW>n0
+Igd6>9fILQTSOAe0^=NXSW3
 R4
 S1
 R0
-w1700549205
+w1700642853
 8/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I_Harvard.sv
 F/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I_Harvard.sv
 !i122 43
-L0 1 83
+L0 1 81
 R7
 r1
 !s85 0
@@ -1271,7 +1271,7 @@ R17
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I_Harvard.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@r@v32@i_@harvard
 vSign_extend_RV32I
@@ -1298,7 +1298,7 @@ R17
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Sign_extend_RV32I.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@sign_extend_@r@v32@i
 vSLT_U_N
@@ -1320,12 +1320,12 @@ R7
 r1
 !s85 0
 31
-R12
+R13
 !s107 /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/SLT_U_N.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/SLT_U_N.sv|
 !i113 1
 R9
-R13
+R12
 R10
 n@s@l@t_@u_@n
 vTest_RV32I_Harvard
@@ -1352,7 +1352,7 @@ R17
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Test_RV32I_Harvard.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@test_@r@v32@i_@harvard
 vVALU_4xN
@@ -1379,6 +1379,6 @@ R17
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I|/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/VALU_4xN.sv|
 !i113 1
 R9
-R22
+R20
 R10
 n@v@a@l@u_4x@n

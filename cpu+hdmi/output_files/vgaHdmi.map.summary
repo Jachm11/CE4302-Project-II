@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Nov 22 02:05:05 2023
+Analysis & Synthesis Status : Successful - Wed Nov 22 02:52:55 2023
 Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : vgaHdmi
 Top-level Entity Name : TopModule
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 6347
+Total registers : 6349
 Total pins : 39
 Total virtual pins : 0
 Total block memory bits : 4,456,448

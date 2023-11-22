@@ -55,13 +55,11 @@ module RV32I_Harvard
 
 			.state(data_ready)
 		);
+		
 
-		ROM_1p_32w_8a_32b #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/Instructions/test_vector.mif")) ROM
-		(
-			.address(shiftted_PC[7:0]),
-			
+		ROM_1p_13a_32g #(.PATH("/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/Mifs/Instructions/icosahedron.mif")) ROM(
+			.address(shiftted_PC[12:0]),
 			.clock(!clock),
-			
 			.q(instruction)
 		);
 
