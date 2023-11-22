@@ -1,0 +1,43 @@
+module RV32I_Harvard
+(
+	input logic [31:0] read_data,
+	input logic data_ready,
+	input logic [31:0] instruction,
+	input logic instruction_ready,
+
+	input logic clock,
+	input logic async_reset,
+
+
+	output logic memory_transaction,
+	output logic mem_write,
+	output logic [31:0] alu_result,
+	output logic [31:0] data_out,
+	output logic [3:0] byte_enablers,
+	output logic [31:0] pc
+);
+	// Core-ROM Interface
+	logic [31:0] shiftted_pc;
+	
+	assign shiftted_pc = pc >> 2;
+	assign data_ready = 1'b1;
+	assign instruction_ready = 1'b1;
+
+	// Modules
+	RV32I rv(
+		read_data, data_ready, instruction, instruction_ready,
+		clock, async_reset,
+		memory_transaction, mem_write, alu_result, data_out, byte_enablers, pc);
+
+
+	t1_ROM rom(
+		shiftted_pc[7:0],
+		clock,
+		instruction);
+
+		
+	t2_RAM ram(
+		alu_result[15:0], byte_enablers, clock, data_out, mem_write,
+		read_data);
+	
+endmodule

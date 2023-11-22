@@ -1,0 +1,10 @@
+module Exception
+(
+	input logic required,
+	input logic exeption,
+	
+	output logic o
+);
+	assign o = required && !exception;
+
+endmodule

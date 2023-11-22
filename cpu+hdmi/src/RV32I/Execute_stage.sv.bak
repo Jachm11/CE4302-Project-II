@@ -1,0 +1,65 @@
+module Execute_stage
+(
+	// Control signals
+	input logic select_operand_0_vector_E,
+	input logic select_operand_1_vector_E,
+	input logic [1:0] forward_r1_E,
+	input logic [1:0] forward_r2_E,
+	input logic [2:0] cond_code_E,
+	input logic branch_E,
+	input logic jump_E,
+	input logic i_jump_E,
+	input logic PC_to_ALU_E,
+	input logic ALU_source_E,
+	input logic [3:0] ALU_op_E,
+	input logic [2:0] rerouting_code_E,
+	input logic rerouting_select_E,
+	
+	output logic [1:0] PC_source_E,
+	output logic change_PC_E,
+	
+	// Data signals
+	
+	input logic [31:0] scalar_reg_data_0_E,
+	input logic [31:0] scalar_reg_data_1_E,
+	input logic [127:0] vector_reg_data_0_E,
+	input logic [127:0] vector_reg_data_1_E,
+	input logic [31:0] PC_E,
+	input logic [31:0] immediate_E,
+	
+	input logic [127:0] data_bus_M,
+	input logic [127:0] data_bus_W,
+
+	output logic [127:0] ALU_result_bus_E
+	output logic [127:0] write_data_bus_E,
+	
+);
+	logic [31:0] mux_fusion_0_o;
+	Multiplexer_MxN #(.M(2), .N(32)) mux_fusion_0
+	(
+		.select(select_operand_0_vector_E),
+		.channels({vector_reg_data_0_E[31:0], scalar_reg_data_0_E}),
+		
+		.channel_out(mux_fusion_0_o)
+	);
+
+	logic [31:0] mux_fusion_1_o;
+	Multiplexer_MxN #(.M(2), .N(32)) mux_fusion_1
+	(
+		.select(select_operand_1_vector_E),
+		.channels({vector_reg_data_1_E[31:0], scalar_reg_data_1_E}),
+		
+		.channel_out(mux_fusion_0_o)
+	);
+
+	
+	Multiplexer_MxN #(.M(4), .N(128)) mux_operand_0
+	(
+		.select(),
+		.channels({128'd0, , , }),
+		
+		.channel_out(mux_pc_src_o) 
+	);
+
+
+endmodule

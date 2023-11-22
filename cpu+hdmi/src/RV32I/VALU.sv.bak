@@ -1,0 +1,14 @@
+module VALU
+(
+	// Control signals
+	input logic rerouting_select_E,
+	input logic [2:0] rerouting_code,
+	input logic [3:0] ALU_op_E,
+	
+	// Data signals
+	input logic [127:0] operand_0_bus,
+	input logic [127:0] operand_1_bus,
+	
+	output logic [127:0] ALU_result_bus
+);
+

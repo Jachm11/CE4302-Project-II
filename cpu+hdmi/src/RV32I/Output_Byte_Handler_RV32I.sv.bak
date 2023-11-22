@@ -1,0 +1,15 @@
+module Output_Byte_Handler_RV32I
+(
+	input logic [2:0] code,
+	
+	output logic [7:0] o
+);
+
+
+	Decoder_3x8 mux_(code,o);
+
+endmodule
+
+
+
+

@@ -1,0 +1,14 @@
+module Enabler_N #(parameter N = 4)
+(
+	input [N-1:0] x,
+	input enabler,
+	output [N-1:0] y
+);
+	genvar i;
+	generate
+		for(i = 0; i < N; i++)
+			begin: forloop
+				assign y[i] = x[i] & enabler;
+			end
+	endgenerate
+endmodule

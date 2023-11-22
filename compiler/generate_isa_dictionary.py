@@ -165,9 +165,7 @@ def generate_register_dictionary():
     dictionary["x31"] = dictionary["t6"]
 
 
-
-
-    for i in range(0, 31):
+    for i in range(0, 32):
         register = "v" + str(i)
         dictionary[register] = bin(i)[2:].zfill(5)
 

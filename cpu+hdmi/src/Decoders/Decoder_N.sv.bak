@@ -1,0 +1,8 @@
+module Decoder_N #(parameter N=4)
+(
+	input logic [N-1:0] code,
+	
+	output logic [(2**N)-1:0] o
+);	
+	assign o = {{((2**N)-1){1'b0}}, 1'b1} >> N;
+endmodule
