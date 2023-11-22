@@ -11,9 +11,6 @@ module pixelPrinter(
 	// RGB constants
 	localparam BLACK = 8'h00;
 	
-	// Memory constants
-	localparam MAX_ADDRESS = 19'd307200;
-	
 	logic [23:0] palette [0:9];
 	logic [23:0] rgb;
 

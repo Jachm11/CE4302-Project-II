@@ -3,27 +3,27 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 100C Model Setup 'clk50'
-Slack : -70.754
-TNS   : -34538.941
+Slack : -70.911
+TNS   : -35910.932
 
 Type  : Slow 1100mV 100C Model Setup 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 29.537
+Slack : 35.603
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Setup 'i2c_20k_clock'
-Slack : 49993.493
-TNS   : 0.000
-
-Type  : Slow 1100mV 100C Model Hold 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.370
+Slack : 49994.402
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'clk50'
-Slack : 0.411
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Slow 1100mV 100C Model Hold 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.418
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'i2c_20k_clock'
-Slack : 0.778
+Slack : 0.497
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
@@ -35,35 +35,35 @@ Slack : 8.612
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 19.275
+Slack : 19.271
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'i2c_20k_clock'
-Slack : 24999.269
+Slack : 24999.279
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Setup 'clk50'
-Slack : -75.272
-TNS   : -32639.641
+Slack : -75.280
+TNS   : -33319.203
 
 Type  : Slow 1100mV -40C Model Setup 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 30.197
+Slack : 35.674
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Setup 'i2c_20k_clock'
-Slack : 49993.379
-TNS   : 0.000
-
-Type  : Slow 1100mV -40C Model Hold 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.353
+Slack : 49994.372
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'clk50'
-Slack : 0.372
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1100mV -40C Model Hold 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.434
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'i2c_20k_clock'
-Slack : 0.772
+Slack : 0.484
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
@@ -75,35 +75,35 @@ Slack : 8.532
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 19.198
+Slack : 19.194
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'i2c_20k_clock'
-Slack : 24999.315
+Slack : 24999.316
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'clk50'
-Slack : -25.288
-TNS   : -5120.349
+Slack : -24.946
+TNS   : -4546.800
 
 Type  : Fast 1100mV 100C Model Setup 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 33.541
+Slack : 37.815
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'i2c_20k_clock'
-Slack : 49996.365
-TNS   : 0.000
-
-Type  : Fast 1100mV 100C Model Hold 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.195
-TNS   : 0.000
-
-Type  : Fast 1100mV 100C Model Hold 'clk50'
-Slack : 0.203
+Slack : 49996.775
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'i2c_20k_clock'
-Slack : 0.322
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1100mV 100C Model Hold 'clk50'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1100mV 100C Model Hold 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.203
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
@@ -115,35 +115,35 @@ Slack : 8.782
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 19.559
+Slack : 19.556
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'i2c_20k_clock'
-Slack : 24999.581
+Slack : 24999.603
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'clk50'
-Slack : -20.896
-TNS   : -4266.224
+Slack : -20.827
+TNS   : -3777.911
 
 Type  : Fast 1100mV -40C Model Setup 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 34.742
+Slack : 38.100
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'i2c_20k_clock'
-Slack : 49996.820
-TNS   : 0.000
-
-Type  : Fast 1100mV -40C Model Hold 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 0.175
-TNS   : 0.000
-
-Type  : Fast 1100mV -40C Model Hold 'clk50'
-Slack : 0.187
+Slack : 49997.214
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'i2c_20k_clock'
-Slack : 0.279
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 1100mV -40C Model Hold 'clk50'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1100mV -40C Model Hold 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.190
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
@@ -155,11 +155,11 @@ Slack : 8.773
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'pll_25|pll_25_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
-Slack : 19.548
+Slack : 19.546
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'i2c_20k_clock'
-Slack : 24999.622
+Slack : 24999.626
 TNS   : 0.000
 
 ------------------------------------------------------------

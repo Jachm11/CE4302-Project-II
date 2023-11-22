@@ -1,5 +1,5 @@
 Flow report for vgaHdmi
-Tue Nov 21 18:45:42 2023
+Wed Nov 22 01:59:11 2023
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -38,29 +38,24 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+----------------------------------------------------------------------------------+
-; Flow Summary                                                                     ;
-+---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Tue Nov 21 18:45:42 2023          ;
-; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
-; Revision Name                   ; vgaHdmi                                        ;
-; Top-level Entity Name           ; TopModule                                      ;
-; Family                          ; Cyclone V                                      ;
-; Device                          ; 5CSEBA6U23I7                                   ;
-; Timing Models                   ; Final                                          ;
-; Logic utilization (in ALMs)     ; 12,003 / 41,910 ( 29 % )                       ;
-; Total registers                 ; 6501                                           ;
-; Total pins                      ; 39 / 314 ( 12 % )                              ;
-; Total virtual pins              ; 0                                              ;
-; Total block memory bits         ; 4,202,496 / 5,662,720 ( 74 % )                 ;
-; Total DSP Blocks                ; 8 / 112 ( 7 % )                                ;
-; Total HSSI RX PCSs              ; 0                                              ;
-; Total HSSI PMA RX Deserializers ; 0                                              ;
-; Total HSSI TX PCSs              ; 0                                              ;
-; Total HSSI PMA TX Serializers   ; 0                                              ;
-; Total PLLs                      ; 1 / 6 ( 17 % )                                 ;
-; Total DLLs                      ; 0 / 4 ( 0 % )                                  ;
-+---------------------------------+------------------------------------------------+
++------------------------------------------------------------------------------+
+; Flow Summary                                                                 ;
++-----------------------------+------------------------------------------------+
+; Flow Status                 ; Flow Failed - Wed Nov 22 01:59:11 2023         ;
+; Quartus Prime Version       ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
+; Revision Name               ; vgaHdmi                                        ;
+; Top-level Entity Name       ; TopModule                                      ;
+; Family                      ; Cyclone V                                      ;
+; Device                      ; 5CSEBA6U23I7                                   ;
+; Timing Models               ; Final                                          ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                      ;
+; Total registers             ; N/A until Partition Merge                      ;
+; Total pins                  ; N/A until Partition Merge                      ;
+; Total virtual pins          ; N/A until Partition Merge                      ;
+; Total block memory bits     ; N/A until Partition Merge                      ;
+; Total PLLs                  ; N/A until Partition Merge                      ;
+; Total DLLs                  ; N/A until Partition Merge                      ;
++-----------------------------+------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -68,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/21/2023 18:24:15 ;
+; Start date & time ; 11/22/2023 01:59:02 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; vgaHdmi             ;
 +-------------------+---------------------+
@@ -79,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+-------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                                                                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+-------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 136520661658780.170061265424431                                                                       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 136520661658780.170063994213558                                                                       ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                    ; --            ; --          ; RV32I_Harvard  ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                    ; --            ; --          ; TopModule      ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; RV32I_Harvard                                                                                         ; --            ; --          ; eda_simulation ;
@@ -106,6 +101,11 @@ https://fpgasoftware.intel.com/eula.
 ; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b_bb.v                         ; --            ; --          ; --             ;
 ; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.inc                          ; --            ; --          ; --             ;
 ; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.cmp                          ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g/ROM_1p_13a_32g.bsf                                ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g/ROM_1p_13a_32g_inst.v                             ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g/ROM_1p_13a_32g_bb.v                               ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g/ROM_1p_13a_32g.inc                                ; --            ; --          ; --             ;
+; MISC_FILE                            ; src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_13a_32g/ROM_1p_13a_32g.cmp                                ; --            ; --          ; --             ;
 ; NUM_PARALLEL_PROCESSORS              ; 1                                                                                                     ; --            ; --          ; --             ;
 ; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                                                ; --            ; TopModule   ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                                                ; --            ; TopModule   ; Top            ;
@@ -123,12 +123,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:04     ; 1.0                     ; 663 MB              ; 00:01:19                           ;
-; Fitter               ; 00:17:13     ; 1.0                     ; 1970 MB             ; 00:17:20                           ;
-; Assembler            ; 00:00:18     ; 1.0                     ; 729 MB              ; 00:00:17                           ;
-; Timing Analyzer      ; 00:02:25     ; 1.0                     ; 1321 MB             ; 00:02:25                           ;
-; EDA Netlist Writer   ; 00:00:08     ; 1.0                     ; 1014 MB             ; 00:00:08                           ;
-; Total                ; 00:21:08     ; --                      ; --                  ; 00:21:29                           ;
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 527 MB              ; 00:00:27                           ;
+; Total                ; 00:00:10     ; --                      ; --                  ; 00:00:27                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -138,10 +134,6 @@ https://fpgasoftware.intel.com/eula.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; JACHM-Laptop     ; Linux Mint ; 21         ; x86_64         ;
-; Fitter               ; JACHM-Laptop     ; Linux Mint ; 21         ; x86_64         ;
-; Assembler            ; JACHM-Laptop     ; Linux Mint ; 21         ; x86_64         ;
-; Timing Analyzer      ; JACHM-Laptop     ; Linux Mint ; 21         ; x86_64         ;
-; EDA Netlist Writer   ; JACHM-Laptop     ; Linux Mint ; 21         ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -149,10 +141,6 @@ https://fpgasoftware.intel.com/eula.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off vgaHdmi -c vgaHdmi
-quartus_fit --read_settings_files=off --write_settings_files=off vgaHdmi -c vgaHdmi
-quartus_asm --read_settings_files=off --write_settings_files=off vgaHdmi -c vgaHdmi
-quartus_sta vgaHdmi -c vgaHdmi
-quartus_eda --read_settings_files=off --write_settings_files=off vgaHdmi -c vgaHdmi
 
 
 
