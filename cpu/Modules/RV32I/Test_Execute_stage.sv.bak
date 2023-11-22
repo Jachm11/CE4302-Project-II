@@ -1,0 +1,54 @@
+module Test_Execute_stage;
+
+  // Parameters
+  parameter TIME_SCALE = 1ns;
+
+  // Inputs
+  logic select_operand_0_vector_tb;
+  logic select_operand_1_vector_tb;
+  // ... (include all other inputs here)
+
+  // Outputs
+  logic [1:0] PC_source_tb;
+  logic change_PC_tb;
+  // ... (include all other outputs here)
+
+  // Instantiate the module under test
+  Execute_stage uut (
+    // Connect inputs
+    .select_operand_0_vector_E(select_operand_0_vector_tb),
+    .select_operand_1_vector_E(select_operand_1_vector_tb),
+    // ... (connect all other inputs here)
+
+    // Connect outputs
+    .PC_source_E(PC_source_tb),
+    .change_PC_E(change_PC_tb),
+    // ... (connect all other outputs here)
+  );
+
+  // Stimulus
+  initial begin
+    // Initialize inputs
+    select_operand_0_vector_tb = 0;
+    select_operand_1_vector_tb = 0;
+    // ... (initialize all other inputs here)
+
+    // Apply stimulus
+    #10 select_operand_0_vector_tb = 1;
+    #10 select_operand_1_vector_tb = 1;
+    // ... (apply stimulus to other inputs)
+
+    // Add some delay to allow signals to propagate through the module
+    #100;
+
+    // Assertions
+    // Example assertion: Check if PC_source_tb is correct after applying stimulus
+    assert(PC_source_tb === expected_PC_source) else $fatal("Assertion failed: PC_source_tb");
+
+    // ... (add more assertions as needed)
+
+    // End simulation
+    $finish;
+  end
+
+endmodule

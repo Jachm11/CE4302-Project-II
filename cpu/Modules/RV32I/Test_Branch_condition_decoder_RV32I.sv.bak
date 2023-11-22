@@ -1,0 +1,42 @@
+`timescale 1ns / 1ps
+
+module Test_Branch_condition_decoder_RV32I;
+
+  // Inputs
+  logic [7:0] decoded_f3;
+  logic B;
+
+  // Outputs
+  reg [2:0] comp_code;
+
+  // Instantiate the module
+  Branch_condition_decoder_RV32I uut (
+    .decoded_f3(decoded_f3),
+    .B(B),
+    .comp_code(comp_code)
+  );
+
+  // Stimulus generation
+  initial begin
+    // Test case 1: Default values
+    decoded_f3 = 8'b0000_0000;
+    B = 1;
+    #10; // Wait for a few clock cycles
+	 assert(comp_code == 3'b000) else $fatal("Test failed. comp_code is incorrect.");
+
+
+    // Test case 2: Set B to 0, decoded_f3[1] to 1 (B inverted)
+    B = 0;
+    decoded_f3[1] = 1;
+    #10;
+	 assert(comp_code == 3'b001) else $fatal("Test failed. comp_code is incorrect.");
+
+    // Test case 3: Set decoded_f3[4] and B to 1 (less than)
+    B = 1;
+    decoded_f3[4] = 1;
+    #10;
+    assert_properties(3'b010); // Less than, should be less than
+	 assert(comp_code == 3'b010) else $fatal("Test failed. comp_code is incorrect.");
+
+  end
+endmodule

@@ -57,7 +57,7 @@ module RV32I_Harvard
 		);
 
 		// ROM_1p_32w_8a_32b #(.PATH("C:/intelFPGA_lite/LBP/Projects/logic_circuit_main/Modules/Memory/Mifs/Instructions/rippling.mif")) ROM
-		ROM_1p_32w_8a_32b #(.PATH("C:/Users/aleja/OneDrive/Documents/D/Files/program_works/quartus/arqui_2_proyecto_2_procesador_vectorial/Modules/Memory/Mifs/Instructions/test.mif")) ROM
+		ROM_1p_32w_8a_32b #(.PATH("C:/Users/sebas/Documents/CE4302-Project-II/cpu/Modules/Memory/Mifs/Instructions/test.mif")) ROM
 		(
 			.address(shiftted_PC[7:0]),
 			

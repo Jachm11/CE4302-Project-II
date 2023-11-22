@@ -1,2 +1,14 @@
 
 /compiler/__pycache__/*
+
+# Quartus Project Files
+cpu/Modules/*/*.sv.bak
+cpu/db/*
+cpu/output_files/*.rpt
+cpu/simulation/*/*
+cpu/Modules/*/*.v.bak
+cpu/output_files/*
+cpu/*.rpt
+cpu/incremental_db/*/*
+cpu/*.qsf
+cpu/incremental_db/*
