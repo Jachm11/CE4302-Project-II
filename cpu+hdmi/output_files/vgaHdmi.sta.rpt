@@ -1,5 +1,5 @@
 Timing Analyzer report for vgaHdmi
-Wed Nov 22 01:48:32 2023
+Wed Nov 22 02:24:49 2023
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -109,7 +109,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------+--------+--------------------------+
 ; SDC File Path ; Status ; Read at                  ;
 +---------------+--------+--------------------------+
-; vgaHdmi.sdc   ; OK     ; Wed Nov 22 01:46:03 2023 ;
+; vgaHdmi.sdc   ; OK     ; Wed Nov 22 02:22:39 2023 ;
 +---------------+--------+--------------------------+
 
 
@@ -782,7 +782,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Wed Nov 22 01:45:58 2023
+    Info: Processing started: Wed Nov 22 02:22:33 2023
 Info: Command: quartus_sta vgaHdmi -c vgaHdmi
 Info: qsta_default_script.tcl version: #1
 Warning (12473): User specified to use only one processors but 4 processors were detected which could be used to decrease run time.
@@ -926,8 +926,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 9 warnings
     Info: Peak virtual memory: 1321 megabytes
-    Info: Processing ended: Wed Nov 22 01:48:32 2023
-    Info: Elapsed time: 00:02:34
-    Info: Total CPU time (on all processors): 00:02:33
+    Info: Processing ended: Wed Nov 22 02:24:49 2023
+    Info: Elapsed time: 00:02:16
+    Info: Total CPU time (on all processors): 00:02:15
 
 

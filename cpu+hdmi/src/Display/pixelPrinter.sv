@@ -11,7 +11,7 @@ module pixelPrinter(
 	// RGB constants
 	localparam BLACK = 8'h00;
 	
-	logic [23:0] palette [0:9];
+	logic [23:0] palette [0:17];
 	logic [23:0] rgb;
 
 	always @(posedge vgaClk) begin

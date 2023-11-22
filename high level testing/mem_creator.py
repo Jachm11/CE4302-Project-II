@@ -36,6 +36,7 @@ else:
         # Write the palette to the palette .mem file
         for color in palette:
             palette_mem_file.write(f"{color[0]:02X}{color[1]:02X}{color[2]:02X}\n")
+            print(f"{color[0]:02X}{color[1]:02X}{color[2]:02X}\n")
 
         # # Iterate through each pixel and write the index of the closest color (limited to 3 bits) to the image .mem file
         # for y in range(height):
