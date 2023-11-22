@@ -7,10 +7,10 @@ void draw_straight(int org, int end, int hor, int cons);
 // to compile: gcc -msse4.1 -o draw draw.c
 int main(int argc, char const *argv[])
 {
-    int x0 = 0;
-    int y0 = 0;
-    int x1 = 10;
-    int y1 = 0;
+    int x0 = 320;
+    int y0 = 240;
+    int x1 = 320;
+    int y1 = 140;
 
     draw_line(x0, y0, x1, y1);
 

@@ -397,7 +397,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_di
             instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, "00000")
 
             vs_bits = register_dictionary[vs]
-            instruction_bits = indexed_replace_inverted(instruction_bits, 20, 24, sd_bits)
+            instruction_bits = indexed_replace_inverted(instruction_bits, 20, 24, vs_bits)
 
             immediate = number_to_nbit_binary(value, is_hexadecimal=False, n_bits=2)
             instruction_bits = indexed_replace_inverted(instruction_bits, 25, 26, immediate)
@@ -419,7 +419,7 @@ def riscv_to_hex(instructions_list, isa_dictionary, register_dictionary, tags_di
 
 
             vs_bits = register_dictionary[vs]
-            instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, vd_bits)
+            instruction_bits = indexed_replace_inverted(instruction_bits, 15, 19, vs_bits)
 
 
             instruction_bits = indexed_replace_inverted(instruction_bits, 20, 31, "".zfill(12))

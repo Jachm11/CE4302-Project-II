@@ -12,7 +12,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:11 on Nov 21,2023
+# Start time: 12:09:05 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -94,7 +94,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 02:16:12 on Nov 21,2023, Elapsed time: 0:00:01
+# End time: 12:09:06 on Nov 21,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -105,7 +105,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:13 on Nov 21,2023
+# Start time: 12:09:06 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -169,7 +169,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 02:16:13 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:06 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -180,7 +180,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:13 on Nov 21,2023
+# Start time: 12:09:06 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -222,7 +222,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 02:16:13 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:06 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -233,7 +233,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:13 on Nov 21,2023
+# Start time: 12:09:07 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -363,7 +363,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 02:16:14 on Nov 21,2023, Elapsed time: 0:00:01
+# End time: 12:09:08 on Nov 21,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -374,7 +374,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:14 on Nov 21,2023
+# Start time: 12:09:08 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -457,7 +457,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 02:16:15 on Nov 21,2023, Elapsed time: 0:00:01
+# End time: 12:09:09 on Nov 21,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -468,23 +468,23 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:15 on Nov 21,2023
+# Start time: 12:09:09 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 02:16:18 on Nov 21,2023, Elapsed time: 0:00:03
+# End time: 12:09:11 on Nov 21,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:18 on Nov 21,2023
+# Start time: 12:09:11 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 02:16:19 on Nov 21,2023, Elapsed time: 0:00:01
+# End time: 12:09:12 on Nov 21,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:19 on Nov 21,2023
+# Start time: 12:09:12 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -624,7 +624,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 02:16:20 on Nov 21,2023, Elapsed time: 0:00:01
+# End time: 12:09:13 on Nov 21,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -635,15 +635,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:20 on Nov 21,2023
+# Start time: 12:09:13 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 02:16:22 on Nov 21,2023, Elapsed time: 0:00:02
+# End time: 12:09:15 on Nov 21,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:22 on Nov 21,2023
+# Start time: 12:09:15 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -743,7 +743,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 02:16:22 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:15 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -754,22 +754,22 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:22 on Nov 21,2023
+# Start time: 12:09:15 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:03
+# End time: 12:09:18 on Nov 21,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {/home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:25 on Nov 21,2023
+# Start time: 12:09:18 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:18 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -783,520 +783,520 @@
 # 
 # vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:25 on Nov 21,2023
+# Start time: 12:09:18 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Primitive/RAM_2rwp_15a_8b_8g_from_file/RAM_2rwp_15a_8b_8g_from_file.v 
 # -- Compiling module RAM_2rwp_15a_8b_8g_from_file
 # 
 # Top level modules:
 # 	RAM_2rwp_15a_8b_8g_from_file
-# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:18 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:25 on Nov 21,2023
+# Start time: 12:09:18 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_ROMs/Primitive/ROM_1p_32w_8a_32b/ROM_1p_32w_8a_32b.v 
 # -- Compiling module ROM_1p_32w_8a_32b
 # 
 # Top level modules:
 # 	ROM_1p_32w_8a_32b
-# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:18 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements/A1_N.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:25 on Nov 21,2023
+# Start time: 12:09:18 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Complements/A1_N.sv 
 # -- Compiling module A1_N
 # 
 # Top level modules:
 # 	A1_N
-# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:18 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Decoder_N.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:25 on Nov 21,2023
+# Start time: 12:09:18 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Decoder_N.sv 
 # -- Compiling module Decoder_N
 # 
 # Top level modules:
 # 	Decoder_N
-# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:18 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_15x4.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:25 on Nov 21,2023
+# Start time: 12:09:18 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_15x4.sv 
 # -- Compiling module Encoder_15x4
 # 
 # Top level modules:
 # 	Encoder_15x4
-# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:18 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_5x3.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:25 on Nov 21,2023
+# Start time: 12:09:18 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Decoders/Encoder_5x3.sv 
 # -- Compiling module Encoder_5x3
 # 
 # Top level modules:
 # 	Encoder_5x3
-# End time: 02:16:25 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers/Exception.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:19 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Handlers/Exception.sv 
 # -- Compiling module Exception
 # 
 # Top level modules:
 # 	Exception
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Absolute_N.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:19 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Absolute_N.sv 
 # -- Compiling module Absolute_N
 # 
 # Top level modules:
 # 	Absolute_N
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_N.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:19 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_N.sv 
 # -- Compiling module Adder_N
 # 
 # Top level modules:
 # 	Adder_N
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_Subtractor_N.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:19 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_Subtractor_N.sv 
 # -- Compiling module Adder_Subtractor_N
 # 
 # Top level modules:
 # 	Adder_Subtractor_N
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carries_N.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:19 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carries_N.sv 
 # -- Compiling module Adder_with_carries_N
 # 
 # Top level modules:
 # 	Adder_with_carries_N
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carry_in_N.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:19 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/Adder_with_carry_in_N.sv 
 # -- Compiling module Adder_with_carry_in_N
 # 
 # Top level modules:
 # 	Adder_with_carry_in_N
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer\ Arithmetic {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/SLT_U_N.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:19 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Integer Arithmetic/SLT_U_N.sv 
 # -- Compiling module SLT_U_N
 # 
 # Top level modules:
 # 	SLT_U_N
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers/Multiplexer_MxN.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:19 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers/Multiplexer_MxN.sv 
 # -- Compiling module Multiplexer_MxN
 # ** Warning: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Multiplexers/Multiplexer_MxN.sv(6): (vlog-13314) Defaulting port 'channels' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # 
 # Top level modules:
 # 	Multiplexer_MxN
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_vP.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:19 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_vP.sv 
 # -- Compiling module Register_N_vP
 # 
 # Top level modules:
 # 	Register_N_vP
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_with_enabler_vP.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:19 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Registers/Register_N_with_enabler_vP.sv 
 # -- Compiling module Register_N_with_enabler_vP
 # 
 # Top level modules:
 # 	Register_N_with_enabler_vP
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:19 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_decoder_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_decoder_RV32I.sv 
 # -- Compiling module ALU_decoder_RV32I
 # 
 # Top level modules:
 # 	ALU_decoder_RV32I
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/ALU_RV32I.sv 
 # -- Compiling module ALU_RV32I
 # 
 # Top level modules:
 # 	ALU_RV32I
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Branch_condition_decoder_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Branch_condition_decoder_RV32I.sv 
 # -- Compiling module Branch_condition_decoder_RV32I
 # 
 # Top level modules:
 # 	Branch_condition_decoder_RV32I
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparator_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:26 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparator_RV32I.sv 
 # -- Compiling module Comparator_RV32I
 # 
 # Top level modules:
 # 	Comparator_RV32I
-# End time: 02:16:26 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparison_unit_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Comparison_unit_RV32I.sv 
 # -- Compiling module Comparison_unit_RV32I
 # 
 # Top level modules:
 # 	Comparison_unit_RV32I
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decode_stage.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decode_stage.sv 
 # -- Compiling module Decode_stage
 # 
 # Top level modules:
 # 	Decode_stage
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decoder_f7_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Decoder_f7_RV32I.sv 
 # -- Compiling module Decoder_f7_RV32I
 # 
 # Top level modules:
 # 	Decoder_f7_RV32I
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Execute_stage.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Execute_stage.sv 
 # -- Compiling module Execute_stage
 # 
 # Top level modules:
 # 	Execute_stage
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Fetch_stage.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Fetch_stage.sv 
 # -- Compiling module Fetch_stage
 # 
 # Top level modules:
 # 	Fetch_stage
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Hazard_unit_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Hazard_unit_RV32I.sv 
 # -- Compiling module Hazard_unit_RV32I
 # 
 # Top level modules:
 # 	Hazard_unit_RV32I
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Input_byte_handler_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Input_byte_handler_RV32I.sv 
 # -- Compiling module Input_byte_handler_RV32I
 # 
 # Top level modules:
 # 	Input_byte_handler_RV32I
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_decoder_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_decoder_RV32I.sv 
 # -- Compiling module Instruction_decoder_RV32I
 # 
 # Top level modules:
 # 	Instruction_decoder_RV32I
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_splitter_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:20 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Instruction_splitter_RV32I.sv 
 # -- Compiling module Instruction_splitter_RV32I
 # 
 # Top level modules:
 # 	Instruction_splitter_RV32I
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:20 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Load_store_width_decoder_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Load_store_width_decoder_RV32I.sv 
 # -- Compiling module Load_store_width_decoder_RV32I
 # 
 # Top level modules:
 # 	Load_store_width_decoder_RV32I
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Main_decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Main_decoder.sv 
 # -- Compiling module Main_decoder
 # 
 # Top level modules:
 # 	Main_decoder
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/MT_FSM.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/MT_FSM.sv 
 # -- Compiling module MT_FSM
 # 
 # Top level modules:
 # 	MT_FSM
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Output_byte_handler_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Output_byte_handler_RV32I.sv 
 # -- Compiling module Output_byte_handler_RV32I
 # 
 # Top level modules:
 # 	Output_byte_handler_RV32I
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_decode_vP.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:27 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_decode_vP.sv 
 # -- Compiling module Pipe_decode_vP
 # 
 # Top level modules:
 # 	Pipe_decode_vP
-# End time: 02:16:27 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_execute_vP.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_execute_vP.sv 
 # -- Compiling module Pipe_execute_vP
 # 
 # Top level modules:
 # 	Pipe_execute_vP
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_memory_vP.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_memory_vP.sv 
 # -- Compiling module Pipe_memory_vP
 # 
 # Top level modules:
 # 	Pipe_memory_vP
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_writeback_vP.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Pipe_writeback_vP.sv 
 # -- Compiling module Pipe_writeback_vP
 # 
 # Top level modules:
 # 	Pipe_writeback_vP
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_32x32_vN.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_32x32_vN.sv 
 # -- Compiling module Regfile_32x32_vN
 # 
 # Top level modules:
 # 	Regfile_32x32_vN
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_vector_32x128_vN.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Regfile_vector_32x128_vN.sv 
 # -- Compiling module Regfile_vector_32x128_vN
 # 
 # Top level modules:
 # 	Regfile_vector_32x128_vN
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Rerouting_decoder_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Rerouting_decoder_RV32I.sv 
 # -- Compiling module Rerouting_decoder_RV32I
 # 
 # Top level modules:
 # 	Rerouting_decoder_RV32I
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Result_source_decoder_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Result_source_decoder_RV32I.sv 
 # -- Compiling module Result_source_decoder_RV32I
 # 
 # Top level modules:
 # 	Result_source_decoder_RV32I
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:21 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Router_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:21 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Router_RV32I.sv 
 # -- Compiling module Router_RV32I
 # 
 # Top level modules:
 # 	Router_RV32I
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:22 on Nov 21,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:22 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I.sv 
 # -- Compiling module RV32I
 # 
 # Top level modules:
 # 	RV32I
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:22 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I_Harvard.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:22 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/RV32I_Harvard.sv 
 # -- Compiling module RV32I_Harvard
 # 
 # Top level modules:
 # 	RV32I_Harvard
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:22 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Sign_extend_RV32I.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:22 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Sign_extend_RV32I.sv 
 # -- Compiling module Sign_extend_RV32I
 # 
 # Top level modules:
 # 	Sign_extend_RV32I
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:22 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/VALU_4xN.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:22 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/VALU_4xN.sv 
 # -- Compiling module VALU_4xN
 # 
 # Top level modules:
 # 	VALU_4xN
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:22 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:22 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv 
 # -- Compiling module Address_offset_16_byte
 # 
 # Top level modules:
 # 	Address_offset_16_byte
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:22 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_left_byte_N.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:28 on Nov 21,2023
+# Start time: 12:09:22 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_left_byte_N.sv 
 # -- Compiling module Circular_shifter_left_byte_N
 # 
 # Top level modules:
 # 	Circular_shifter_left_byte_N
-# End time: 02:16:28 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:22 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_right_byte_N.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:29 on Nov 21,2023
+# Start time: 12:09:22 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Circular_shifter_right_byte_N.sv 
 # -- Compiling module Circular_shifter_right_byte_N
 # 
 # Top level modules:
 # 	Circular_shifter_right_byte_N
-# End time: 02:16:29 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:22 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:29 on Nov 21,2023
+# Start time: 12:09:22 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv 
 # -- Compiling module RAM_1rwp_1rp_19a_128b_8g
 # 
 # Top level modules:
 # 	RAM_1rwp_1rp_19a_128b_8g
-# End time: 02:16:29 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:22 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I {/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Test_RV32I_Harvard.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 02:16:29 on Nov 21,2023
+# Start time: 12:09:22 on Nov 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I" /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/RV32I/Test_RV32I_Harvard.sv 
 # -- Compiling module Test_RV32I_Harvard
 # 
 # Top level modules:
 # 	Test_RV32I_Harvard
-# End time: 02:16:29 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 12:09:22 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  RV32I_Harvard
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" RV32I_Harvard 
-# Start time: 02:16:29 on Nov 21,2023
+# Start time: 12:09:22 on Nov 21,2023
 # Loading sv_std.std
 # Loading work.RV32I_Harvard
 # Loading work.RV32I
@@ -1429,14 +1429,15 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
+# Break key hit
+# Break in NamedBeginStat READER at /home/jachm/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_mf.v line 588
 # 
 # stdin: <EOF>
-# Break key hit
 vsim work.Test_RV32I_Harvard -Lf altera_mf_ver
-# End time: 02:17:18 on Nov 21,2023, Elapsed time: 0:00:49
+# End time: 12:09:46 on Nov 21,2023, Elapsed time: 0:00:24
 # Errors: 0, Warnings: 35
 # vsim work.Test_RV32I_Harvard -Lf altera_mf_ver 
-# Start time: 02:17:18 on Nov 21,2023
+# Start time: 12:09:46 on Nov 21,2023
 # Loading sv_std.std
 # Loading work.Test_RV32I_Harvard
 # Loading work.RV32I_Harvard
@@ -1563,180 +1564,43 @@ vsim work.Test_RV32I_Harvard -Lf altera_mf_ver
 #    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
 # ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (15) for port 'sub_address_15'. The port definition is at: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/Address_offset_16_byte.sv(21).
 #    Time: 0 ps  Iteration: 0  Instance: /Test_RV32I_Harvard/rvh/RAM/AO_b File: /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/src/Memory/IP_Catalog_RAMs/Composed/RAM_1rwp_1rp_19a_128b_8g/RAM_1rwp_1rp_19a_128b_8g.sv Line: 53
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/address_without_offset'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 448
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/offset'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 449
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_0'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 450
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_1'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 451
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_2'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 452
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_3'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 453
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_4'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 454
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_5'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 455
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_6'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 456
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_7'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 457
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_8'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 458
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_9'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 459
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_10'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 460
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_11'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 461
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_12'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 462
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_13'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 463
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_14'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 464
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/sub_address_15'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 465
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/AO/dec_o'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 466
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 471
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 473
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 474
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 475
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 477
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 479
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 480
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 481
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 483
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 485
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 486
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 487
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 489
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 491
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 492
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 493
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 495
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 497
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 498
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 499
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 501
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 503
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 504
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 505
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 507
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 509
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 510
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 511
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 513
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 515
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 516
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 517
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 519
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 521
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 522
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 523
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 525
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 527
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 528
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 529
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 531
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 533
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 534
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 535
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 537
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 539
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 540
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 541
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 543
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 545
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 546
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 547
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 549
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 551
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 552
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 553
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 555
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 557
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 558
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 559
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/address'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 561
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/data'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 563
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/wren'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 564
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/q'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 565
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/csrb/shifting'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 567
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/csrb/shift_amount'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 568
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/csrb/shifted'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 569
-# ** UI-Msg: (vish-4014) No objects found matching '/Test_RV32I_Harvard/rvh/RAM/csrb/shift_amount_aux'.
-# Executing ONERROR command at macro /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do line 570
 run
-# End time: 02:19:12 on Nov 21,2023, Elapsed time: 0:01:54
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/Test_RV32I_Harvard/rvh/RAM/address_a
+add wave -position end  sim:/Test_RV32I_Harvard/rvh/RAM/address_b
+add wave -position end  sim:/Test_RV32I_Harvard/rvh/RAM/data_in
+add wave -position end  sim:/Test_RV32I_Harvard/rvh/RAM/byte_enablers
+add wave -position end  sim:/Test_RV32I_Harvard/rvh/RAM/write_enable
+add wave -position end  sim:/Test_RV32I_Harvard/rvh/RAM/clock
+add wave -position end  sim:/Test_RV32I_Harvard/rvh/RAM/data_out_a
+add wave -position end  sim:/Test_RV32I_Harvard/rvh/RAM/data_out_b
+add wave -position end  sim:/Test_RV32I_Harvard/rvh/RAM/offset_a
+add wave -position end  sim:/Test_RV32I_Harvard/rvh/RAM/offset_b
+force -freeze sim:/Test_RV32I_Harvard/rvh/RAM/address_b 0000000000000000000 0
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/jachm/Documents/Repos/CE4302-Project-II/cpu+hdmi/simulation/modelsim/wave.do
+# End time: 12:47:12 on Nov 21,2023, Elapsed time: 0:37:26
 # Errors: 0, Warnings: 35

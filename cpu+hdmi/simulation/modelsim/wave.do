@@ -271,17 +271,17 @@ add wave -noupdate -expand -group {Decode Stage} -expand -group {Scalar Reg File
 add wave -noupdate -expand -group {Decode Stage} -expand -group {Scalar Reg File} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/async_reset
 add wave -noupdate -expand -group {Decode Stage} -expand -group {Scalar Reg File} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/read_data_1
 add wave -noupdate -expand -group {Decode Stage} -expand -group {Scalar Reg File} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/read_data_2
-add wave -noupdate -expand -group {Decode Stage} -expand -group {Scalar Reg File} -expand -group Internal -radix hexadecimal -expand -subitemconfig {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[31]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[30]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[29]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[28]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[27]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[26]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[25]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[24]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[23]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[22]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[21]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[20]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[19]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[18]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[17]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[16]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[15]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[14]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[13]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[12]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[11]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[10]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[9]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[8]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[7]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[6]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[5]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[4]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[3]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[2]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[1]} {-height 15 -radix hexadecimal}} /Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf
-add wave -noupdate -expand -group {Decode Stage} -group {Vector Reg File} -expand -group In -color Gold -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/write_enable
-add wave -noupdate -expand -group {Decode Stage} -group {Vector Reg File} -expand -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/read_addr_1
-add wave -noupdate -expand -group {Decode Stage} -group {Vector Reg File} -expand -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/read_addr_2
-add wave -noupdate -expand -group {Decode Stage} -group {Vector Reg File} -expand -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/write_addr
-add wave -noupdate -expand -group {Decode Stage} -group {Vector Reg File} -expand -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/write_data
-add wave -noupdate -expand -group {Decode Stage} -group {Vector Reg File} -expand -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/clock
-add wave -noupdate -expand -group {Decode Stage} -group {Vector Reg File} -expand -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/async_reset
-add wave -noupdate -expand -group {Decode Stage} -group {Vector Reg File} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/read_data_1
-add wave -noupdate -expand -group {Decode Stage} -group {Vector Reg File} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/read_data_2
-add wave -noupdate -expand -group {Decode Stage} -group {Vector Reg File} -group Internal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Scalar Reg File} -expand -group Internal -radix hexadecimal -childformat {{{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[31]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[30]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[29]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[28]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[27]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[26]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[25]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[24]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[23]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[22]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[21]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[20]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[19]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[18]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[17]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[16]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[15]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[14]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[13]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[12]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[11]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[10]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[9]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[8]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[7]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[6]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[5]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[4]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[3]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[2]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[1]} -radix hexadecimal}} -expand -subitemconfig {{/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[31]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[30]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[29]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[28]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[27]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[26]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[25]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[24]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[23]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[22]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[21]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[20]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[19]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[18]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[17]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[16]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[15]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[14]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[13]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[12]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[11]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[10]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[9]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[8]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[7]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[6]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[5]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[4]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[3]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[2]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf[1]} {-height 17 -radix hexadecimal}} /Test_RV32I_Harvard/rvh/RV/DS/scalar_reg_file/rf
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Vector Reg File} -group In -color Gold -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/write_enable
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Vector Reg File} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/read_addr_1
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Vector Reg File} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/read_addr_2
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Vector Reg File} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/write_addr
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Vector Reg File} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/write_data
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Vector Reg File} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/clock
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Vector Reg File} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/async_reset
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Vector Reg File} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/read_data_1
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Vector Reg File} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/read_data_2
+add wave -noupdate -expand -group {Decode Stage} -expand -group {Vector Reg File} -expand -group Internal -radix hexadecimal -childformat {{{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[31]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[30]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[29]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[28]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[27]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[26]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[25]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[24]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[23]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[22]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[21]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[20]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[19]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[18]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[17]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[16]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[15]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[14]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[13]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[12]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[11]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[10]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[9]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[8]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[7]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[6]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[5]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[4]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[3]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[2]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[1]} -radix hexadecimal}} -expand -subitemconfig {{/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[31]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[30]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[29]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[28]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[27]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[26]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[25]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[24]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[23]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[22]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[21]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[20]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[19]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[18]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[17]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[16]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[15]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[14]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[13]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[12]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[11]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[10]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[9]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[8]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[7]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[6]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[5]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[4]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[3]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[2]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf[1]} {-height 17 -radix hexadecimal}} /Test_RV32I_Harvard/rvh/RV/DS/vector_reg_file/rf
 add wave -noupdate -expand -group {Pipe Execute} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PE/instruction_D
 add wave -noupdate -expand -group {Pipe Execute} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PE/write_scalar_reg_D
 add wave -noupdate -expand -group {Pipe Execute} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PE/result_source_D
@@ -349,7 +349,7 @@ add wave -noupdate -expand -group {Execute Stage} -group {Mux Fusion 1} -color G
 add wave -noupdate -expand -group {Execute Stage} -group {Mux Fusion 1} -group Internal -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/mux_fusion_1/channels
 add wave -noupdate -expand -group {Execute Stage} -group {Mux Fusion 1} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/mux_fusion_1/channel_out
 add wave -noupdate -expand -group {Execute Stage} -group {Mux Forward 0} -color Gold -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/select
-add wave -noupdate -expand -group {Execute Stage} -group {Mux Forward 0} -expand -group Internal -radix hexadecimal -expand -subitemconfig {{/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[3]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[2]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[1]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[0]} {-height 15 -radix hexadecimal}} /Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels
+add wave -noupdate -expand -group {Execute Stage} -group {Mux Forward 0} -expand -group Internal -radix hexadecimal -childformat {{{/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[3]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[2]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[1]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[0]} -radix hexadecimal}} -expand -subitemconfig {{/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[3]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[2]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[1]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels[0]} {-height 17 -radix hexadecimal}} /Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channels
 add wave -noupdate -expand -group {Execute Stage} -group {Mux Forward 0} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/mux_forward_0/channel_out
 add wave -noupdate -expand -group {Execute Stage} -group {Mux Forward 1} -color Gold -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/mux_forward_1/select
 add wave -noupdate -expand -group {Execute Stage} -group {Mux Forward 1} -group Internal -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/mux_forward_1/channels
@@ -365,7 +365,7 @@ add wave -noupdate -expand -group {Execute Stage} -expand -group {Mux Operand 0}
 add wave -noupdate -expand -group {Execute Stage} -expand -group {Mux Operand 0} -group Internal -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/mux_operand_0/channels
 add wave -noupdate -expand -group {Execute Stage} -expand -group {Mux Operand 0} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/mux_operand_0/channel_out
 add wave -noupdate -expand -group {Execute Stage} -expand -group {Mux Operand 1} -color Gold -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/mux_operand_1/select
-add wave -noupdate -expand -group {Execute Stage} -expand -group {Mux Operand 1} -group Internal -radix hexadecimal -expand -subitemconfig {{/Test_RV32I_Harvard/rvh/RV/ES/mux_operand_1/channels[1]} {-radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/ES/mux_operand_1/channels[0]} {-radix hexadecimal}} /Test_RV32I_Harvard/rvh/RV/ES/mux_operand_1/channels
+add wave -noupdate -expand -group {Execute Stage} -expand -group {Mux Operand 1} -group Internal -radix hexadecimal -childformat {{{/Test_RV32I_Harvard/rvh/RV/ES/mux_operand_1/channels[1]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/ES/mux_operand_1/channels[0]} -radix hexadecimal}} -expand -subitemconfig {{/Test_RV32I_Harvard/rvh/RV/ES/mux_operand_1/channels[1]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/ES/mux_operand_1/channels[0]} {-height 17 -radix hexadecimal}} /Test_RV32I_Harvard/rvh/RV/ES/mux_operand_1/channels
 add wave -noupdate -expand -group {Execute Stage} -expand -group {Mux Operand 1} -radix decimal /Test_RV32I_Harvard/rvh/RV/ES/mux_operand_1/channel_out
 add wave -noupdate -expand -group {Execute Stage} -expand -group VALU -expand -group {ALU 0} -color Gold -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/VALU/ALU_0/op
 add wave -noupdate -expand -group {Execute Stage} -expand -group VALU -expand -group {ALU 0} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/VALU/ALU_0/a
@@ -410,7 +410,7 @@ add wave -noupdate -expand -group {Execute Stage} -expand -group VALU -group Rou
 add wave -noupdate -expand -group {Execute Stage} -expand -group VALU -group Router -expand -group {Mux B[3]} -group Internal -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/VALU/router/mux_3/channels
 add wave -noupdate -expand -group {Execute Stage} -expand -group VALU -group Router -expand -group {Mux B[3]} -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/VALU/router/mux_3/channel_out
 add wave -noupdate -expand -group {Execute Stage} -expand -group VALU -expand -group {Mux ALU Result} -expand -group In -color Gold -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/ES/VALU/mux/select
-add wave -noupdate -expand -group {Execute Stage} -expand -group VALU -expand -group {Mux ALU Result} -expand -group In -group Internal -radix hexadecimal -expand -subitemconfig {{/Test_RV32I_Harvard/rvh/RV/ES/VALU/mux/channels[1]} {-height 15 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/ES/VALU/mux/channels[0]} {-height 15 -radix hexadecimal}} /Test_RV32I_Harvard/rvh/RV/ES/VALU/mux/channels
+add wave -noupdate -expand -group {Execute Stage} -expand -group VALU -expand -group {Mux ALU Result} -expand -group In -group Internal -radix hexadecimal -childformat {{{/Test_RV32I_Harvard/rvh/RV/ES/VALU/mux/channels[1]} -radix hexadecimal} {{/Test_RV32I_Harvard/rvh/RV/ES/VALU/mux/channels[0]} -radix hexadecimal}} -expand -subitemconfig {{/Test_RV32I_Harvard/rvh/RV/ES/VALU/mux/channels[1]} {-height 17 -radix hexadecimal} {/Test_RV32I_Harvard/rvh/RV/ES/VALU/mux/channels[0]} {-height 17 -radix hexadecimal}} /Test_RV32I_Harvard/rvh/RV/ES/VALU/mux/channels
 add wave -noupdate -expand -group {Execute Stage} -expand -group VALU -expand -group {Mux ALU Result} -expand -group Out -radix decimal /Test_RV32I_Harvard/rvh/RV/ES/VALU/mux/channel_out
 add wave -noupdate -group {Mem To Reg Dec} /Test_RV32I_Harvard/rvh/RV/dec/code
 add wave -noupdate -group {Mem To Reg Dec} /Test_RV32I_Harvard/rvh/RV/dec/o
@@ -440,150 +440,37 @@ add wave -noupdate -expand -group {Pipe Memory} -expand -group Out -radix hexade
 add wave -noupdate -expand -group {Pipe Memory} -expand -group Out -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PM/ALU_result_bus_M
 add wave -noupdate -expand -group {Pipe Memory} -expand -group Out -color {Medium Orchid} -radix decimal /Test_RV32I_Harvard/rvh/RV/PM/write_data_bus_M
 add wave -noupdate -expand -group {Pipe Memory} -expand -group Out -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PM/PC_plus_4_M
+add wave -noupdate -expand -group RAM /Test_RV32I_Harvard/rvh/RAM/address_a
+add wave -noupdate -expand -group RAM /Test_RV32I_Harvard/rvh/RAM/address_b
+add wave -noupdate -expand -group RAM /Test_RV32I_Harvard/rvh/RAM/data_in
+add wave -noupdate -expand -group RAM /Test_RV32I_Harvard/rvh/RAM/byte_enablers
+add wave -noupdate -expand -group RAM /Test_RV32I_Harvard/rvh/RAM/write_enable
+add wave -noupdate -expand -group RAM /Test_RV32I_Harvard/rvh/RAM/clock
+add wave -noupdate -expand -group RAM /Test_RV32I_Harvard/rvh/RAM/data_out_a
+add wave -noupdate -expand -group RAM /Test_RV32I_Harvard/rvh/RAM/data_out_b
+add wave -noupdate -expand -group RAM /Test_RV32I_Harvard/rvh/RAM/offset_a
+add wave -noupdate -expand -group RAM /Test_RV32I_Harvard/rvh/RAM/offset_b
 add wave -noupdate -expand -group OBH -group In /Test_RV32I_Harvard/rvh/RV/OBH/width_type
 add wave -noupdate -expand -group OBH -group In /Test_RV32I_Harvard/rvh/RV/OBH/enabler
 add wave -noupdate -expand -group OBH /Test_RV32I_Harvard/rvh/RV/OBH/byte_enablers
 add wave -noupdate -expand -group OBH -group {OBH Dec} /Test_RV32I_Harvard/rvh/RV/OBH/dec/code
 add wave -noupdate -expand -group OBH -group {OBH Dec} /Test_RV32I_Harvard/rvh/RV/OBH/dec/o
-add wave -noupdate -expand -group RAM -group {Address Offsets} -expand -group In /Test_RV32I_Harvard/rvh/RAM/AO/address_without_offset
-add wave -noupdate -expand -group RAM -group {Address Offsets} -expand -group In /Test_RV32I_Harvard/rvh/RAM/AO/offset
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_0
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_1
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_2
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_3
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_4
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_5
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_6
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_7
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_8
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_9
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_10
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_11
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_12
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_13
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_14
-add wave -noupdate -expand -group RAM -group {Address Offsets} -group Out /Test_RV32I_Harvard/rvh/RAM/AO/sub_address_15
-add wave -noupdate -expand -group RAM -group {Address Offsets} /Test_RV32I_Harvard/rvh/RAM/AO/dec_o
-add wave -noupdate -expand -group RAM -group {Data Left rotator} -group In /Test_RV32I_Harvard/rvh/RAM/cslb/shifting
-add wave -noupdate -expand -group RAM -group {Data Left rotator} -group In /Test_RV32I_Harvard/rvh/RAM/cslb/shift_amount
-add wave -noupdate -expand -group RAM -group {Data Left rotator} /Test_RV32I_Harvard/rvh/RAM/cslb/shifted
-add wave -noupdate -expand -group RAM -group {Data Left rotator} -group Internal /Test_RV32I_Harvard/rvh/RAM/cslb/shift_amount_aux
-add wave -noupdate -expand -group RAM -expand -group {Sub RAM 0} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/address
-add wave -noupdate -expand -group RAM -expand -group {Sub RAM 0} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/clock
-add wave -noupdate -expand -group RAM -expand -group {Sub RAM 0} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/data
-add wave -noupdate -expand -group RAM -expand -group {Sub RAM 0} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/wren
-add wave -noupdate -expand -group RAM -expand -group {Sub RAM 0} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/q
-add wave -noupdate -expand -group RAM -expand -group {Sub RAM 0} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_0/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 1} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 1} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 1} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 1} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 1} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 1} -radix hexadecimal /Test_RV32I_Harvard/rvh/RAM/sub_RAM_1/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 2} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 2} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 2} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 2} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 2} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 2} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_2/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 3} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 3} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 3} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 3} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 3} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 3} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_3/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 4} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 4} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 4} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 4} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 4} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 4} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_4/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 5} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 5} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 5} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 5} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 5} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 5} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_5/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 6} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 6} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 6} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 6} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 6} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 6} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_6/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 7} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 7} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 7} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 7} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 7} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 7} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_7/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 8} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 8} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 8} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 8} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 8} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 8} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_8/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 9} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 9} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 9} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 9} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 9} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 9} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_9/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 10} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 10} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 10} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 10} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 10} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 10} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_10/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 11} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 11} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 11} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 11} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 11} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 11} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_11/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 12} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 12} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 12} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 12} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 12} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 12} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_12/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 13} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 13} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 13} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 13} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 13} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 13} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_13/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 14} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 14} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 14} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 14} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 14} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 14} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_14/sub_wire0
-add wave -noupdate -expand -group RAM -group {Sub RAM 15} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/address
-add wave -noupdate -expand -group RAM -group {Sub RAM 15} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/clock
-add wave -noupdate -expand -group RAM -group {Sub RAM 15} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/data
-add wave -noupdate -expand -group RAM -group {Sub RAM 15} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/wren
-add wave -noupdate -expand -group RAM -group {Sub RAM 15} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/q
-add wave -noupdate -expand -group RAM -group {Sub RAM 15} /Test_RV32I_Harvard/rvh/RAM/sub_RAM_15/sub_wire0
-add wave -noupdate -expand -group RAM -group {Data Right Rotator} -group In /Test_RV32I_Harvard/rvh/RAM/csrb/shifting
-add wave -noupdate -expand -group RAM -group {Data Right Rotator} -group In /Test_RV32I_Harvard/rvh/RAM/csrb/shift_amount
-add wave -noupdate -expand -group RAM -group {Data Right Rotator} /Test_RV32I_Harvard/rvh/RAM/csrb/shifted
-add wave -noupdate -expand -group RAM -group {Data Right Rotator} -group Internal /Test_RV32I_Harvard/rvh/RAM/csrb/shift_amount_aux
 add wave -noupdate -group {MT FSM} -group CS /Test_RV32I_Harvard/rvh/FSM/clock
 add wave -noupdate -group {MT FSM} -group CS /Test_RV32I_Harvard/rvh/FSM/async_reset
 add wave -noupdate -group {MT FSM} -group Internal /Test_RV32I_Harvard/rvh/FSM/data
 add wave -noupdate -group {MT FSM} /Test_RV32I_Harvard/rvh/FSM/MT
 add wave -noupdate -group {MT FSM} /Test_RV32I_Harvard/rvh/FSM/state
-add wave -noupdate -group IBH /Test_RV32I_Harvard/rvh/RV/IBH/width_type
-add wave -noupdate -group IBH /Test_RV32I_Harvard/rvh/RV/IBH/read_data_0
-add wave -noupdate -group IBH /Test_RV32I_Harvard/rvh/RV/IBH/o
-add wave -noupdate -group IBH -group Internal /Test_RV32I_Harvard/rvh/RV/IBH/signed_byte
-add wave -noupdate -group IBH -group Internal /Test_RV32I_Harvard/rvh/RV/IBH/signed_half_word
-add wave -noupdate -group IBH -group Internal /Test_RV32I_Harvard/rvh/RV/IBH/unsigned_byte
-add wave -noupdate -group IBH -group Internal /Test_RV32I_Harvard/rvh/RV/IBH/unsigned_half_word
-add wave -noupdate -group IBH -group Internal /Test_RV32I_Harvard/rvh/RV/IBH/mux_read_data_0_o
-add wave -noupdate -group IBH -group {Mux IBH} /Test_RV32I_Harvard/rvh/RV/IBH/mux_read_data_0/select
-add wave -noupdate -group IBH -group {Mux IBH} /Test_RV32I_Harvard/rvh/RV/IBH/mux_read_data_0/channels
-add wave -noupdate -group IBH -group {Mux IBH} /Test_RV32I_Harvard/rvh/RV/IBH/mux_read_data_0/channel_out
+add wave -noupdate -expand -group IBH /Test_RV32I_Harvard/rvh/RV/IBH/width_type
+add wave -noupdate -expand -group IBH /Test_RV32I_Harvard/rvh/RV/IBH/read_data_0
+add wave -noupdate -expand -group IBH /Test_RV32I_Harvard/rvh/RV/IBH/o
+add wave -noupdate -expand -group IBH -group Internal /Test_RV32I_Harvard/rvh/RV/IBH/signed_byte
+add wave -noupdate -expand -group IBH -group Internal /Test_RV32I_Harvard/rvh/RV/IBH/signed_half_word
+add wave -noupdate -expand -group IBH -group Internal /Test_RV32I_Harvard/rvh/RV/IBH/unsigned_byte
+add wave -noupdate -expand -group IBH -group Internal /Test_RV32I_Harvard/rvh/RV/IBH/unsigned_half_word
+add wave -noupdate -expand -group IBH -group Internal /Test_RV32I_Harvard/rvh/RV/IBH/mux_read_data_0_o
+add wave -noupdate -expand -group IBH -group {Mux IBH} /Test_RV32I_Harvard/rvh/RV/IBH/mux_read_data_0/select
+add wave -noupdate -expand -group IBH -group {Mux IBH} /Test_RV32I_Harvard/rvh/RV/IBH/mux_read_data_0/channels
+add wave -noupdate -expand -group IBH -group {Mux IBH} /Test_RV32I_Harvard/rvh/RV/IBH/mux_read_data_0/channel_out
 add wave -noupdate -expand -group {Pipe Writeback} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PW/instruction_M
 add wave -noupdate -expand -group {Pipe Writeback} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PW/write_scalar_reg_M
 add wave -noupdate -expand -group {Pipe Writeback} -group In -radix hexadecimal /Test_RV32I_Harvard/rvh/RV/PW/result_source_M
@@ -651,9 +538,10 @@ add wave -noupdate -group {Hazard Unit} -group Internal /Test_RV32I_Harvard/rvh/
 add wave -noupdate -group {Hazard Unit} -group Internal /Test_RV32I_Harvard/rvh/RV/HU/and_aux
 add wave -noupdate -group {Hazard Unit} -group Internal /Test_RV32I_Harvard/rvh/RV/HU/ex_aux_o
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {428787 ps} 0}
-configure wave -namecolwidth 473
-configure wave -valuecolwidth 40
+WaveRestoreCursors {{Cursor 1} {25008547 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 402
+configure wave -valuecolwidth 179
 configure wave -justifyvalue left
 configure wave -signalnamewidth 0
 configure wave -snapdistance 10
@@ -666,4 +554,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {442449 ps} {501013 ps}
+WaveRestoreZoom {24955937 ps} {25267596 ps}
