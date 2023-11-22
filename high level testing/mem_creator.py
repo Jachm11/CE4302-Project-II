@@ -9,7 +9,11 @@ image_mem_file_path = "image.mem"
 palette_mem_file_path = "palette.mem"
 
 # Define the palette
-palette = [[0, 0, 0], [255, 255, 255], [251, 185, 49], [99, 134, 252], [218, 0, 0], [112, 105, 0], [151, 71, 2], [251, 177, 0]]
+palette = [[0, 0, 0], [255, 255, 255], [251, 185, 49], [99, 134, 252], \
+           [218, 0, 0], [112, 105, 0], [151, 71, 2], [251, 177, 0], \
+           [219, 43, 57], [250, 107, 119], [117, 12, 20], \
+           [41,51,92], [101, 115, 171], [29, 38, 71],\
+           [243, 167, 18], [252, 205, 111], [148, 99, 3]]
 
 # Function to find the index of the closest color in the palette
 def find_closest_color_index(pixel):
@@ -33,13 +37,13 @@ else:
         for color in palette:
             palette_mem_file.write(f"{color[0]:02X}{color[1]:02X}{color[2]:02X}\n")
 
-        # Iterate through each pixel and write the index of the closest color (limited to 3 bits) to the image .mem file
-        for y in range(height):
-            for x in range(width):
-                pixel = image.getpixel((x, y))
-                closest_color_index = find_closest_color_index(pixel)
-                # Ensure the index fits within 3 bits (0 to 7)
-                closest_color_index = min(closest_color_index, 7)
-                image_mem_file.write(f"{closest_color_index:03b}\n")
+        # # Iterate through each pixel and write the index of the closest color (limited to 3 bits) to the image .mem file
+        # for y in range(height):
+        #     for x in range(width):
+        #         pixel = image.getpixel((x, y))
+        #         closest_color_index = find_closest_color_index(pixel)
+        #         # Ensure the index fits within 3 bits (0 to 7)
+        #         closest_color_index = min(closest_color_index, 7)
+        #         image_mem_file.write(f"{closest_color_index:03b}\n")
 
-    print(f"Image .mem file '{image_mem_file_path}' and palette .mem file '{palette_mem_file_path}' generated successfully.")
+    #print(f"Image .mem file '{image_mem_file_path}' and palette .mem file '{palette_mem_file_path}' generated successfully.")
